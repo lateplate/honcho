@@ -1,0 +1,32 @@
+%zero-margin
+  margin: 0
+
+%zero-padding
+  padding: 0
+
+%hide
+  display: none
+
+%center-box
+  margin: 0 auto
+
+%zero-box
+  @extend %zero-padding
+  @extend %zero-margin
+
+$font-size-base: 16px
+
+$line-height-ratio: .50
+
+$header-color: #B80000
+
+$link-color: #1560B0
+
+.font-body
+  font-family: "Merriweather", sans-serif
+  font-weight: normal
+
+.font-headers
+  @extend .center-text
+  font-family: "Lato", serif
+  font-weight: bold
