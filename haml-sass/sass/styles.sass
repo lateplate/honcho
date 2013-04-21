@@ -1,0 +1,130 @@
+@import "bourbon"
+@import "shared"
+@import "mixins"
+@import "normalize"
+
+a
+  color: #1560b0
+  text-decoration: none
+  &:hover
+    text-decoration: underline
+
+blockquote
+  margin: 0 20px
+  font-style: italic
+  font-size: .875em
+
+body
+  // background: #fbfbeb
+  font-size: +em(16)
+  background: url('../images/background.jpg')
+  @extend %zero-box
+
+footer
+  text-align: center
+  padding: 10px 0 30px 0
+
+html
+  font-family: "proxima-nova", Helvetica, Arial, 'Lucida Grande', sans-serif
+
+p, ul, ol
+  // font-size: 1.25em
+  line-height: +em(24)
+  margin: 5px 0
+  color: #3d3938
+
+ul, ol
+  margin: 5px 0 5px 20px
+  list-style: none
+
+h1, h2, h3, h4
+  margin: 5px 0
+  // text-align: center
+
+h1
+  font-size: +em(36)
+  a
+    color: #fbfbeb
+    text-decoration: underline
+
+h2
+  font-size: +em(30)
+  color: #ab3822
+
+h3
+  font-size: +em(24)
+  color: #0a4380
+
+h4
+  font-size: +em(18)
+
+nav
+  text-align: center
+  a
+    color: white
+    text-decoration: underline
+    margin: 0 7px
+    &:hover
+      text-decoration: none
+  ul
+    margin: 10px 0 0 0
+    li
+      margin-bottom: 5px
+
+ul
+  padding: 0
+  margin: 0
+
+// Classes
+.content
+  padding: 0 20px
+  p
+    padding: 10px 0
+  ol
+    padding: 5px 20px
+
+.description
+  margin: 10px 0
+
+.intro
+  text-align: center
+
+.title-background
+  width: 100%
+  padding: 40px 0
+  background: #ab3822
+  color: #fbfbeb
+
+.portrait-image
+  width: 150px
+  margin: 15px auto
+  display: block
+  +border-radius(50%)
+
+.snapshot
+  margin: 15px 0
+
+.teams
+  margin: 20px 0 0 0
+  h2
+    text-align: center
+  h4
+    font-weight: normal
+
+.title
+  text-align: center
+
+.group:before, .group:after
+  display: table
+  content: ""
+
+.group:after
+  clear: both
+
+.group
+  *zoom: 1
+
+// Media Queries
+@import "media-410"
+@import "media-600"
+@import "media-768"
