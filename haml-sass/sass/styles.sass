@@ -5,9 +5,8 @@
 
 a
   color: #1560b0
-  text-decoration: none
-  &:hover
-    text-decoration: underline
+  text-decoration: underline
+  color: #0a4380
 
 blockquote
   margin: 0 20px
@@ -28,7 +27,6 @@ html
   font-family: "proxima-nova", Helvetica, Arial, 'Lucida Grande', sans-serif
 
 p, ul, ol
-  // font-size: 1.25em
   line-height: +em(24)
   margin: 5px 0
   color: #3d3938
@@ -39,7 +37,6 @@ ul, ol
 
 h1, h2, h3, h4
   margin: 5px 0
-  // text-align: center
 
 h1
   font-size: +em(36)
@@ -66,53 +63,55 @@ nav
     margin: 0 7px
     &:hover
       text-decoration: none
-  ul
+  ul, ol
     margin: 10px 0 0 0
     li
       margin-bottom: 5px
 
-ul
+ul, ol
   padding: 0
   margin: 0
 
+
 // Classes
+.answer
+  text-align: center
+  p
+    text-align: left
+
+.answer-header
+  margin: 50px auto
+  padding: 20px 0
+  border-bottom: 1px solid #94a0ac
+  border-top: 1px solid #94a0ac
+  width: 85%
+
+.answer-positive
+  color: #139625
+  font-weight: bold
+  @extend .answer-header
+
+.answer-negative
+  color: #ff0000
+  font-weight: bold
+  @extend .answer-header
+
 .content
   padding: 0 20px
   p
     padding: 10px 0
   ol
     padding: 5px 20px
-
-.description
-  margin: 10px 0
-
-.intro
-  text-align: center
-
-.title-background
-  width: 100%
-  padding: 40px 0
-  background: #ab3822
-  color: #fbfbeb
-
-.portrait-image
-  width: 150px
-  margin: 15px auto
-  display: block
-  +border-radius(50%)
-
-.snapshot
-  margin: 15px 0
-
-.teams
-  margin: 20px 0 0 0
   h2
     text-align: center
   h4
     font-weight: normal
 
-.title
-  text-align: center
+.description
+  margin: 10px 0
+
+.grid-2
+  margin: 15px 0
 
 .group:before, .group:after
   display: table
@@ -123,6 +122,52 @@ ul
 
 .group
   *zoom: 1
+
+.headshot
+  width: 175px
+  margin: 0 auto
+  display: block
+  +border-radius(50%)
+
+.headshot-small
+  @extend .headshot
+  width: 100px
+
+.people
+  li
+    width: 100%
+
+.questions
+  h2
+    margin: 15px 0
+  h3
+    text-align: center
+    // margin: 10px 0
+  h4
+    font-size: +em(27)
+    font-weight: bold
+  li
+    width: 100%
+
+.subnav
+  margin: 20px 0
+  padding: 10px
+  border-radius: 5px
+  a
+    color: #000
+
+.summary
+  text-align: center
+
+.title
+  text-align: center
+
+.title-background
+  width: 100%
+  padding: 40px 0
+  background: #ab3822
+  color: #fbfbeb
+
 
 // Media Queries
 @import "media-410"

@@ -1,11 +1,10 @@
 !!!
 %html
   %head
-    %title Design Agency
+    %title 1917 Design - People
     %meta{charset: "UTF-8"}
     %meta{content: "width=device-width, initial-scale=1", name: "viewport"}
     %link{href: "css/styles.css", rel: "stylesheet"}
-    %link{href: "http://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:400,700'", rel: "stylesheet"}
     %script{type: "text/javascript", src: "//use.typekit.net/xla8eyn.js"}
     %script{type: "text/javascript"}
       try{Typekit.load();}catch(e){}
@@ -15,39 +14,52 @@
         .title-background
           .title
             %h1
-              Design Agency
+              1917 Design
           %nav
             %ul
               %li
                 %a{href: "index.html"}People
               %li
-                %a{href: "question.html"}Questions
+                %a{href: "questions.html"}Questions
               %li
-                %a{href: "company.html"}Company
+                %a{href: "about.html"}About
       .content
-        .teams
-          %h2#executive-team
-            Executive Team
-          .person
-            %ul.group
-              %li
-                .intro.group
-                  %img.portrait-image{alt: "Victor Cooper", src: "images/victor-cooper.jpg"}
-                  .snapshot
-                    %h3 Victor Cooper
-                    %h4
-                      %strong Title:
-                      President and CEO
-                    %h4
-                      %strong Birthday:
-                      1/18/71 (42)
-                    %h4
-                      %strong Start Date:
-                      4/4/03
-                    %h4
-                      %strong Salary:
-                      $350,000
-                %p.description
-                  Generally regarded as a nice guy, but mysterious. Nobody is ever quite sure what he's doing. He's run the business at a significant profit since its inception, so he must be doing something right.
-                %p.description
-                  His background is in design, so design always wins over UX or technology. It's rare for him to be involved in day to day operations. His communications are brief. He's not a very good public speaker.
+        %nav.subnav
+          %ul
+            %li
+              %a{href: "#executive-team"}Executive Team
+            %li
+              %a{href: "#operations"}Operations
+            %li
+              %a{href: "#client-services"}Client Services
+            %li
+              %a{href: "#design"}Design
+            %li
+              %a{href: "#strategy"}Strategy
+            %li
+              %a{href: "#technology"}Technology
+        %h2#executive-team
+          Executive Team
+        %ul.people.group
+          %li#victor-cooper
+            .summary.group
+              .grid-1
+                %img.headshot{alt: "Victor Cooper", src: "images/victor-cooper.jpg"}
+              .grid-2
+                %h3 Victor Cooper
+                %h4
+                  %strong Title:
+                  President and CEO
+                %h4
+                  %strong Birthday:
+                  1/18/71 (42)
+                %h4
+                  %strong Start Date:
+                  4/4/03
+                %h4
+                  %strong Salary:
+                  $350,000
+            %p.description
+              Generally regarded as a nice guy, but mysterious. Nobody is ever quite sure what he's doing. He's run the business at a significant profit since its inception, so he must be doing something right.
+            %p.description
+              His background is in design, so design always wins over UX or technology. It's rare for him to be involved in day to day operations. His communications are brief. He's not a very good public speaker.
