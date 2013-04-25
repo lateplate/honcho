@@ -1,125 +1,154 @@
 @import "bourbon"
 @import "shared"
 @import "mixins"
-@import "normalize"
 
 a
-  color: #1560b0
   text-decoration: underline
-  color: #0a4380
-
-blockquote
-  margin: 0 20px
-  font-style: italic
-  font-size: .875em
+  color: $color-dark-blue
+  &:hover
+    text-decoration: none
 
 body
-  // background: #fbfbeb
   font-size: +em(16)
   background: url('../images/background.jpg')
   @extend %zero-box
 
-footer
-  text-align: center
-  padding: 10px 0 30px 0
-
 html
   font-family: "proxima-nova", Helvetica, Arial, 'Lucida Grande', sans-serif
 
-p, ul, ol
+ol
+  @extend %zero-box
+  @extend p
+
+p
   line-height: +em(24)
-  margin: 5px 0
-  color: #3d3938
+  color: $color-dark-gray
 
-ul, ol
-  margin: 5px 0 5px 20px
-  list-style: none
-
-h1, h2, h3, h4
-  margin: 5px 0
+h1, h2, h3, h4, h5, h6
+  @extend %zero-margin
 
 h1
   font-size: +em(36)
-  a
-    color: #fbfbeb
-    text-decoration: underline
 
 h2
   font-size: +em(30)
-  color: #ab3822
+  line-height: 30px
+  color: $color-red
 
 h3
   font-size: +em(24)
-  color: #0a4380
+  color: $color-dark-blue
 
 h4
-  font-size: +em(18)
+  font-size: +em(16)
 
-hr
-  border: 0
-  height: 1px
-  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0))
-  background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0))
-  background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0))
-  background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0))
-
-nav
-  text-align: center
-  a
-    color: #fbfbeb
-    text-decoration: underline
-    margin: 0 7px
-    &:hover
-      text-decoration: none
-  ul, ol
-    margin: 10px 0 0 0
-    li
-      margin-bottom: 5px
-
-ul, ol
-  padding: 0
-  margin: 0
+ul
+  @extend %zero-box
+  @extend p
+  list-style: none
 
 
 // Classes
 .answer
-  text-align: center
-  p
-    text-align: left
+  @extend .group
+  text-align: left
 
 .answer-header
-  margin: 50px auto
+  margin: 30px auto
   padding: 20px 0
-  border-bottom: 1px solid #94a0ac
-  border-top: 1px solid #94a0ac
-  width: 85%
-
-.answer-positive
-  color: #139625
   font-weight: bold
-  @extend .answer-header
-
-.answer-negative
-  color: #ff0000
-  font-weight: bold
-  @extend .answer-header
+  +light-gray-border
 
 .content
   padding: 0 20px
-  p
-    padding: 10px 0
-  ol
-    padding: 5px 20px
+
+.grid-headshot
+  img
+    width: 175px
+    margin: 0 auto
+    display: block
+    +border-radius(50%)
+
+.grid-headshot-small
+  @extend .grid-headshot
+  img
+    width: 100px
+
+.grid-summary
+  margin: 15px 0
+  div
+    margin: 5px 0
+
+.grid-summary-small
+  @extend .grid-summary
+
+.nav-main
+  text-align: center
+  a
+    color: $color-beige
+    margin: 0 7px
+
+.nav-sub
+  @extend .nav-main
+  margin: 30px 0 0 0
+  a
+    color: $color-dark-blue
+
+.people
+  @extend .group
+  li
+    width: 100%
+    margin: 0 0 40px 0
+
+.people-team
+  page-break-before: always
   h2
     text-align: center
+    margin: 30px 0
+    padding: 20px 0
+    +light-gray-border
+
+.questions-list
+  margin: 40px 0
+  padding: 0 5%
+  li
+    margin: 5px 0
+
+.questions-totals
+  text-align: center
+  font-weight: bold
+
+.questions-results
+  margin: 50px 0
+  h2
+    margin: 100px 0 25px 0
+    text-align: center
+  h3
+    text-align: center
   h4
-    font-weight: normal
+    text-align: center
+    font-size: +em(20)
+    font-weight: bold
+    margin: 20px 0 0 0
+  ul
+    @extend .group
+  li
+    margin: 0 0 20px 0
 
-.description
-  margin: 10px 0
+.summary
+  @extend .group
+  text-align: center
+  li
+    margin: 15px 0
 
-.grid-2
-  margin: 15px 0
+.title
+  text-align: center
+
+.title-background
+  width: 100%
+  padding: 40px 0
+  background: $color-red
+  color: $color-beige
 
 .group:before, .group:after
   display: table
@@ -130,60 +159,6 @@ ul, ol
 
 .group
   *zoom: 1
-
-.headshot
-  width: 175px
-  margin: 0 auto
-  display: block
-  +border-radius(50%)
-
-.headshot-small
-  @extend .headshot
-  width: 100px
-
-.people
-  li
-    width: 100%
-
-.questions
-  h2
-    margin: 15px 0
-  h3
-    text-align: center
-    // margin: 10px 0
-  h4
-    font-size: +em(27)
-    font-weight: bold
-  li
-    width: 100%
-
-.subnav
-  margin: 20px 0
-  padding: 10px
-  border-radius: 5px
-  a
-    color: #000
-
-.summary
-  text-align: center
-
-.team
-  h2
-    margin: 10px 0 20px 0
-    padding: 20px 0
-    border-bottom: 1px solid #94a0ac
-    border-top: 1px solid #94a0ac
-  li
-    margin: 15px 0
-
-.title
-  text-align: center
-
-.title-background
-  width: 100%
-  padding: 40px 0
-  background: #ab3822
-  color: #fbfbeb
 
 
 // Media Queries
