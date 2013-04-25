@@ -10,7 +10,7 @@
     %script{type: "text/javascript"}
       try{Typekit.load();}catch(e){}
   %body
-    %header
+    %header#top
       .title-background
         .title
           %h1
@@ -22,7 +22,7 @@
             %li
               %a{href: "question.html"}Questions
     .content
-      %ol.questions-list
+      %ol.questions-list#questions-list
         %li
           %a{href: "#question-1"}Are there any benefits we don't offer that you'd like to see us offer?
         %li
@@ -504,3 +504,6 @@
                 %a{href: "index.html#nicole-katz"}Nicole Katz
               %p.answer
                 It's pretty amazing, but people here do what they say and don't let you down. You guys are awesome!!!
+
+    %footer
+      %a{href: "#top"}▲ Go Back To Questions List
