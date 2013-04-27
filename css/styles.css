@@ -80,10 +80,10 @@ ul {
   list-style: none; }
 
 /* line 78, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
-.answer {
+.answer, .event {
   text-align: left; }
   /* line 81, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
-  .answer ul {
+  .answer ul, .event ul {
     list-style: square;
     margin: 0 0 0 20px; }
 
@@ -94,10 +94,15 @@ ul {
   font-weight: bold; }
 
 /* line 91, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+.audit-info {
+  font-size: 0.75em;
+  font-weight: bold; }
+
+/* line 95, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
 .content {
   padding: 0 20px 30px 20px; }
 
-/* line 95, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+/* line 99, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
 .grid-headshot img, .grid-headshot-small img {
   width: 175px;
   margin: 0 auto;
@@ -106,112 +111,127 @@ ul {
   -moz-border-radius: 50%;
   border-radius: 50%; }
 
-/* line 103, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+/* line 107, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
 .grid-headshot-small img {
   width: 100px; }
 
-/* line 106, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+/* line 110, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
 .grid-summary, .grid-summary-small {
   margin: 15px 0; }
-  /* line 108, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+  /* line 112, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
   .grid-summary div, .grid-summary-small div {
     margin: 5px 0; }
 
-/* line 114, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+/* line 118, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+.individual {
+  margin: 30px 0 0 0; }
+
+/* line 121, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
 .nav-main, .nav-sub {
   text-align: center; }
-  /* line 116, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+  /* line 123, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
   .nav-main a, .nav-sub a {
     color: #fbfbeb;
     margin: 0 7px; }
 
-/* line 120, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+/* line 127, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
 .nav-sub {
   margin: 30px 0 0 0; }
-  /* line 123, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+  /* line 130, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
   .nav-sub a {
     color: #0a4380; }
 
-/* line 128, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+/* line 135, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
 .people li {
   width: 100%;
   margin: 0 0 40px 0; }
 
-/* line 132, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
-.people-team {
+/* line 139, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+.people-team, .person-event {
   page-break-before: always; }
-  /* line 134, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
-  .people-team h2 {
+  /* line 141, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+  .people-team h2, .person-event h2 {
     text-align: center;
     margin: 30px 0;
     padding: 20px 0;
     border-bottom: 1px solid #94a0ac;
     border-top: 1px solid #94a0ac; }
 
-/* line 140, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+/* line 150, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+.person-summary {
+  margin: 30px 0 0 0;
+  text-align: center;
+  line-height: 1.5em; }
+
+/* line 156, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
 .questions-list {
   margin: 40px 0;
   padding: 0 5%; }
-  /* line 143, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+  /* line 159, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
   .questions-list li {
     margin: 5px 0; }
 
-/* line 146, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+/* line 162, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
 .questions-totals {
   text-align: center;
   font-weight: bold;
   font-size: 1.25em;
   margin: 0 0 20px 0; }
 
-/* line 152, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
-.questions-results {
+/* line 168, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+.questions-results, .events {
   margin: 50px 0; }
-  /* line 154, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
-  .questions-results h2 {
+  /* line 170, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+  .questions-results h2, .events h2 {
     margin: 25px 0 25px 0;
     text-align: center; }
-  /* line 157, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
-  .questions-results h3 {
+  /* line 173, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+  .questions-results h3, .events h3 {
     text-align: center; }
-  /* line 159, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
-  .questions-results h4 {
+  /* line 175, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+  .questions-results h4, .events h4 {
     text-align: center;
     font-size: 1.25em;
     font-weight: bold;
     margin: 20px 0 0 0; }
-  /* line 166, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
-  .questions-results li {
+  /* line 182, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+  .questions-results li, .events li {
     margin: 0 0 20px 0; }
 
-/* line 169, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+/* line 187, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+.events h2 {
+  margin: 0; }
+
+/* line 193, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
 .summary {
-  text-align: center; }
-  /* line 172, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+  text-align: center;
+  line-height: 1.5em; }
+  /* line 197, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
   .summary li {
     margin: 15px 0; }
 
-/* line 175, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+/* line 200, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
 .title {
   text-align: center; }
 
-/* line 178, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+/* line 203, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
 .title-background {
   width: 100%;
   padding: 40px 0;
   background: #477b96;
   color: #fbfbeb; }
 
-/* line 184, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
-.group:before, .answer:before, .people:before, .questions-results ul:before, .summary:before, .group:after, .answer:after, .people:after, .questions-results ul:after, .summary:after {
+/* line 209, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+.group:before, .answer:before, .event:before, .people:before, .person-summary:before, .questions-results ul:before, .events ul:before, .summary:before, .group:after, .answer:after, .event:after, .people:after, .person-summary:after, .questions-results ul:after, .events ul:after, .summary:after {
   display: table;
   content: ""; }
 
-/* line 188, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
-.group:after, .answer:after, .people:after, .questions-results ul:after, .summary:after {
+/* line 213, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+.group:after, .answer:after, .event:after, .people:after, .person-summary:after, .questions-results ul:after, .events ul:after, .summary:after {
   clear: both; }
 
-/* line 191, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
-.group, .answer, .people, .questions-results ul, .summary {
+/* line 216, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/styles.sass */
+.group, .answer, .event, .people, .person-summary, .questions-results ul, .events ul, .summary {
   *zoom: 1; }
 
 @media all and (min-width: 410px) {
@@ -224,7 +244,7 @@ ul {
     font-size: 1.125em; }
 
   /* line 5, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/_media-600.sass */
-  .answer {
+  .answer, .event {
     text-align: left; }
 
   /* line 8, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/_media-600.sass */
@@ -248,7 +268,7 @@ ul {
     width: 70%; }
 
   /* line 27, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/_media-600.sass */
-  .questions-results h4 {
+  .questions-results h4, .events h4 {
     text-align: left; }
 
   /* line 30, /Users/dankim/Dropbox/Web/github/honcho/haml-sass/sass/_media-600.sass */
