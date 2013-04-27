@@ -115,9 +115,6 @@ ul
 .grid-summary-small
   @extend .grid-summary
 
-.individual
-  margin: 30px 0 0 0
-
 .nav-main
   text-align: center
   a
@@ -186,6 +183,8 @@ ul
   @extend .questions-results
   h2
     margin: 0
+  h4
+    font-size: +em(18)
 
 .event
   @extend .answer
@@ -196,6 +195,10 @@ ul
   line-height: +em(24)
   li
     margin: 15px 0
+
+.summary-individual
+  @extend .summary
+  margin: 30px 0 0 0
 
 .title
   text-align: center
