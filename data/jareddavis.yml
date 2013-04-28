@@ -1,0 +1,36 @@
+#######################
+# SUMMARY
+#######################
+
+name:
+  Jared Davis
+
+image:
+  images/people/jared-davis.jpg
+
+title:
+  Back End Developer
+
+birthday:
+  4/18/84 (28)
+
+start_date:
+  4/22/12
+
+salary:
+  $95,000
+
+address:
+  1091 East Avenue, Chicago, IL 60614
+
+email:
+  jared@1917design.co
+
+phone:
+  773-537-9518
+
+family:
+  Stephanie (wife)
+
+summary:
+  Thrilled to be doing Rails at an agency. Loves it. Fast, energetic, very technical. Working on being more client focused.

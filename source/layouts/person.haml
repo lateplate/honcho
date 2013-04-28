@@ -1,0 +1,23 @@
+!!!
+%html
+  =partial("/partials/head")
+  %body
+    =partial("/partials/header")
+    .content
+      %nav.nav-sub
+        %ul
+          %li
+            %a{href: "#awards"}Awards
+          %li
+            %a{href: "#conversations"}Conversations
+          %li
+            %a{href: "#one-on-ones"}One-On-Ones
+          %li
+            %a{href: "#promotions"}Promotions
+          %li
+            %a{href: "#reviews"}Reviews
+          %li
+            %a{href: "#salary"}Salary
+      .spacer
+        =yield
+    =partial("/partials/footer")
