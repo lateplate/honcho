@@ -1,5 +1,6 @@
 %ol.questions-list#questions-list
   %li
+    / %a{href: "#question-1"}=data.question1.title
     %a{href: "#question-1"}Are there any benefits we don't offer that you'd like to see us offer?
   %li
     %a{href: "#question-2"}Are there any policies at the company that aren't clear?
@@ -36,6 +37,22 @@
 %ul.questions-results
   %hr
   %li
+    / %h2#question-1
+    /   =data.question1.title
+    / .questions-totals
+    /   =data.question1.totals
+    / %ul
+    /   - data.question1.answers.each do |e|
+    /     %li.answer
+    /       .grid-headshot-small
+    /         %img{src: "#{e.image}"}
+    /       .grid-summary-small
+    /         %h4
+    /           =e.response
+    /           \ -
+    /           %a{href: "#{e.url}"}=e.name
+    /         %p
+    /           =e.body
     %h2#question-1
       Are there any benefits we don't offer that you'd like to see us offer?
     .questions-totals

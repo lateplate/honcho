@@ -13,7 +13,8 @@
             =e.body
           .audit-info
             Created by
-            =e.created_by
+            %a{href: "#{e.created_by_url}"}
+              =e.created_by
   %hr
   %li
     %h2#conversations
@@ -27,7 +28,8 @@
             =e.body
           .audit-info
             Created by
-            =e.created_by
+            %a{href: "#{e.created_by_url}"}
+              =e.created_by
   %hr
   %li
     %h2#one-on-ones
@@ -45,7 +47,8 @@
                 =b
           .audit-info
             Created by
-            =e.created_by
+            %a{href: "#{e.created_by_url}"}
+              =e.created_by
   %hr
   %li
     %h2#promotions
@@ -63,7 +66,8 @@
                 =b
           .audit-info
             Created by
-            =e.created_by
+            %a{href: "#{e.created_by_url}"}
+              =e.created_by
   %hr
   %li
     %h2#reviews
@@ -90,7 +94,8 @@
                 =n
           .audit-info
             Created by
-            =e.created_by
+            %a{href: "#{e.created_by_url}"}
+              =e.created_by
   %hr
   %li
     %h2#salary
@@ -104,4 +109,5 @@
             =e.body
           .audit-info
             Created by
-            =e.created_by
+            %a{href: "#{e.created_by_url}"}
+              =e.created_by
