@@ -2,14 +2,17 @@
 # SUMMARY
 #######################
 
-name:
-  Tim Scott
+first_name:
+  Tim
+
+last_name:
+  Scott
 
 url:
   tim-scott.html
 
-image:
-  images/people/tim-scott.jpg
+avatar:
+  images/tim-scott.jpg
 
 title:
   Project Manager
@@ -26,7 +29,7 @@ salary:
 address:
   1809 Young Rd., Chicago, IL 60622
 
-email:
+email_address:
   tim@1917design.co
 
 phone:

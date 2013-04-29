@@ -2,14 +2,17 @@
 # SUMMARY
 #######################
 
-name:
-  Zach Settles
+first_name:
+  Zach
+
+last_name:
+  Settles
 
 url:
   zach-settles.html
 
-image:
-  images/people/zach-settles.jpg
+avatar:
+  images/zach-settles.jpg
 
 title:
   UX Designer
@@ -26,7 +29,7 @@ salary:
 address:
   1238 Concord Street, Chicago, IL 60613
 
-email:
+email_address:
   zach@1917design.co
 
 phone:

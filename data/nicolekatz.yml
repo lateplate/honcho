@@ -2,14 +2,17 @@
 # SUMMARY
 #######################
 
-name:
-  Nicole Katz
+first_name:
+  Nicole
+
+last_name:
+  Katz
 
 url:
   nicole-katz.html
 
-image:
-  images/people/nicole-katz.jpg
+avatar:
+  images/nicole-katz.jpg
 
 title:
   Junior Designer
@@ -26,7 +29,7 @@ salary:
 address:
   1283 Oakwood Avenue, Chicago, IL 60614
 
-email:
+email_address:
   nicole@1917design.co
 
 phone:

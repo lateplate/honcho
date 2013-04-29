@@ -2,14 +2,17 @@
 # SUMMARY
 #######################
 
-name:
-  Sharon Bradford
+first_name:
+  Sharon
+
+last_name:
+  Bradford
 
 url:
   sharon-bradford.html
 
-image:
-  images/people/sharon-bradford.jpg
+avatar:
+  images/sharon-bradford.jpg
 
 title:
   Senior UX Designer
@@ -26,7 +29,7 @@ salary:
 address:
   136 Holly Street, Naperville, IL 60540
 
-email:
+email_address:
   sharon@1917design.co
 
 phone:

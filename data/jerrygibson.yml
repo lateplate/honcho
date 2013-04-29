@@ -2,14 +2,17 @@
 # SUMMARY
 #######################
 
-name:
-  Jerry Gibson
+first_name:
+  Jerry
+
+last_name:
+  Gibson
 
 url:
   jerry-gibson.html
 
-image:
-  images/people/jerry-gibson.jpg
+avatar:
+  images/jerry-gibson.jpg
 
 title:
   Director of Operations
@@ -26,7 +29,7 @@ salary:
 address:
   4213 Indiana Ave., Chicago, IL 60607
 
-email:
+email_address:
   jerry@1917design.co
 
 phone:

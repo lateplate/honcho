@@ -2,14 +2,17 @@
 # SUMMARY
 #######################
 
-name:
-  Mark Campbell
+first_name:
+  Mark
+
+last_name:
+  Campbell
 
 url:
   mark-campbell.html
 
-image:
-  images/people/mark-campbell.jpg
+avatar:
+  images/mark-campbell.jpg
 
 title:
   Creative Director
@@ -26,7 +29,7 @@ salary:
 address:
   14470 Wilkinson Street, Chicago, IL 60622
 
-email:
+email_address:
   mark@1917design.co
 
 phone:

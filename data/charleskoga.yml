@@ -2,14 +2,17 @@
 # SUMMARY
 #######################
 
-name:
-  Charles Koga
+first_name:
+  Charles
+
+last_name:
+  Koga
 
 url:
   charles-koga.html
 
-image:
-  images/people/charles-koga.jpg
+avatar:
+  images/charles-koga.jpg
 
 title:
   Front End Developer
@@ -26,7 +29,7 @@ salary:
 address:
   619 Calvin Street, Baltimore, MD 21201
 
-email:
+email_address:
   charles@1917design.co
 
 phone:

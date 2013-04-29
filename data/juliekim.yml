@@ -2,14 +2,17 @@
 # SUMMARY
 #######################
 
-name:
-  Julie Kim
+first_name:
+  Julie
+
+last_name:
+  Kim
 
 url:
   julie-kim.html
 
-image:
-  images/people/julie-kim.jpg
+avatar:
+  images/julie-kim.jpg
 
 title:
   Project Manager
@@ -26,7 +29,7 @@ salary:
 address:
   3762 Comfort Ct., Arlington Heights, IL 60005
 
-email:
+email_address:
   julie@1917design.co
 
 phone:

@@ -2,14 +2,17 @@
 # SUMMARY
 #######################
 
-name:
-  Josh Fiske
+first_name:
+  Josh
+
+last_name:
+  Fiske
 
 url:
   josh-fiske.html
 
-image:
-  images/people/josh-fiske.jpg
+avatar:
+  images/josh-fiske.jpg
 
 title:
   Director of Strategy
@@ -26,7 +29,7 @@ salary:
 address:
   2561 Wayback Lane, New York, New York 10013
 
-email:
+email_address:
   josh@1917design.co
 
 phone:

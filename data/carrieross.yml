@@ -2,14 +2,17 @@
 # SUMMARY
 #######################
 
-name:
-  Carrie Ross
+first_name:
+  Carrie
+
+last_name:
+  Ross
 
 url:
   carrie-ross.html
 
-image:
-  images/people/carrie-ross.jpg
+avatar:
+  images/carrie-ross.jpg
 
 title:
   Senior Designer
@@ -26,7 +29,7 @@ salary:
 address:
   4008 Levy Ct., Boston, MA 02127
 
-email:
+email_address:
   carrie@1917design.co
 
 phone:

@@ -2,14 +2,17 @@
 # SUMMARY
 #######################
 
-name:
-  Scott Marsh
+first_name:
+  Scott
+
+last_name:
+  Marsh
 
 url:
   scott-marsh.html
 
-image:
-  images/people/scott-marsh.jpg
+avatar:
+  images/scott-marsh.jpg
 
 title:
   Director of Technology
@@ -26,7 +29,7 @@ salary:
 address:
   4020 Garfield Road, Oak Park, IL 60301
 
-email:
+email_address:
   scott@1917design.co
 
 phone:

@@ -2,14 +2,17 @@
 # SUMMARY
 #######################
 
-name:
-  Victor Cooper
+first_name:
+  Victor
+
+last_name:
+  Cooper
 
 url:
   victor-cooper.html
 
-image:
-  images/people/victor-cooper.jpg
+avatar:
+  images/victor-cooper.jpg
 
 title:
   President and CEO
@@ -26,7 +29,7 @@ salary:
 address:
   609 Mount St., Chicago, IL 60601
 
-email:
+email_address:
   victor@1917design.co
 
 phone:

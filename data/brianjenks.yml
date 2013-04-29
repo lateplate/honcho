@@ -2,14 +2,17 @@
 # SUMMARY
 #######################
 
-name:
-  Brian Jenks
+first_name:
+  Brian
+
+last_name:
+  Jenks
 
 url:
   brian-jenks.html
 
-image:
-  images/people/brian-jenks.jpg
+avatar:
+  images/brian-jenks.jpg
 
 title:
   Front End Developer
@@ -26,7 +29,7 @@ salary:
 address:
   4232 Robinson Court, Chicago, IL 60601
 
-email:
+email_address:
   brian@1917design.co
 
 phone:

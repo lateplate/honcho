@@ -2,14 +2,17 @@
 # SUMMARY
 #######################
 
-name:
-  Jennifer Young
+first_name:
+  Jennifer
+
+last_name:
+  Young
 
 url:
   jennifer-young.html
 
-image:
-  images/people/jennifer-young.jpg
+avatar:
+  images/jennifer-young.jpg
 
 title:
   VP, Operations
@@ -26,7 +29,7 @@ salary:
 address:
   1892 Small Street, Glenview, IL, 60025
 
-email:
+email_address:
   jennifer@1917design.co
 
 phone:

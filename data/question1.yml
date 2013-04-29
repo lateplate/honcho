@@ -1,3 +1,6 @@
+id:
+  question-1
+
 title:
   Are there any benefits we don't offer that you'd like to see us offer?
 
@@ -5,13 +8,133 @@ totals:
   10 Yes. 5 No.
 
 answers:
-  - name:
-      Kurt Nightingale
-    image:
-      images/people/kurt-nightingale.jpg
-    response:
+  - first_name:
+      Kurt
+    last_name:
+      Nightingale
+    avatar:
+      images/kurt-nightingale.jpg
+    yes_no:
       "Yes"
     url:
       kurt-nightingale.html
     body:
       Our health benefits are pretty expensive compared to other companies. I have friends who pay half of what we do for similar benefits. Is there anything we can do to lower our rates?
+    bullets:
+
+
+  - first_name:
+      Jason
+    last_name:
+      Edmonds
+    avatar:
+      images/jason-edmonds.jpg
+    yes_no:
+      "Yes"
+    url:
+      jason-edmonds.html
+    body:
+      I would love to see more formal financial benefits. As a small, private company, I think we can do some interesting things. I know financials can be a touchy subject, but I think these would be really great to consider...
+    bullets:
+      - 401k - great tax benefit, but it's disappointing that we don't have a matching program. Many companies match up to 5%, and allow employees to vest after a few years.
+      - Profit sharing - since we're not public we obviously can't have a stock program. But in the same vein, having even a small piece of ownership in the company would be huge.
+
+
+  - first_name:
+      Andrew
+    last_name:
+      Wong
+    avatar:
+      images/andrew-wong.jpg
+    yes_no:
+      "Yes"
+    url:
+      andrew-wong.html
+    body:
+      Some companies offer discounts at retailers using a group rate. Examples - cell service discounts, Apple Store discounts, travel discounts, etc. If we could get any of those (especially the cell service discount), that would be awesome!
+    bullets:
+
+
+
+  - first_name:
+      Tim
+    last_name:
+      Scott
+    avatar:
+      images/tim-scott.jpg
+    yes_no:
+      "Yes"
+    url:
+      tim-scott.html
+    body:
+      I know this is a stretch...but how about free lunches? A lot of tech companies and agencies do it. Check out how seriously Campaign Monitor takes it!</a> It's a small thing but it's a great way for us to get to know each other better (by eating together), it saves us $8 a day for lunch, and it also saves us time so we can get more done. I see no downsides!
+    bullets:
+
+
+
+  - first_name:
+      Sharon
+    last_name:
+      Bradford
+    avatar:
+      images/sharon-bradford.jpg
+    yes_no:
+      "Yes"
+    url:
+      sharon-bradford.html
+    body:
+      I would love if the company could help to cover commuting costs, whether it be public transportation or even covering the cost of gas. I once did a calculation of "what it costs for me to get to work daily", and it's pretty eye opening.
+
+      <p>To park, take the train, and hop a bus, it costs me $18.50 per day to get to and from work. That's $370 a month...not cheap! I realize this is probably built into our salaries, but it could be a nice additional benefit to consider. Thanks!</p>
+    bullets:
+
+
+  - first_name:
+      Ann
+    last_name:
+      Bryan
+    avatar:
+      images/ann-bryan.jpg
+    yes_no:
+      "Yes"
+    url:
+      ann-bryan.html
+    body:
+      I'm not sure if this is a benefit per se, but it would be really cool if we could get a new computer on a regular schedule. Apple comes out with new stuff all the time, so if we could do something like every 18 months that would be awesome.
+
+      <p>Right now, I think the only way we get new machines is if something breaks or if you complain loud enough. If we knew an upgrade was coming on a regular schedule, I bet this would make life easier for our IT department (and fun for us!)</p>
+    bullets:
+
+
+  - first_name:
+      Josh
+    last_name:
+      Fiske
+    avatar:
+      images/josh-fiske.jpg
+    yes_no:
+      "Yes"
+    url:
+      josh-fiske.html
+    body:
+      Sorry if this sounds a little morbid, but it'd be great if we could consider a stronger life insurance policy. We have a pretty basic one here, but for those of us with family (especially kids), this is really, really important.
+    bullets:
+
+
+  - first_name:
+      Lillie
+    last_name:
+      McKenzie
+    avatar:
+      images/lillie-mckenzie.jpg
+    yes_no:
+      "Yes"
+    url:
+      lillie-mckenzie.html
+    body:
+      I'm not sure if this is a policy question or a benefit question, but I think we could show some serious progress by allowing benefits to be extended to partners, especially in cases where marriage is not allowed by law. :(
+    bullets:
+
+
+
+

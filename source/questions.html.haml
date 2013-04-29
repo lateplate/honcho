@@ -1,7 +1,6 @@
 %ol.questions-list#questions-list
   %li
-    / %a{href: "#question-1"}=data.question1.title
-    %a{href: "#question-1"}Are there any benefits we don't offer that you'd like to see us offer?
+    %a{href: "\##{data.question1.id}"}=data.question1.title
   %li
     %a{href: "#question-2"}Are there any policies at the company that aren't clear?
   %li
@@ -35,125 +34,10 @@
   %li
     %a{href: "#question-17"}Are there things you don't know about the company that you feel you should know?
 %ul.questions-results
-  %hr
-  %li
-    / %h2#question-1
-    /   =data.question1.title
-    / .questions-totals
-    /   =data.question1.totals
-    / %ul
-    /   - data.question1.answers.each do |e|
-    /     %li.answer
-    /       .grid-headshot-small
-    /         %img{src: "#{e.image}"}
-    /       .grid-summary-small
-    /         %h4
-    /           =e.response
-    /           \ -
-    /           %a{href: "#{e.url}"}=e.name
-    /         %p
-    /           =e.body
-    %h2#question-1
-      Are there any benefits we don't offer that you'd like to see us offer?
-    .questions-totals
-      10 Yes. 5 No.
-    %ul
-      %li.answer
-        .grid-headshot-small
-          %img{alt: "Kurt Nightingale", src: "images/people/kurt-nightingale.jpg"}
-        .grid-summary-small
-          %h4
-            Yes:
-            %a{href: "index.html#kurt-nightingale"}Kurt Nightingale
-          %p
-            Our health benefits are pretty expensive compared to other companies. I have friends who pay half of what we do for similar benefits.
-          %p
-            Is there anything we can do to lower our rates?
-      %li.answer
-        .grid-headshot-small
-          %img{alt: "Jason Edmonds", src: "images/people/jason-edmonds.jpg"}
-        .grid-summary-small
-          %h4
-            Yes:
-            %a{href: "index.html#jason-edmonds"}Jason Edmonds
-          %p
-            I would love to see more formal financial benefits. As a small, private company, I think we can do some interesting things.
-          %p
-            I know financials can be a touchy subject, but I think these would be really great to consider:
-          %ul
-            %li
-              401k - great tax benefit, but it's disappointing that we don't have a matching program. Many companies match up to 5%, and allow employees to vest after a few years.
-            %li
-              Profit sharing - since we're not public we obviously can't have a stock program. But in the same vein, having even a small piece of ownership in the company would be huge.
-      %li.answer
-        .grid-headshot-small
-          %img{alt: "Andrew Wong", src: "images/people/andrew-wong.jpg"}
-        .grid-summary-small
-          %h4
-            Yes:
-            %a{href: "index.html#andrew-wong"}Andrew Wong
-          %p
-            Some companies offer discounts at retailers using a group rate. Examples: cell service discounts, Apple Store discounts, travel discounts, etc.
-          %p
-            If we could get any of those (especially the cell service discount), that would be awesome!
-      %li.answer
-        .grid-headshot-small
-          %img{alt: "Tim Scott", src: "images/people/tim-scott.jpg"}
-        .grid-summary-small
-          %h4
-            Yes:
-            %a{href: "index.html#tim-scott"}Tim Scott
-          %p
-            I know this is a stretch...but how about free lunches? A lot of tech companies and agencies do it. Check out
-            %a{href: "http://www.campaignmonitor.com/blog/post/2871/", target: "_blank"}how seriously Campaign Monitor takes it!
-          %p
-            It's a small thing but it's a great way for us to get to know each other better (by eating together), it saves us $8 a day for lunch, and it also saves us time so we can get more done. I see no downsides!
-          %p
-            If not free lunches, maybe a smaller scale version could be free snacks and drinks?
-      %li.answer
-        .grid-headshot-small
-          %img{alt: "Sharon Bradford", src: "images/people/sharon-bradford.jpg"}
-        .grid-summary-small
-          %h4
-            Yes:
-            %a{href: "index.html#sharon-bradford"}Sharon Bradford
-          %p
-            I would love if the company could help to cover commuting costs, whether it be public transportation or even covering the cost of gas.
-          %p
-            I once did a calculation of "what it costs for me to get to work daily", and it's pretty eye opening.
-          %p
-            To park, take the train, and hop a bus, it costs me $18.50 per day to get to and from work. That's $370 a month...not cheap!
-          %p
-            I realize this is probably built into our salaries, but it could be a nice additional benefit to consider. Thanks!
-      %li.answer
-        .grid-headshot-small
-          %img{alt: "Ann Bryan", src: "images/people/ann-bryan.jpg"}
-        .grid-summary-small
-          %h4
-            Yes:
-            %a{href: "index.html#ann-bryan"}Ann Bryan
-          %p
-            I'm not sure if this is a benefit per se, but it would be really cool if we could get a new computer on a regular schedule. Apple comes out with new stuff all the time, so if we could do something like every 18 months that would be awesome.
-          %p
-            Right now, I think the only way we get new machines is if something breaks or if you complain loud enough. If we knew an upgrade was coming on a regular schedule, I bet this would make life easier for our IT department (and fun for us!)
-      %li.answer
-        .grid-headshot-small
-          %img{alt: "Josh Fiske", src: "images/people/josh-fiske.jpg"}
-        .grid-summary-small
-          %h4
-            Yes:
-            %a{href: "index.html#josh-fiske"}Josh Fiske
-          %p
-            Sorry if this sounds a little morbid, but it'd be great if we could consider a stronger life insurance policy. We have a pretty basic one here, but for those of us with family (especially kids), this is really, really important.
-      %li.answer
-        .grid-headshot-small
-          %img{alt: "Lillie McKenzie", src: "images/people/lillie-mckenzie.jpg"}
-        .grid-summary-small
-          %h4
-            Yes:
-            %a{href: "index.html#lillie-mckenzie"}Lillie McKenzie
-          %p
-            I'm not sure if this is a policy question or a benefit question, but I think we could show some serious progress by allowing benefits to be extended to partners, especially in cases where marriage is not allowed by law. :(
+  / Question 1 done with partial and Yaml
+  =partial("/partials/question-comments", :locals => {:yaml => data.question1})
+  / ***************************************
+
   %hr
   %li
     %h2#question-2
@@ -163,7 +47,7 @@
     %ul
       %li.answer
         .grid-headshot-small
-          %img{alt: "Julie Kim", src: "images/people/julie-kim.jpg"}
+          %img{alt: "Julie Kim", src: "images/julie-kim.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -182,7 +66,7 @@
               Obviously we don't have to be at that scale, but every bit helps!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Tashia Hughes", src: "images/people/tashia-hughes.jpg"}
+          %img{alt: "Tashia Hughes", src: "images/tashia-hughes.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -197,7 +81,7 @@
             %a{href: "http://www.usatoday.com/story/money/business/2013/02/27/pets-reduce-stress-welcome-workplace/1951957/", target: "_blank"}More companies, citing benefits, allow pets at work
       %li.answer
         .grid-headshot-small
-          %img{alt: "Zach Settles", src: "images/people/zach-settles.jpg"}
+          %img{alt: "Zach Settles", src: "images/zach-settles.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -206,7 +90,7 @@
             Ummm...I'm asking for someone else. Do we have a drug testing policy?
       %li.answer
         .grid-headshot-small
-          %img{alt: "Kurt Nightingale", src: "images/people/kurt-nightingale.jpg"}
+          %img{alt: "Kurt Nightingale", src: "images/kurt-nightingale.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -215,7 +99,7 @@
             Many of our policies are unclear because they tend to be informal. So I think every group runs a little bit differently. That can cause confusion, or even resentment, between teams.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Sharon Bradford", src: "images/people/sharon-bradford.jpg"}
+          %img{alt: "Sharon Bradford", src: "images/sharon-bradford.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -230,7 +114,7 @@
             about remote work. Could help us figure it out!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Mark Campbell", src: "images/people/mark-campbell.jpg"}
+          %img{alt: "Mark Campbell", src: "images/mark-campbell.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -239,7 +123,7 @@
             All good.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Jared Davis", src: "images/people/jared-davis.jpg"}
+          %img{alt: "Jared Davis", src: "images/jared-davis.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -255,7 +139,7 @@
     %ul
       %li.answer
         .grid-headshot-small
-          %img{alt: "Brian Jenks", src: "images/people/brian-jenks.jpg"}
+          %img{alt: "Brian Jenks", src: "images/brian-jenks.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -270,7 +154,7 @@
             You don't see a lot of agencies being thought leaders in the area. We could seriously be recognized as a leader if we started down this path.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Sharon Bradford", src: "images/people/sharon-bradford.jpg"}
+          %img{alt: "Sharon Bradford", src: "images/sharon-bradford.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -281,7 +165,7 @@
             If we could carve out a bit of time between the design and tech teams, I bet we could figure out the kinds of data we want to track on sites and turn those into meaningful reports.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Mark Campbell", src: "images/people/mark-campbell.jpg"}
+          %img{alt: "Mark Campbell", src: "images/mark-campbell.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -290,7 +174,7 @@
             There's a lot of cool things out there using full-screen video. I'd like to explore how we can make that happen technically.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Zach Settles", src: "images/people/zach-settles.jpg"}
+          %img{alt: "Zach Settles", src: "images/zach-settles.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -300,7 +184,7 @@
             just came out, and it has both a regular trackpad and a touchscreen. It'd be interesting to see if we could build something in the Google universe (Maps mashup?) that explores the touch screen interface.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Jerry Gibson", src: "images/people/jerry-gibson.jpg"}
+          %img{alt: "Jerry Gibson", src: "images/jerry-gibson.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -311,7 +195,7 @@
             Obviously I'm an operations nerd, so my feeling is that we can't be everything to everyone. We have a lot of own our great ideas and I don't think we need to "chase the pack" to be recognized. Let's keep it up!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Matt Donahue", src: "images/people/matt-donahue.jpg"}
+          %img{alt: "Matt Donahue", src: "images/matt-donahue.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -329,7 +213,7 @@
     %ul
       %li.answer
         .grid-headshot-small
-          %img{alt: "Tim Scott", src: "images/people/tim-scott.jpg"}
+          %img{alt: "Tim Scott", src: "images/tim-scott.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -338,7 +222,7 @@
             It's pretty easy to tell if we're not doing great, because the clients let us know. :) And if we do mess up, the internal team is helpful in figuring out how to make it better.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Ann Bryan", src: "images/people/ann-bryan.jpg"}
+          %img{alt: "Ann Bryan", src: "images/ann-bryan.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -347,7 +231,7 @@
             I know when our clients are happy and we're doing a good job. And if my projects are successful, I know I'm helping to lead that and doing a good job. And Jason and the rest of the team are great about cheering on our successes!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Nicole Katz", src: "images/people/nicole-katz.jpg"}
+          %img{alt: "Nicole Katz", src: "images/nicole-katz.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -356,7 +240,7 @@
             Everyone has been super helpful with making my designs better. Thanks guys!!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Lillie McKenzie", src: "images/people/lillie-mckenzie.jpg"}
+          %img{alt: "Lillie McKenzie", src: "images/lillie-mckenzie.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -372,7 +256,7 @@
               Tracking those consistently. Is there a tool we can use to make sure we hit our mini-goals? Maybe Basecamp todos?
       %li.answer
         .grid-headshot-small
-          %img{alt: "Tashia Hughes", src: "images/people/tashia-hughes.jpg"}
+          %img{alt: "Tashia Hughes", src: "images/tashia-hughes.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -381,7 +265,7 @@
             One amazing thing I've noticed is that everyone in the company is a pretty great writer. So I don't feel like I have to pick the brains of just a few people. I can go to just about anyone to get feedback on my work and how my writing is progressing! Thanks team!!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Kurt Nightingale", src: "images/people/kurt-nightingale.jpg"}
+          %img{alt: "Kurt Nightingale", src: "images/kurt-nightingale.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -392,7 +276,7 @@
             I also think on the tech side we tend to hear mostly negatives from the client. It's usually about something that's broken, which is understandable. But if there is any technical praise, it would be nice to hear!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Scott Marsh", src: "images/people/scott-marsh.jpg"}
+          %img{alt: "Scott Marsh", src: "images/scott-marsh.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -408,7 +292,7 @@
               Having a regular manager-level meeting where, as a group, we can share ideas.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Andrew Wong", src: "images/people/andrew-wong.jpg"}
+          %img{alt: "Andrew Wong", src: "images/andrew-wong.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -426,7 +310,7 @@
     %ul
       %li.answer
         .grid-headshot-small
-          %img{alt: "Kurt Nightingale", src: "images/people/kurt-nightingale.jpg"}
+          %img{alt: "Kurt Nightingale", src: "images/kurt-nightingale.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -437,7 +321,7 @@
             Is there anything I can do to help alleviate some of this? Interview more? Read resumes?
       %li.answer
         .grid-headshot-small
-          %img{alt: "Josh Fiske", src: "images/people/josh-fiske.jpg"}
+          %img{alt: "Josh Fiske", src: "images/josh-fiske.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -446,7 +330,7 @@
             Yeah, but for me it's less about how many hours of work, and more about if I'm enjoying it. I probably work closer to 50 hours a week, but I'm honestly having a blast so it's not a huge deal for me.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Carrie Ross", src: "images/people/carrie-ross.jpg"}
+          %img{alt: "Carrie Ross", src: "images/carrie-ross.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -463,7 +347,7 @@
             Sorry for the long rant! Hope that made sense.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Mark Campbell", src: "images/people/mark-campbell.jpg"}
+          %img{alt: "Mark Campbell", src: "images/mark-campbell.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -472,7 +356,7 @@
             I can do 40 in my sleep.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Nicole Katz", src: "images/people/nicole-katz.jpg"}
+          %img{alt: "Nicole Katz", src: "images/nicole-katz.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -483,7 +367,7 @@
             By the way, who ever decided 40 hours was the magic number?? When I was in college, there was no cap to our classes and homework time!!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Jared Davis", src: "images/people/jared-davis.jpg"}
+          %img{alt: "Jared Davis", src: "images/jared-davis.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -494,7 +378,7 @@
             When you're doing great work in a fun environment (both the people and the technology), it makes the time fly. Love working with you guys!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Zach Settles", src: "images/people/zach-settles.jpg"}
+          %img{alt: "Zach Settles", src: "images/zach-settles.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -505,7 +389,7 @@
             45 hours a week feels right to me. That's a 9 hour day, 8 am to 6 pm with an hour lunch. Plus, let's be honest - how many of us work every minute of every day? :P
       %li.answer
         .grid-headshot-small
-          %img{alt: "Matt Donahue", src: "images/people/matt-donahue.jpg"}
+          %img{alt: "Matt Donahue", src: "images/matt-donahue.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -516,7 +400,7 @@
             I think it's a personal preference and you need to know what works for you. And most importantly, we should all be open and respectful to different work styles.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Julie Kim", src: "images/people/julie-kim.jpg"}
+          %img{alt: "Julie Kim", src: "images/julie-kim.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -533,7 +417,7 @@
 
       %li.answer
         .grid-headshot-small
-          %img{alt: "Amy Rivera", src: "images/people/amy-rivera.jpg"}
+          %img{alt: "Amy Rivera", src: "images/amy-rivera.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -553,7 +437,7 @@
               We have different skillsets. Jason is more strategic, but I'm more technical. That could really help extend some of the upcoming work in a new direction.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Angela Williams", src: "images/people/angela-williams.jpg"}
+          %img{alt: "Angela Williams", src: "images/angela-williams.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -562,7 +446,7 @@
             Hey guys - I'd love to help out on some copywriting if there are any opportunities. You guys do great work and I'd love to be a part of it!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Sharon Bradford", src: "images/people/sharon-bradford.jpg"}
+          %img{alt: "Sharon Bradford", src: "images/sharon-bradford.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -575,7 +459,7 @@
             I also think it would be great if managers could proactively, officially manage this. In other words, if Mark saw that I was on the same client for 6 months that he'd be alerted to it so he could at least check in and see if I was still cool with that. Not sure if a tool like that exists, but it'd be great to be reminded!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Julie Kim", src: "images/people/julie-kim.jpg"}
+          %img{alt: "Julie Kim", src: "images/julie-kim.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -584,7 +468,7 @@
             I've got a great internal team and a great client, and am seriously learning so much. So I'd vote the opposite...keep me on this project for a while!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Tashia Hughes", src: "images/people/tashia-hughes.jpg"}
+          %img{alt: "Tashia Hughes", src: "images/tashia-hughes.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -595,7 +479,7 @@
             Plus, being the only dedicated copywriter, I kind of work on all the projects already anyway. You guys are stuck with me whether you like it or not! :P
       %li.answer
         .grid-headshot-small
-          %img{alt: "Kurt Nightingale", src: "images/people/kurt-nightingale.jpg"}
+          %img{alt: "Kurt Nightingale", src: "images/kurt-nightingale.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -604,7 +488,7 @@
             Since the dev team is fairly small, I think we get plenty of variety. In fact, we may have the opposite problem - it might be a good thing if we could focus on just 1 or 2 clients!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Matt Donahue", src: "images/people/matt-donahue.jpg"}
+          %img{alt: "Matt Donahue", src: "images/matt-donahue.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -622,7 +506,7 @@
     %ul
       %li.answer
         .grid-headshot-small
-          %img{alt: "Kurt Nightingale", src: "images/people/kurt-nightingale.jpg"}
+          %img{alt: "Kurt Nightingale", src: "images/kurt-nightingale.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -633,7 +517,7 @@
             Is there a way where we could shorten those other phases, or give it equal balance to dev?
       %li.answer
         .grid-headshot-small
-          %img{alt: "Brian Jenks", src: "images/people/brian-jenks.jpg"}
+          %img{alt: "Brian Jenks", src: "images/brian-jenks.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -642,7 +526,7 @@
             I know I sound like a broken record, but I think we spend too much time designing home pages. I realize it's what clients focus on, but anything we can do to help "train" clients that there are hundreds of other pages on the site would really help us out in the long run, I think.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Zach Settles", src: "images/people/zach-settles.jpg"}
+          %img{alt: "Zach Settles", src: "images/zach-settles.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -651,7 +535,7 @@
             Timesheets, my God, the timesheets. Look, I know we have to do them for accounting or something, but I really wonder if it's worth how much time we spend managing them.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Mark Campbell", src: "images/people/mark-campbell.jpg"}
+          %img{alt: "Mark Campbell", src: "images/mark-campbell.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -660,7 +544,7 @@
             Seems to be working well.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Jared Davis", src: "images/people/jared-davis.jpg"}
+          %img{alt: "Jared Davis", src: "images/jared-davis.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -676,7 +560,7 @@
     %ul
       %li.answer
         .grid-headshot-small
-          %img{alt: "Andrew Wong", src: "images/people/andrew-wong.jpg"}
+          %img{alt: "Andrew Wong", src: "images/andrew-wong.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -693,7 +577,7 @@
             Not complaining -- I actually like answering these. But just trying to think about what most of us need to do that's "overhead" (questions, timesheets, expense reports, etc.) and keeping it as low friction as possible for everyone.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Jason Edmonds", src: "images/people/jason-edmonds.jpg"}
+          %img{alt: "Jason Edmonds", src: "images/jason-edmonds.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -702,7 +586,7 @@
             I think as long as we keep them yes/no questions with optional comments, it's not a big deal at all.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Tashia Hughes", src: "images/people/tashia-hughes.jpg"}
+          %img{alt: "Tashia Hughes", src: "images/tashia-hughes.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -720,7 +604,7 @@
     %ul
       %li.answer
         .grid-headshot-small
-          %img{alt: "Kurt Nightingale", src: "images/people/kurt-nightingale.jpg"}
+          %img{alt: "Kurt Nightingale", src: "images/kurt-nightingale.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -733,7 +617,7 @@
             Overall if we had a little more focus on our technology choices, I think we could really be more honest and effective with our clients.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Carrie Ross", src: "images/people/carrie-ross.jpg"}
+          %img{alt: "Carrie Ross", src: "images/carrie-ross.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -746,7 +630,7 @@
             Is this a wise thing to do? I think one of our strongest values is honesty, and I want to make sure we do whatever we can to protect that!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Tim Scott", src: "images/people/tim-scott.jpg"}
+          %img{alt: "Tim Scott", src: "images/tim-scott.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -761,7 +645,7 @@
             I'd love to find a way to help staff up so we can be fair with the commitments we've made and keep our clients happy.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Zach Settles", src: "images/people/zach-settles.jpg"}
+          %img{alt: "Zach Settles", src: "images/zach-settles.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -774,7 +658,7 @@
             But in all seriousness, I think sometimes we get so excited about an idea that we can't help but bring it up. But maybe it would be good if we slow down and take more of an Apple approach -- don't announce ahead of time!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Sharon Bradford", src: "images/people/sharon-bradford.jpg"}
+          %img{alt: "Sharon Bradford", src: "images/sharon-bradford.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -794,7 +678,7 @@
               Scope for time/money post-launch to make sure we do the proper analysis and wrap up to validate (or maybe even invalidate) our strategic thinking. This will be valuable for not only our clients, but for our own post-mortems.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Charles Koga", src: "images/people/charles-koga.jpg"}
+          %img{alt: "Charles Koga", src: "images/charles-koga.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -803,7 +687,7 @@
             We talk to our clients a lot about how much we value the quality of our work. But we currently don't have a dedicated QA team. This seems a bit counterintuitive?
       %li.answer
         .grid-headshot-small
-          %img{alt: "Josh Fiske", src: "images/people/josh-fiske.jpg"}
+          %img{alt: "Josh Fiske", src: "images/josh-fiske.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -816,7 +700,7 @@
             In the end, we as a leadership team try to make the choices that best balance hundreds of factors. Hopefully we're doing right by you guys, your families, and our clients. We are definitely trying our best.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Nicole Katz", src: "images/people/nicole-katz.jpg"}
+          %img{alt: "Nicole Katz", src: "images/nicole-katz.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -825,7 +709,7 @@
             It's pretty amazing, but almost always people here do what they say and don't let you down. You guys are awesome!!!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Victor Cooper", src: "images/people/victor-cooper.jpg"}
+          %img{alt: "Victor Cooper", src: "images/victor-cooper.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -841,7 +725,7 @@
     %ul
       %li.answer
         .grid-headshot-small
-          %img{alt: "Jerry Gibson", src: "images/people/jerry-gibson.jpg"}
+          %img{alt: "Jerry Gibson", src: "images/jerry-gibson.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -850,7 +734,7 @@
             Yes, but I'm probably in a unique position in operations. If anybody ever wants more visibility into this, we can probably send out a weekly report for everyone. Let me know!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Ann Bryan", src: "images/people/ann-bryan.jpg"}
+          %img{alt: "Ann Bryan", src: "images/ann-bryan.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -859,7 +743,7 @@
             Not officially, but we're a small enough crew that working together I think we all have a sense of what everyone is doing. That lets us find ways to help each other out.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Sharon Bradford", src: "images/people/sharon-bradford.jpg"}
+          %img{alt: "Sharon Bradford", src: "images/sharon-bradford.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -874,7 +758,7 @@
             Now I'm all excited about this. If anybody wants to work on this idea, email me!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Tashia Hughes", src: "images/people/tashia-hughes.jpg"}
+          %img{alt: "Tashia Hughes", src: "images/tashia-hughes.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -883,7 +767,7 @@
             Not really, but I'm not sure it really matters?? We all pretty much hang out socially so we tend to hear what's going on, but I don't think we need any official channels for this!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Kurt Nightingale", src: "images/people/kurt-nightingale.jpg"}
+          %img{alt: "Kurt Nightingale", src: "images/kurt-nightingale.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -892,7 +776,7 @@
             Not really. We're heads down coding most of the day, and it's hard to keep up with what everyone's doing.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Lillie McKenzie", src: "images/people/lillie-mckenzie.jpg"}
+          %img{alt: "Lillie McKenzie", src: "images/lillie-mckenzie.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -910,7 +794,7 @@
     %ul
       %li.answer
         .grid-headshot-small
-          %img{alt: "Scott Marsh", src: "images/people/scott-marsh.jpg"}
+          %img{alt: "Scott Marsh", src: "images/scott-marsh.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -928,7 +812,7 @@
               It's a little nerdy, but the developer commmunity really appreciates this stuff.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Andrew Wong", src: "images/people/andrew-wong.jpg"}
+          %img{alt: "Andrew Wong", src: "images/andrew-wong.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -937,7 +821,7 @@
             I think we do a pretty good job of noticing our work and giving regonition internally. But I think we could celebrate our accomplishments more to the public and to our clients, which could really help drive more business.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Josh Fiske", src: "images/people/josh-fiske.jpg"}
+          %img{alt: "Josh Fiske", src: "images/josh-fiske.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -959,7 +843,7 @@
               Let's cross promote with our partners. We know our partners are important to our work and business. Can we promote their wins and vice versa?
       %li.answer
         .grid-headshot-small
-          %img{alt: "Matt Donahue", src: "images/people/matt-donahue.jpg"}
+          %img{alt: "Matt Donahue", src: "images/matt-donahue.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -975,7 +859,7 @@
     %ul
       %li.answer
         .grid-headshot-small
-          %img{alt: "Brian Jenks", src: "images/people/brian-jenks.jpg"}
+          %img{alt: "Brian Jenks", src: "images/brian-jenks.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -992,7 +876,7 @@
               HTML5 lets us store data within the browser. A lot of times we don't even need a back end to keep some data and really improve the user experience. This simplifies and speeds up development and could be really cool to try.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Sharon Bradford", src: "images/people/sharon-bradford.jpg"}
+          %img{alt: "Sharon Bradford", src: "images/sharon-bradford.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -1005,7 +889,7 @@
             There's a long term effect here too. If we can tie back data to those events and show success, it makes our new biz pitches that much easier. We can literally say, "Look, our campaign directly resulted in a 25% increase in sales." That's powerful.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Julie Kim", src: "images/people/julie-kim.jpg"}
+          %img{alt: "Julie Kim", src: "images/julie-kim.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -1014,7 +898,7 @@
             I think we can do more for our community. I think we all love working here and have stable, happy jobs so I don't want to rock the boat. But I think if we could be more active in the community and with charitable organizations, that would be awesome. Philanthropy is great PR too.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Andrew Wong", src: "images/people/andrew-wong.jpg"}
+          %img{alt: "Andrew Wong", src: "images/andrew-wong.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -1028,7 +912,7 @@
       %li.answer
       %li.answer
         .grid-headshot-small
-          %img{alt: "Lillie McKenzie", src: "images/people/lillie-mckenzie.jpg"}
+          %img{alt: "Lillie McKenzie", src: "images/lillie-mckenzie.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -1044,7 +928,7 @@
     %ul
       %li.answer
         .grid-headshot-small
-          %img{alt: "Brian Jenks", src: "images/people/brian-jenks.jpg"}
+          %img{alt: "Brian Jenks", src: "images/brian-jenks.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -1058,7 +942,7 @@
               Clients make a lot of changes. Not sure there's much we can do about this. But even if we plan out our day, much of it can get shuffled around. I don't have any problem making adjustments, but it does add to the rush some.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Kurt Nightingale", src: "images/people/kurt-nightingale.jpg"}
+          %img{alt: "Kurt Nightingale", src: "images/kurt-nightingale.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -1069,7 +953,7 @@
             Also, if there's a way to stagger launches from a client services perspective, that would be HUGE. When we have multiple launches in one week (or even one day!), our hair starts to fall out.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Ann Bryan", src: "images/people/ann-bryan.jpg"}
+          %img{alt: "Ann Bryan", src: "images/ann-bryan.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -1082,7 +966,7 @@
             Not sure if it's possible, but if the leadership team could help us manage this with clients, that'd be a huge help. We don't have to tell them our internal reasons, but if we can "convince" them to push a week here, a week there, it could make a big difference to the quality of our work!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Jason Edmonds", src: "images/people/jason-edmonds.jpg"}
+          %img{alt: "Jason Edmonds", src: "images/jason-edmonds.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -1093,7 +977,7 @@
             That said, it's up to us to manage those expectations. I don't know if there's ever really an occasion where a 4 hour turnaround is reasonable. If we start to set that expectation early on with our clients, I think it helps in the long run.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Amy Rivera", src: "images/people/amy-rivera.jpg"}
+          %img{alt: "Amy Rivera", src: "images/amy-rivera.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -1102,7 +986,7 @@
             Yes, but it's a client business. All agencies have less time than they want to run a project. The constraints are sometimes a good thing.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Tim Scott", src: "images/people/tim-scott.jpg"}
+          %img{alt: "Tim Scott", src: "images/tim-scott.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -1113,7 +997,7 @@
             I think we can also do better at managing their expectations around changes. What seems like a small change can affect a lot of things they don't see, which can add to the general sense of being rushed.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Charles Koga", src: "images/people/charles-koga.jpg"}
+          %img{alt: "Charles Koga", src: "images/charles-koga.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -1122,7 +1006,7 @@
             I think if we had less meetings, I wouldn't feel so rushed.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Angela Williams", src: "images/people/angela-williams.jpg"}
+          %img{alt: "Angela Williams", src: "images/angela-williams.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -1131,7 +1015,7 @@
             Not always, but sometimes I don't know if a client is coming into the office until the last minute. So it can be tough to get the rooms setup with the right stuff (snacks, drinks, whiteboards, etc.) Anything we can do to plan that out better would be really helpful!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Julie Kim", src: "images/people/julie-kim.jpg"}
+          %img{alt: "Julie Kim", src: "images/julie-kim.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -1140,7 +1024,7 @@
             I feel rushed, but not always. I have a schedule that's a little more fixed than some folks, so I do my best to really get every last bit out of my time at the office.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Mark Campbell", src: "images/people/mark-campbell.jpg"}
+          %img{alt: "Mark Campbell", src: "images/mark-campbell.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -1149,7 +1033,7 @@
             Better than most agencies.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Victor Cooper", src: "images/people/victor-cooper.jpg"}
+          %img{alt: "Victor Cooper", src: "images/victor-cooper.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -1165,7 +1049,7 @@
     %ul
       %li.answer
         .grid-headshot-small
-          %img{alt: "Jared Davis", src: "images/people/jared-davis.jpg"}
+          %img{alt: "Jared Davis", src: "images/jared-davis.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -1174,7 +1058,7 @@
             I know we're all working a lot, but I think it's important that we think about how great it is to work for a small company. If we doubled in size next week (which I bet we could do), we'd lose a lot of our spirit I think.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Sharon Bradford", src: "images/people/sharon-bradford.jpg"}
+          %img{alt: "Sharon Bradford", src: "images/sharon-bradford.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -1187,7 +1071,7 @@
             Now I'm not sure about my answer!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Josh Fiske", src: "images/people/josh-fiske.jpg"}
+          %img{alt: "Josh Fiske", src: "images/josh-fiske.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -1202,7 +1086,7 @@
             It's more expensive in the short run, but we may be better off sticking with more freelancers until we see how the year's financials play out.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Nicole Katz", src: "images/people/nicole-katz.jpg"}
+          %img{alt: "Nicole Katz", src: "images/nicole-katz.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -1211,7 +1095,7 @@
             I really like that I know everyone so well. Please don't add 100 people!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Carrie Ross", src: "images/people/carrie-ross.jpg"}
+          %img{alt: "Carrie Ross", src: "images/carrie-ross.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -1220,7 +1104,7 @@
             We've won a lot of projects lately, but our team size hasn't grown. So it seems like we're expected to do more work with the same people. And I haven't heard anything about hiring more people?
       %li.answer
         .grid-headshot-small
-          %img{alt: "Kurt Nightingale", src: "images/people/kurt-nightingale.jpg"}
+          %img{alt: "Kurt Nightingale", src: "images/kurt-nightingale.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -1229,7 +1113,7 @@
             We've lost a couple team members and haven't had a chance to replace them. If I'm being honest, we could really use some help!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Jason Edmonds", src: "images/people/jason-edmonds.jpg"}
+          %img{alt: "Jason Edmonds", src: "images/jason-edmonds.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -1245,7 +1129,7 @@
     %ul
       %li.answer
         .grid-headshot-small
-          %img{alt: "Brian Jenks", src: "images/people/brian-jenks.jpg"}
+          %img{alt: "Brian Jenks", src: "images/brian-jenks.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -1256,7 +1140,7 @@
             I genuinely appreciate the ideas that everyone has, but sometimes I wish dev ideas carried a little more weight.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Tashia Hughes", src: "images/people/tashia-hughes.jpg"}
+          %img{alt: "Tashia Hughes", src: "images/tashia-hughes.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -1265,7 +1149,7 @@
             I'd be surprised if anyone was. Every meeting I've ever been in has been super collaborative, and we all have our own ideas. Your's might not win out, but nobody should be afraid to give out their ideas. Heck, one time I got my dog's picture into some client work!!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Victor Cooper", src: "images/people/victor-cooper.jpg"}
+          %img{alt: "Victor Cooper", src: "images/victor-cooper.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -1283,7 +1167,7 @@
     %ul
       %li.answer
         .grid-headshot-small
-          %img{alt: "Andrew Wong", src: "images/people/andrew-wong.jpg"}
+          %img{alt: "Andrew Wong", src: "images/andrew-wong.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -1292,7 +1176,7 @@
             Isn't it just "build awesome stuff and have fun"?
       %li.answer
         .grid-headshot-small
-          %img{alt: "Tashia Hughes", src: "images/people/tashia-hughes.jpg"}
+          %img{alt: "Tashia Hughes", src: "images/tashia-hughes.jpg"}
         .grid-summary-small
           %h4
             Yes:
@@ -1306,7 +1190,7 @@
               We want to make people happy. We do this by being honest and building the best products we can. If our clients, people, and families are happy, then we've succeeded.
       %li.answer
         .grid-headshot-small
-          %img{alt: "Matt Donahue", src: "images/people/matt-donahue.jpg"}
+          %img{alt: "Matt Donahue", src: "images/matt-donahue.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -1315,7 +1199,7 @@
             No, but does it matter? When I think about company vision, it feels very corporate. I may not know our exact line, but I know it's about doing great work and doing it honestly. That's what matters!
       %li.answer
         .grid-headshot-small
-          %img{alt: "Mark Campbell", src: "images/people/mark-campbell.jpg"}
+          %img{alt: "Mark Campbell", src: "images/mark-campbell.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -1324,7 +1208,7 @@
             I should probably know this, right?
       %li.answer
         .grid-headshot-small
-          %img{alt: "Ann Bryan", src: "images/people/ann-bryan.jpg"}
+          %img{alt: "Ann Bryan", src: "images/ann-bryan.jpg"}
         .grid-summary-small
           %h4
             No:
@@ -1340,7 +1224,7 @@
       %ul
         %li.answer
           .grid-headshot-small
-            %img{alt: "Carrie Ross", src: "images/people/carrie-ross.jpg"}
+            %img{alt: "Carrie Ross", src: "images/carrie-ross.jpg"}
           .grid-summary-small
             %h4
               Yes:
@@ -1349,7 +1233,7 @@
               I'd love to have more insight about when we decide to hire. Maybe that means more transparency into our financials so we have the whole picture?
         %li.answer
           .grid-headshot-small
-            %img{alt: "Tim Scott", src: "images/people/tim-scott.jpg"}
+            %img{alt: "Tim Scott", src: "images/tim-scott.jpg"}
           .grid-summary-small
             %h4
               Yes:
@@ -1358,7 +1242,7 @@
               Financials. Not every last detail of how much money everyone is taking home, but are we making a good profit? How does that translate to our salaries and bonuses? We're a small company, I'd like to have a better sense of this.
         %li.answer
           .grid-headshot-small
-            %img{alt: "Lillie McKenzie", src: "images/people/lillie-mckenzie.jpg"}
+            %img{alt: "Lillie McKenzie", src: "images/lillie-mckenzie.jpg"}
           .grid-summary-small
             %h4
               Yes:
@@ -1376,7 +1260,7 @@
                 Do we ever publish our priorities, as a company, so we can all help to track to them?
         %li.answer
           .grid-headshot-small
-            %img{alt: "Matt Donahue", src: "images/people/matt-donahue.jpg"}
+            %img{alt: "Matt Donahue", src: "images/matt-donahue.jpg"}
           .grid-summary-small
             %h4
               No:
@@ -1385,7 +1269,7 @@
               I think the leadership team has been quite transparent, within reason. Maybe I'm being a little corporate, but I think we need to believe in and trust the leadership to make the right decisions so we can focus on delivery.
         %li.answer
           .grid-headshot-small
-            %img{alt: "Zach Settles", src: "images/people/zach-settles.jpg"}
+            %img{alt: "Zach Settles", src: "images/zach-settles.jpg"}
           .grid-summary-small
             %h4
               No:
@@ -1396,7 +1280,7 @@
               Honestly, I think a weekly email or update on what's going on above my pay grade would probably do the trick and keep us all on the same page.
         %li.answer
           .grid-headshot-small
-            %img{alt: "Josh Fiske", src: "images/people/josh-fiske.jpg"}
+            %img{alt: "Josh Fiske", src: "images/josh-fiske.jpg"}
           .grid-summary-small
             %h4
               No:

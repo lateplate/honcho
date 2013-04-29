@@ -2,14 +2,17 @@
 # SUMMARY
 #######################
 
-name:
-  Tashia Hughes
+first_name:
+  Tashia
+
+last_name:
+  Hughes
 
 url:
   tashia-hughes.html
 
-image:
-  images/people/tashia-hughes.jpg
+avatar:
+  images/tashia-hughes.jpg
 
 title:
   Copywriter
@@ -26,7 +29,7 @@ salary:
 address:
   2120 Hart Street, Chicago, IL 60607
 
-email:
+email_address:
   tashia@1917design.co
 
 phone:

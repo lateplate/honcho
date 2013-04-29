@@ -2,14 +2,17 @@
 # SUMMARY
 #######################
 
-name:
-  Angela Williams
+first_name:
+  Angela
+
+last_name:
+  Williams
 
 url:
   angela-williams.html
 
-image:
-  images/people/angela-williams.jpg
+avatar:
+  images/angela-williams.jpg
 
 title:
   Front Desk and Admin
@@ -26,7 +29,7 @@ salary:
 address:
   4295 Pick St., Chicago, IL 60614
 
-email:
+email_address:
   angela@1917design.co
 
 phone:

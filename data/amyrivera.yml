@@ -2,14 +2,17 @@
 # SUMMARY
 #######################
 
-name:
-  Amy Rivera
+first_name:
+  Amy
+
+last_name:
+  Rivera
 
 url:
   amy-rivera.html
 
-image:
-  images/people/amy-rivera.jpg
+avatar:
+  images/amy-rivera.jpg
 
 title:
   Account Director
@@ -26,7 +29,7 @@ salary:
 address:
   1346 State St., Detroit, MI 48209
 
-email:
+email_address:
   amy@1917design.co
 
 phone:

@@ -34,7 +34,6 @@
     <div class='content'>
       <ol class='questions-list' id='questions-list'>
         <li>
-          <!-- %a{href: "#question-1"}=data.question1.title -->
           <a href='#question-1'>Are there any benefits we don't offer that you'd like to see us offer?</a>
         </li>
         <li>
@@ -87,181 +86,189 @@
         </li>
       </ol>
       <ul class='questions-results'>
+        <!-- Question 1 done with partial and Yaml -->
         <hr>
-        <li>
-          <!-- %h2#question-1 -->
-          <!-- =data.question1.title -->
-          <!-- .questions-totals -->
-          <!-- =data.question1.totals -->
-          <!-- %ul -->
-          <!-- - data.question1.answers.each do |e| -->
-          <!-- %li.answer -->
-          <!-- .grid-headshot-small -->
-          <!-- %img{src: "#{e.image}"} -->
-          <!-- .grid-summary-small -->
-          <!-- %h4 -->
-          <!-- =e.response -->
-          <!-- \ - -->
-          <!-- %a{href: "#{e.url}"}=e.name -->
-          <!-- %p -->
-          <!-- =e.body -->
-          <h2 id='question-1'>
-            Are there any benefits we don't offer that you'd like to see us offer?
-          </h2>
-          <div class='questions-totals'>
-            10 Yes. 5 No.
-          </div>
-          <ul>
-            <li class='answer'>
-              <div class='grid-headshot-small'>
-                <img alt='Kurt Nightingale' src='images/people/kurt-nightingale.jpg'>
-              </div>
-              <div class='grid-summary-small'>
-                <h4>
-                  Yes:
-                  <a href='index.html#kurt-nightingale'>Kurt Nightingale</a>
-                </h4>
-                <p>
-                  Our health benefits are pretty expensive compared to other companies. I have friends who pay half of what we do for similar benefits.
-                </p>
-                <p>
-                  Is there anything we can do to lower our rates?
-                </p>
-              </div>
-            </li>
-            <li class='answer'>
-              <div class='grid-headshot-small'>
-                <img alt='Jason Edmonds' src='images/people/jason-edmonds.jpg'>
-              </div>
-              <div class='grid-summary-small'>
-                <h4>
-                  Yes:
-                  <a href='index.html#jason-edmonds'>Jason Edmonds</a>
-                </h4>
-                <p>
-                  I would love to see more formal financial benefits. As a small, private company, I think we can do some interesting things.
-                </p>
-                <p>
-                  I know financials can be a touchy subject, but I think these would be really great to consider:
-                </p>
-                <ul>
-                  <li>
-                    401k - great tax benefit, but it's disappointing that we don't have a matching program. Many companies match up to 5%, and allow employees to vest after a few years.
-                  </li>
-                  <li>
-                    Profit sharing - since we're not public we obviously can't have a stock program. But in the same vein, having even a small piece of ownership in the company would be huge.
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class='answer'>
-              <div class='grid-headshot-small'>
-                <img alt='Andrew Wong' src='images/people/andrew-wong.jpg'>
-              </div>
-              <div class='grid-summary-small'>
-                <h4>
-                  Yes:
-                  <a href='index.html#andrew-wong'>Andrew Wong</a>
-                </h4>
-                <p>
-                  Some companies offer discounts at retailers using a group rate. Examples: cell service discounts, Apple Store discounts, travel discounts, etc.
-                </p>
-                <p>
-                  If we could get any of those (especially the cell service discount), that would be awesome!
-                </p>
-              </div>
-            </li>
-            <li class='answer'>
-              <div class='grid-headshot-small'>
-                <img alt='Tim Scott' src='images/people/tim-scott.jpg'>
-              </div>
-              <div class='grid-summary-small'>
-                <h4>
-                  Yes:
-                  <a href='index.html#tim-scott'>Tim Scott</a>
-                </h4>
-                <p>
-                  I know this is a stretch...but how about free lunches? A lot of tech companies and agencies do it. Check out
-                  <a href='http://www.campaignmonitor.com/blog/post/2871/' target='_blank'>how seriously Campaign Monitor takes it!</a>
-                </p>
-                <p>
-                  It's a small thing but it's a great way for us to get to know each other better (by eating together), it saves us $8 a day for lunch, and it also saves us time so we can get more done. I see no downsides!
-                </p>
-                <p>
-                  If not free lunches, maybe a smaller scale version could be free snacks and drinks?
-                </p>
-              </div>
-            </li>
-            <li class='answer'>
-              <div class='grid-headshot-small'>
-                <img alt='Sharon Bradford' src='images/people/sharon-bradford.jpg'>
-              </div>
-              <div class='grid-summary-small'>
-                <h4>
-                  Yes:
-                  <a href='index.html#sharon-bradford'>Sharon Bradford</a>
-                </h4>
-                <p>
-                  I would love if the company could help to cover commuting costs, whether it be public transportation or even covering the cost of gas.
-                </p>
-                <p>
-                  I once did a calculation of "what it costs for me to get to work daily", and it's pretty eye opening.
-                </p>
-                <p>
-                  To park, take the train, and hop a bus, it costs me $18.50 per day to get to and from work. That's $370 a month...not cheap!
-                </p>
-                <p>
-                  I realize this is probably built into our salaries, but it could be a nice additional benefit to consider. Thanks!
-                </p>
-              </div>
-            </li>
-            <li class='answer'>
-              <div class='grid-headshot-small'>
-                <img alt='Ann Bryan' src='images/people/ann-bryan.jpg'>
-              </div>
-              <div class='grid-summary-small'>
-                <h4>
-                  Yes:
-                  <a href='index.html#ann-bryan'>Ann Bryan</a>
-                </h4>
-                <p>
-                  I'm not sure if this is a benefit per se, but it would be really cool if we could get a new computer on a regular schedule. Apple comes out with new stuff all the time, so if we could do something like every 18 months that would be awesome.
-                </p>
-                <p>
-                  Right now, I think the only way we get new machines is if something breaks or if you complain loud enough. If we knew an upgrade was coming on a regular schedule, I bet this would make life easier for our IT department (and fun for us!)
-                </p>
-              </div>
-            </li>
-            <li class='answer'>
-              <div class='grid-headshot-small'>
-                <img alt='Josh Fiske' src='images/people/josh-fiske.jpg'>
-              </div>
-              <div class='grid-summary-small'>
-                <h4>
-                  Yes:
-                  <a href='index.html#josh-fiske'>Josh Fiske</a>
-                </h4>
-                <p>
-                  Sorry if this sounds a little morbid, but it'd be great if we could consider a stronger life insurance policy. We have a pretty basic one here, but for those of us with family (especially kids), this is really, really important.
-                </p>
-              </div>
-            </li>
-            <li class='answer'>
-              <div class='grid-headshot-small'>
-                <img alt='Lillie McKenzie' src='images/people/lillie-mckenzie.jpg'>
-              </div>
-              <div class='grid-summary-small'>
-                <h4>
-                  Yes:
-                  <a href='index.html#lillie-mckenzie'>Lillie McKenzie</a>
-                </h4>
-                <p>
-                  I'm not sure if this is a policy question or a benefit question, but I think we could show some serious progress by allowing benefits to be extended to partners, especially in cases where marriage is not allowed by law. :(
-                </p>
-              </div>
-            </li>
-          </ul>
-        </li>
+        <ul>
+          <li>
+            <h2 id='question-1'>
+              Are there any benefits we don't offer that you'd like to see us offer?
+            </h2>
+            <div class='questions-totals'>
+              10 Yes. 5 No.
+            </div>
+            <ul>
+              <li class='answer'>
+                <div class='grid-headshot-small'>
+                  <img src='images/kurt-nightingale.jpg'>
+                </div>
+                <div class='grid-summary-small'>
+                  <h4>
+                    Yes
+                     -
+                    <a href='kurt-nightingale.html'>
+                      Kurt
+                      Nightingale
+                    </a>
+                  </h4>
+                  <p>
+                    Our health benefits are pretty expensive compared to other companies. I have friends who pay half of what we do for similar benefits. Is there anything we can do to lower our rates?
+                  </p>
+                  <ul>
+                  </ul>
+                </div>
+              </li>
+              <li class='answer'>
+                <div class='grid-headshot-small'>
+                  <img src='images/jason-edmonds.jpg'>
+                </div>
+                <div class='grid-summary-small'>
+                  <h4>
+                    Yes
+                     -
+                    <a href='jason-edmonds.html'>
+                      Jason
+                      Edmonds
+                    </a>
+                  </h4>
+                  <p>
+                    I would love to see more formal financial benefits. As a small, private company, I think we can do some interesting things. I know financials can be a touchy subject, but I think these would be really great to consider...
+                  </p>
+                  <ul>
+                    <li>
+                      401k - great tax benefit, but it's disappointing that we don't have a matching program. Many companies match up to 5%, and allow employees to vest after a few years.
+                    </li>
+                    <li>
+                      Profit sharing - since we're not public we obviously can't have a stock program. But in the same vein, having even a small piece of ownership in the company would be huge.
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class='answer'>
+                <div class='grid-headshot-small'>
+                  <img src='images/andrew-wong.jpg'>
+                </div>
+                <div class='grid-summary-small'>
+                  <h4>
+                    Yes
+                     -
+                    <a href='andrew-wong.html'>
+                      Andrew
+                      Wong
+                    </a>
+                  </h4>
+                  <p>
+                    Some companies offer discounts at retailers using a group rate. Examples - cell service discounts, Apple Store discounts, travel discounts, etc. If we could get any of those (especially the cell service discount), that would be awesome!
+                  </p>
+                  <ul>
+                  </ul>
+                </div>
+              </li>
+              <li class='answer'>
+                <div class='grid-headshot-small'>
+                  <img src='images/tim-scott.jpg'>
+                </div>
+                <div class='grid-summary-small'>
+                  <h4>
+                    Yes
+                     -
+                    <a href='tim-scott.html'>
+                      Tim
+                      Scott
+                    </a>
+                  </h4>
+                  <p>
+                    I know this is a stretch...but how about free lunches? A lot of tech companies and agencies do it. Check out how seriously Campaign Monitor takes it!</a> It's a small thing but it's a great way for us to get to know each other better (by eating together), it saves us $8 a day for lunch, and it also saves us time so we can get more done. I see no downsides!
+                  </p>
+                  <ul>
+                  </ul>
+                </div>
+              </li>
+              <li class='answer'>
+                <div class='grid-headshot-small'>
+                  <img src='images/sharon-bradford.jpg'>
+                </div>
+                <div class='grid-summary-small'>
+                  <h4>
+                    Yes
+                     -
+                    <a href='sharon-bradford.html'>
+                      Sharon
+                      Bradford
+                    </a>
+                  </h4>
+                  <p>
+                    I would love if the company could help to cover commuting costs, whether it be public transportation or even covering the cost of gas. I once did a calculation of "what it costs for me to get to work daily", and it's pretty eye opening.
+                    <p>To park, take the train, and hop a bus, it costs me $18.50 per day to get to and from work. That's $370 a month...not cheap! I realize this is probably built into our salaries, but it could be a nice additional benefit to consider. Thanks!</p>
+                  </p>
+                  <ul>
+                  </ul>
+                </div>
+              </li>
+              <li class='answer'>
+                <div class='grid-headshot-small'>
+                  <img src='images/ann-bryan.jpg'>
+                </div>
+                <div class='grid-summary-small'>
+                  <h4>
+                    Yes
+                     -
+                    <a href='ann-bryan.html'>
+                      Ann
+                      Bryan
+                    </a>
+                  </h4>
+                  <p>
+                    I'm not sure if this is a benefit per se, but it would be really cool if we could get a new computer on a regular schedule. Apple comes out with new stuff all the time, so if we could do something like every 18 months that would be awesome.
+                    <p>Right now, I think the only way we get new machines is if something breaks or if you complain loud enough. If we knew an upgrade was coming on a regular schedule, I bet this would make life easier for our IT department (and fun for us!)</p>
+                  </p>
+                  <ul>
+                  </ul>
+                </div>
+              </li>
+              <li class='answer'>
+                <div class='grid-headshot-small'>
+                  <img src='images/josh-fiske.jpg'>
+                </div>
+                <div class='grid-summary-small'>
+                  <h4>
+                    Yes
+                     -
+                    <a href='josh-fiske.html'>
+                      Josh
+                      Fiske
+                    </a>
+                  </h4>
+                  <p>
+                    Sorry if this sounds a little morbid, but it'd be great if we could consider a stronger life insurance policy. We have a pretty basic one here, but for those of us with family (especially kids), this is really, really important.
+                  </p>
+                  <ul>
+                  </ul>
+                </div>
+              </li>
+              <li class='answer'>
+                <div class='grid-headshot-small'>
+                  <img src='images/lillie-mckenzie.jpg'>
+                </div>
+                <div class='grid-summary-small'>
+                  <h4>
+                    Yes
+                     -
+                    <a href='lillie-mckenzie.html'>
+                      Lillie
+                      McKenzie
+                    </a>
+                  </h4>
+                  <p>
+                    I'm not sure if this is a policy question or a benefit question, but I think we could show some serious progress by allowing benefits to be extended to partners, especially in cases where marriage is not allowed by law. :(
+                  </p>
+                  <ul>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <!-- *************************************** -->
         <hr>
         <li>
           <h2 id='question-2'>
@@ -273,7 +280,7 @@
           <ul>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Julie Kim' src='images/people/julie-kim.jpg'>
+                <img alt='Julie Kim' src='images/julie-kim.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -300,7 +307,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Tashia Hughes' src='images/people/tashia-hughes.jpg'>
+                <img alt='Tashia Hughes' src='images/tashia-hughes.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -323,7 +330,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Zach Settles' src='images/people/zach-settles.jpg'>
+                <img alt='Zach Settles' src='images/zach-settles.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -337,7 +344,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Kurt Nightingale' src='images/people/kurt-nightingale.jpg'>
+                <img alt='Kurt Nightingale' src='images/kurt-nightingale.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -351,7 +358,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Sharon Bradford' src='images/people/sharon-bradford.jpg'>
+                <img alt='Sharon Bradford' src='images/sharon-bradford.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -373,7 +380,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Mark Campbell' src='images/people/mark-campbell.jpg'>
+                <img alt='Mark Campbell' src='images/mark-campbell.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -387,7 +394,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Jared Davis' src='images/people/jared-davis.jpg'>
+                <img alt='Jared Davis' src='images/jared-davis.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -412,7 +419,7 @@
           <ul>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Brian Jenks' src='images/people/brian-jenks.jpg'>
+                <img alt='Brian Jenks' src='images/brian-jenks.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -435,7 +442,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Sharon Bradford' src='images/people/sharon-bradford.jpg'>
+                <img alt='Sharon Bradford' src='images/sharon-bradford.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -452,7 +459,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Mark Campbell' src='images/people/mark-campbell.jpg'>
+                <img alt='Mark Campbell' src='images/mark-campbell.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -466,7 +473,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Zach Settles' src='images/people/zach-settles.jpg'>
+                <img alt='Zach Settles' src='images/zach-settles.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -481,7 +488,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Jerry Gibson' src='images/people/jerry-gibson.jpg'>
+                <img alt='Jerry Gibson' src='images/jerry-gibson.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -498,7 +505,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Matt Donahue' src='images/people/matt-donahue.jpg'>
+                <img alt='Matt Donahue' src='images/matt-donahue.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -526,7 +533,7 @@
           <ul>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Tim Scott' src='images/people/tim-scott.jpg'>
+                <img alt='Tim Scott' src='images/tim-scott.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -540,7 +547,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Ann Bryan' src='images/people/ann-bryan.jpg'>
+                <img alt='Ann Bryan' src='images/ann-bryan.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -554,7 +561,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Nicole Katz' src='images/people/nicole-katz.jpg'>
+                <img alt='Nicole Katz' src='images/nicole-katz.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -568,7 +575,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Lillie McKenzie' src='images/people/lillie-mckenzie.jpg'>
+                <img alt='Lillie McKenzie' src='images/lillie-mckenzie.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -593,7 +600,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Tashia Hughes' src='images/people/tashia-hughes.jpg'>
+                <img alt='Tashia Hughes' src='images/tashia-hughes.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -607,7 +614,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Kurt Nightingale' src='images/people/kurt-nightingale.jpg'>
+                <img alt='Kurt Nightingale' src='images/kurt-nightingale.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -624,7 +631,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Scott Marsh' src='images/people/scott-marsh.jpg'>
+                <img alt='Scott Marsh' src='images/scott-marsh.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -649,7 +656,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Andrew Wong' src='images/people/andrew-wong.jpg'>
+                <img alt='Andrew Wong' src='images/andrew-wong.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -677,7 +684,7 @@
           <ul>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Kurt Nightingale' src='images/people/kurt-nightingale.jpg'>
+                <img alt='Kurt Nightingale' src='images/kurt-nightingale.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -694,7 +701,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Josh Fiske' src='images/people/josh-fiske.jpg'>
+                <img alt='Josh Fiske' src='images/josh-fiske.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -708,7 +715,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Carrie Ross' src='images/people/carrie-ross.jpg'>
+                <img alt='Carrie Ross' src='images/carrie-ross.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -734,7 +741,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Mark Campbell' src='images/people/mark-campbell.jpg'>
+                <img alt='Mark Campbell' src='images/mark-campbell.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -748,7 +755,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Nicole Katz' src='images/people/nicole-katz.jpg'>
+                <img alt='Nicole Katz' src='images/nicole-katz.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -765,7 +772,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Jared Davis' src='images/people/jared-davis.jpg'>
+                <img alt='Jared Davis' src='images/jared-davis.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -782,7 +789,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Zach Settles' src='images/people/zach-settles.jpg'>
+                <img alt='Zach Settles' src='images/zach-settles.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -799,7 +806,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Matt Donahue' src='images/people/matt-donahue.jpg'>
+                <img alt='Matt Donahue' src='images/matt-donahue.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -816,7 +823,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Julie Kim' src='images/people/julie-kim.jpg'>
+                <img alt='Julie Kim' src='images/julie-kim.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -841,7 +848,7 @@
           <ul>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Amy Rivera' src='images/people/amy-rivera.jpg'>
+                <img alt='Amy Rivera' src='images/amy-rivera.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -872,7 +879,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Angela Williams' src='images/people/angela-williams.jpg'>
+                <img alt='Angela Williams' src='images/angela-williams.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -886,7 +893,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Sharon Bradford' src='images/people/sharon-bradford.jpg'>
+                <img alt='Sharon Bradford' src='images/sharon-bradford.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -906,7 +913,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Julie Kim' src='images/people/julie-kim.jpg'>
+                <img alt='Julie Kim' src='images/julie-kim.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -920,7 +927,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Tashia Hughes' src='images/people/tashia-hughes.jpg'>
+                <img alt='Tashia Hughes' src='images/tashia-hughes.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -937,7 +944,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Kurt Nightingale' src='images/people/kurt-nightingale.jpg'>
+                <img alt='Kurt Nightingale' src='images/kurt-nightingale.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -951,7 +958,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Matt Donahue' src='images/people/matt-donahue.jpg'>
+                <img alt='Matt Donahue' src='images/matt-donahue.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -979,7 +986,7 @@
           <ul>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Kurt Nightingale' src='images/people/kurt-nightingale.jpg'>
+                <img alt='Kurt Nightingale' src='images/kurt-nightingale.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -996,7 +1003,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Brian Jenks' src='images/people/brian-jenks.jpg'>
+                <img alt='Brian Jenks' src='images/brian-jenks.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1010,7 +1017,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Zach Settles' src='images/people/zach-settles.jpg'>
+                <img alt='Zach Settles' src='images/zach-settles.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1024,7 +1031,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Mark Campbell' src='images/people/mark-campbell.jpg'>
+                <img alt='Mark Campbell' src='images/mark-campbell.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1038,7 +1045,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Jared Davis' src='images/people/jared-davis.jpg'>
+                <img alt='Jared Davis' src='images/jared-davis.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1063,7 +1070,7 @@
           <ul>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Andrew Wong' src='images/people/andrew-wong.jpg'>
+                <img alt='Andrew Wong' src='images/andrew-wong.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1089,7 +1096,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Jason Edmonds' src='images/people/jason-edmonds.jpg'>
+                <img alt='Jason Edmonds' src='images/jason-edmonds.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1103,7 +1110,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Tashia Hughes' src='images/people/tashia-hughes.jpg'>
+                <img alt='Tashia Hughes' src='images/tashia-hughes.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1131,7 +1138,7 @@
           <ul>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Kurt Nightingale' src='images/people/kurt-nightingale.jpg'>
+                <img alt='Kurt Nightingale' src='images/kurt-nightingale.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1151,7 +1158,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Carrie Ross' src='images/people/carrie-ross.jpg'>
+                <img alt='Carrie Ross' src='images/carrie-ross.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1171,7 +1178,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Tim Scott' src='images/people/tim-scott.jpg'>
+                <img alt='Tim Scott' src='images/tim-scott.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1194,7 +1201,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Zach Settles' src='images/people/zach-settles.jpg'>
+                <img alt='Zach Settles' src='images/zach-settles.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1214,7 +1221,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Sharon Bradford' src='images/people/sharon-bradford.jpg'>
+                <img alt='Sharon Bradford' src='images/sharon-bradford.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1245,7 +1252,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Charles Koga' src='images/people/charles-koga.jpg'>
+                <img alt='Charles Koga' src='images/charles-koga.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1259,7 +1266,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Josh Fiske' src='images/people/josh-fiske.jpg'>
+                <img alt='Josh Fiske' src='images/josh-fiske.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1279,7 +1286,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Nicole Katz' src='images/people/nicole-katz.jpg'>
+                <img alt='Nicole Katz' src='images/nicole-katz.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1293,7 +1300,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Victor Cooper' src='images/people/victor-cooper.jpg'>
+                <img alt='Victor Cooper' src='images/victor-cooper.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1318,7 +1325,7 @@
           <ul>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Jerry Gibson' src='images/people/jerry-gibson.jpg'>
+                <img alt='Jerry Gibson' src='images/jerry-gibson.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1332,7 +1339,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Ann Bryan' src='images/people/ann-bryan.jpg'>
+                <img alt='Ann Bryan' src='images/ann-bryan.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1346,7 +1353,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Sharon Bradford' src='images/people/sharon-bradford.jpg'>
+                <img alt='Sharon Bradford' src='images/sharon-bradford.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1369,7 +1376,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Tashia Hughes' src='images/people/tashia-hughes.jpg'>
+                <img alt='Tashia Hughes' src='images/tashia-hughes.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1383,7 +1390,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Kurt Nightingale' src='images/people/kurt-nightingale.jpg'>
+                <img alt='Kurt Nightingale' src='images/kurt-nightingale.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1397,7 +1404,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Lillie McKenzie' src='images/people/lillie-mckenzie.jpg'>
+                <img alt='Lillie McKenzie' src='images/lillie-mckenzie.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1425,7 +1432,7 @@
           <ul>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Scott Marsh' src='images/people/scott-marsh.jpg'>
+                <img alt='Scott Marsh' src='images/scott-marsh.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1452,7 +1459,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Andrew Wong' src='images/people/andrew-wong.jpg'>
+                <img alt='Andrew Wong' src='images/andrew-wong.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1466,7 +1473,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Josh Fiske' src='images/people/josh-fiske.jpg'>
+                <img alt='Josh Fiske' src='images/josh-fiske.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1500,7 +1507,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Matt Donahue' src='images/people/matt-donahue.jpg'>
+                <img alt='Matt Donahue' src='images/matt-donahue.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1525,7 +1532,7 @@
           <ul>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Brian Jenks' src='images/people/brian-jenks.jpg'>
+                <img alt='Brian Jenks' src='images/brian-jenks.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1551,7 +1558,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Sharon Bradford' src='images/people/sharon-bradford.jpg'>
+                <img alt='Sharon Bradford' src='images/sharon-bradford.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1571,7 +1578,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Julie Kim' src='images/people/julie-kim.jpg'>
+                <img alt='Julie Kim' src='images/julie-kim.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1585,7 +1592,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Andrew Wong' src='images/people/andrew-wong.jpg'>
+                <img alt='Andrew Wong' src='images/andrew-wong.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1606,7 +1613,7 @@
             <li class='answer'></li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Lillie McKenzie' src='images/people/lillie-mckenzie.jpg'>
+                <img alt='Lillie McKenzie' src='images/lillie-mckenzie.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1631,7 +1638,7 @@
           <ul>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Brian Jenks' src='images/people/brian-jenks.jpg'>
+                <img alt='Brian Jenks' src='images/brian-jenks.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1653,7 +1660,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Kurt Nightingale' src='images/people/kurt-nightingale.jpg'>
+                <img alt='Kurt Nightingale' src='images/kurt-nightingale.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1670,7 +1677,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Ann Bryan' src='images/people/ann-bryan.jpg'>
+                <img alt='Ann Bryan' src='images/ann-bryan.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1690,7 +1697,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Jason Edmonds' src='images/people/jason-edmonds.jpg'>
+                <img alt='Jason Edmonds' src='images/jason-edmonds.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1707,7 +1714,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Amy Rivera' src='images/people/amy-rivera.jpg'>
+                <img alt='Amy Rivera' src='images/amy-rivera.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1721,7 +1728,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Tim Scott' src='images/people/tim-scott.jpg'>
+                <img alt='Tim Scott' src='images/tim-scott.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1738,7 +1745,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Charles Koga' src='images/people/charles-koga.jpg'>
+                <img alt='Charles Koga' src='images/charles-koga.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1752,7 +1759,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Angela Williams' src='images/people/angela-williams.jpg'>
+                <img alt='Angela Williams' src='images/angela-williams.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1766,7 +1773,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Julie Kim' src='images/people/julie-kim.jpg'>
+                <img alt='Julie Kim' src='images/julie-kim.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1780,7 +1787,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Mark Campbell' src='images/people/mark-campbell.jpg'>
+                <img alt='Mark Campbell' src='images/mark-campbell.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1794,7 +1801,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Victor Cooper' src='images/people/victor-cooper.jpg'>
+                <img alt='Victor Cooper' src='images/victor-cooper.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1819,7 +1826,7 @@
           <ul>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Jared Davis' src='images/people/jared-davis.jpg'>
+                <img alt='Jared Davis' src='images/jared-davis.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1833,7 +1840,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Sharon Bradford' src='images/people/sharon-bradford.jpg'>
+                <img alt='Sharon Bradford' src='images/sharon-bradford.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1853,7 +1860,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Josh Fiske' src='images/people/josh-fiske.jpg'>
+                <img alt='Josh Fiske' src='images/josh-fiske.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1876,7 +1883,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Nicole Katz' src='images/people/nicole-katz.jpg'>
+                <img alt='Nicole Katz' src='images/nicole-katz.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1890,7 +1897,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Carrie Ross' src='images/people/carrie-ross.jpg'>
+                <img alt='Carrie Ross' src='images/carrie-ross.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1904,7 +1911,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Kurt Nightingale' src='images/people/kurt-nightingale.jpg'>
+                <img alt='Kurt Nightingale' src='images/kurt-nightingale.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1918,7 +1925,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Jason Edmonds' src='images/people/jason-edmonds.jpg'>
+                <img alt='Jason Edmonds' src='images/jason-edmonds.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1943,7 +1950,7 @@
           <ul>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Brian Jenks' src='images/people/brian-jenks.jpg'>
+                <img alt='Brian Jenks' src='images/brian-jenks.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1960,7 +1967,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Tashia Hughes' src='images/people/tashia-hughes.jpg'>
+                <img alt='Tashia Hughes' src='images/tashia-hughes.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -1974,7 +1981,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Victor Cooper' src='images/people/victor-cooper.jpg'>
+                <img alt='Victor Cooper' src='images/victor-cooper.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -2002,7 +2009,7 @@
           <ul>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Andrew Wong' src='images/people/andrew-wong.jpg'>
+                <img alt='Andrew Wong' src='images/andrew-wong.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -2016,7 +2023,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Tashia Hughes' src='images/people/tashia-hughes.jpg'>
+                <img alt='Tashia Hughes' src='images/tashia-hughes.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -2038,7 +2045,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Matt Donahue' src='images/people/matt-donahue.jpg'>
+                <img alt='Matt Donahue' src='images/matt-donahue.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -2052,7 +2059,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Mark Campbell' src='images/people/mark-campbell.jpg'>
+                <img alt='Mark Campbell' src='images/mark-campbell.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -2066,7 +2073,7 @@
             </li>
             <li class='answer'>
               <div class='grid-headshot-small'>
-                <img alt='Ann Bryan' src='images/people/ann-bryan.jpg'>
+                <img alt='Ann Bryan' src='images/ann-bryan.jpg'>
               </div>
               <div class='grid-summary-small'>
                 <h4>
@@ -2090,7 +2097,7 @@
             <ul>
               <li class='answer'>
                 <div class='grid-headshot-small'>
-                  <img alt='Carrie Ross' src='images/people/carrie-ross.jpg'>
+                  <img alt='Carrie Ross' src='images/carrie-ross.jpg'>
                 </div>
                 <div class='grid-summary-small'>
                   <h4>
@@ -2104,7 +2111,7 @@
               </li>
               <li class='answer'>
                 <div class='grid-headshot-small'>
-                  <img alt='Tim Scott' src='images/people/tim-scott.jpg'>
+                  <img alt='Tim Scott' src='images/tim-scott.jpg'>
                 </div>
                 <div class='grid-summary-small'>
                   <h4>
@@ -2118,7 +2125,7 @@
               </li>
               <li class='answer'>
                 <div class='grid-headshot-small'>
-                  <img alt='Lillie McKenzie' src='images/people/lillie-mckenzie.jpg'>
+                  <img alt='Lillie McKenzie' src='images/lillie-mckenzie.jpg'>
                 </div>
                 <div class='grid-summary-small'>
                   <h4>
@@ -2146,7 +2153,7 @@
               </li>
               <li class='answer'>
                 <div class='grid-headshot-small'>
-                  <img alt='Matt Donahue' src='images/people/matt-donahue.jpg'>
+                  <img alt='Matt Donahue' src='images/matt-donahue.jpg'>
                 </div>
                 <div class='grid-summary-small'>
                   <h4>
@@ -2160,7 +2167,7 @@
               </li>
               <li class='answer'>
                 <div class='grid-headshot-small'>
-                  <img alt='Zach Settles' src='images/people/zach-settles.jpg'>
+                  <img alt='Zach Settles' src='images/zach-settles.jpg'>
                 </div>
                 <div class='grid-summary-small'>
                   <h4>
@@ -2177,7 +2184,7 @@
               </li>
               <li class='answer'>
                 <div class='grid-headshot-small'>
-                  <img alt='Josh Fiske' src='images/people/josh-fiske.jpg'>
+                  <img alt='Josh Fiske' src='images/josh-fiske.jpg'>
                 </div>
                 <div class='grid-summary-small'>
                   <h4>

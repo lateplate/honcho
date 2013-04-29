@@ -2,14 +2,17 @@
 # SUMMARY
 #######################
 
-name:
-  Kurt Nightingale
+first_name:
+  Kurt
+
+last_name:
+  Nightingale
 
 url:
   kurt-nightingale.html
 
-image:
-  images/people/kurt-nightingale.jpg
+avatar:
+  images/kurt-nightingale.jpg
 
 title:
   Back End Developer
@@ -26,7 +29,7 @@ salary:
 address:
   1952 Dane Street, Spokane, WA 99201
 
-email:
+email_address:
   kurt@1917design.co
 
 phone:

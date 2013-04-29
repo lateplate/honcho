@@ -2,14 +2,17 @@
 # SUMMARY
 #######################
 
-name:
-  Lillie McKenzie
+first_name:
+  Lillie
+
+last_name:
+  McKenzie
 
 url:
   lillie-mckenzie.html
 
-image:
-  images/people/lillie-mckenzie.jpg
+avatar:
+  images/lillie-mckenzie.jpg
 
 title:
   Strategist
@@ -26,7 +29,7 @@ salary:
 address:
   3413 Layman Court, New York, New York 10013
 
-email:
+email_address:
   lillie@1917design.co
 
 phone:

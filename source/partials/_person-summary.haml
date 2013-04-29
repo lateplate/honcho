@@ -1,9 +1,11 @@
 .summary
   .grid-headshot
-    %img{src: "#{yaml.image}"}
+    %img{src: "#{yaml.avatar}"}
   .grid-summary
     %h3
-      %a{href: "#{yaml.url}"}=yaml.name
+      %a{href: "#{yaml.url}"}
+        =yaml.first_name
+        =yaml.last_name
     %div
       %strong Title:
       =yaml.title
@@ -21,7 +23,7 @@
       =yaml.address
     %div
       %strong Email:
-      =yaml.email
+      =yaml.email_address
     %div
       %strong Phone:
       =yaml.phone

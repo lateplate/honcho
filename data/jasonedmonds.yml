@@ -2,14 +2,17 @@
 # SUMMARY
 #######################
 
-name:
-  Jason Edmonds
+first_name:
+  Jason
+
+last_name:
+  Edmonds
 
 url:
   jason-edmonds.html
 
-image:
-  images/people/jason-edmonds.jpg
+avatar:
+  images/jason-edmonds.jpg
 
 title:
   Account Director
@@ -26,7 +29,7 @@ salary:
 address:
   2574 Lewis St., Chicago, IL 60606
 
-email:
+email_address:
   jason@1917design.co
 
 phone:

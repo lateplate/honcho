@@ -2,14 +2,17 @@
 # SUMMARY
 #######################
 
-name:
-  Andrew Wong
+first_name:
+  Andrew
+
+last_name:
+  Wong
 
 url:
   andrew-wong.html
 
-image:
-  images/people/andrew-wong.jpg
+avatar:
+  images/andrew-wong.jpg
 
 title:
   Senior Strategist
@@ -26,7 +29,7 @@ salary:
 address:
   2560 Meadow Lane, New York, New York 10013
 
-email:
+email_address:
   andrew@1917design.co
 
 phone:

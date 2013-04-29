@@ -1,0 +1,26 @@
+%hr
+%ul
+  %li
+    %h2{id: "#{yaml.id}"}
+      =yaml.title
+    .questions-totals
+      =yaml.totals
+    %ul
+      - yaml.answers.each do |e|
+        %li.answer
+          .grid-headshot-small
+            %img{src: "#{e.avatar}"}
+          .grid-summary-small
+            %h4
+              =e.yes_no
+              \ -
+              %a{href: "#{e.url}"}
+                =e.first_name
+                =e.last_name
+            %p
+              =e.body
+            %ul
+              - if e.bullets != nil
+                - e.bullets.each do |b|
+                  %li
+                    =b

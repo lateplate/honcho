@@ -2,14 +2,16 @@
 # SUMMARY
 #######################
 
-name:
-  Jared Davis
+first_name:
+  Jared
+last_name:
+  Davis
 
 url:
   jared-davis.html
 
-image:
-  images/people/jared-davis.jpg
+avatar:
+  images/jared-davis.jpg
 
 title:
   Back End Developer
@@ -26,7 +28,7 @@ salary:
 address:
   1091 East Avenue, Chicago, IL 60614
 
-email:
+email_address:
   jared@1917design.co
 
 phone:
