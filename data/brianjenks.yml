@@ -5,6 +5,9 @@
 name:
   Brian Jenks
 
+url:
+  brian-jenks.html
+
 image:
   images/people/brian-jenks.jpg
 
@@ -34,3 +37,364 @@ family:
 
 summary:
   Great developer, but attitude has sucked recently. Tired of working with designers who don't understand technology. Short and getting more and more snarky.
+
+
+
+#######################
+# AWARDS
+#######################
+awards:
+  - title:
+      1/12/10 - $2,500 performance bonus
+    body:
+      Matt worked through the normal holiday break when we're closed between Christmas and New Years. He helped us finalize a big pitch that we eventualy won. Without him it wouldn't have been nearly as good. He was thrilled with the bonus.
+    created_by:
+      Mark Campbell
+    created_by_url:
+      mark-campbell.html
+
+
+  - title:
+      4/30/2011 - Apple iPad performance bonus
+    body:
+      Matt's performance on the Smith Co. project not only made the client happy, but the design itself gained attention through the design community for the company. The iPad was a way for us to say thanks for his hard work (and a nice way for him to start looking into how to design for the device!)
+    created_by:
+      Mark Campbell
+    created_by_url:
+      mark-campbell.html
+
+
+  - title:
+      4/4/2012 - $10,000 performance bonus
+    body:
+      It had been a year since Matt's last bonus. His work is still stellar and this 5% bonus was well over due. This bonus fell into the normal annual cycle. He was very thankful for the bonus, and it was more than he was expecting.
+    created_by:
+      Mark Campbell
+    created_by_url:
+      mark-campbell.html
+
+
+
+#######################
+# CONVERSATIONS
+#######################
+conversations:
+  - title:
+      3/1/09 - Welcome lunch
+    body:
+      Matt joined the team about a week ago, so the design crew took him out to lunch. I sat next to him so I could get a feel for how things were going his first week. Naturally there's not a lot of stuff that happens in the first week, but he definitely has an energy that's going to give us a lift. He was particulary excited to work with our tech team. His previous job was at an agency that was purely design focused, and he wasn't able to really collaborate with technical folks. This will be new and exciting for him, so we should look for opportunities for him to work with that team as much as possible.
+    created_by:
+      Mark Campbell
+    created_by_url:
+      mark-campbell.html
+
+
+  - title:
+      2/9/10 - Photography
+    body:
+      I was chatting with Matt, and we got on the subject of photography. He's really into it and I've seen some of his work -- really good. He offered to take photos for us if something came up that needed original photography. We could maybe use new office shots, headshots, or even for client work. Anyway, we should just keep an eye out for ways to merge his interests with work.
+    created_by:
+      Josh Fiske
+    created_by_url:
+      josh-fiske.html
+
+
+  - title:
+      3/6/11 - Looking for more chances to lead
+    body:
+      Matt is really looking for a chance to lead a project. I think he's ready. We'll discuss in our next one-on-one more, but need to get him slotted in a lead role soon.
+    created_by:
+      Mark Campbell
+    created_by_url:
+      mark-campbell.html
+
+
+  - title:
+      6/18/11 - Getting frustrated?
+    body:
+      I think Matt might be getting a little frustrated with his role. I just ran into him in the hall and chatted a bit. We should keep an eye on him.
+    created_by:
+      Jerry Gibson
+    created_by_url:
+      jerry-gibson.html
+
+
+  - title:
+      10/6/12 - He's engaged!
+    body:
+      Just found out Matt got engaged this past weekend! He and Jaime were in Hawaii for vacation and he proposed there! He's going to let the company know soon, but we should send a congratulatory gift and have a party very soon!
+    created_by:
+      Mark Campbell
+    created_by_url:
+      mark-campbell.html
+
+
+
+#######################
+# ONE-ON-ONES
+#######################
+one_on_ones:
+  - title:
+      8/8/09 - First one
+    body:
+      This was our first true one-on-one. A bit delayed for sure, but it also gave us six months worth of stuff to talk about.
+    bullets:
+      - His performance has been excellent. He's far exceeding expectations of a junior designer, both in his work and attitude.
+      - His teams enjoy working with him. My gut check with PMs and tech are that he's really great to work with.
+      - He likes the projects he's been on, and appreciates the continued variety.
+      - He likes tech, and would even love to start coding some front end stuff.
+      - He really hates onions. Like, a lot.
+      - Really likes the people and team. Compared to his last job, which he said was a little stuffy.
+    created_by:
+      Mark Campbell
+    created_by_url:
+      mark-campbell.html
+
+
+  - title:
+      11/16/09 - Doing well
+    body:
+      Things are going well for Matt. He's really hitting his groove, now about 9 months in.
+    bullets:
+      - He's still loving his work and feels like he's learning a lot. Though sometimes he wishes he had a little more direction from me. Fair point for sure.
+      - He really enjoys working with the tech team. He's finding ways to really speed up the process between the teams.
+      - He wouldn't mind moving to a new project soon. He's totally fine staying on his current one, but we should try to give him a little variety.
+    created_by:
+      Mark Campbell
+    created_by_url:
+      mark-campbell.html
+
+
+  - title:
+      6/4/10 - Late, but everything's good
+    body:
+      We really slipped behind on this one. My fault 100%. We've had many conversations and meetings, but the official one-on-ones have been slipping.
+    bullets:
+      - He's of course really happy about the promotion. He didn't expect to be promoted so quickly, so he's feeling good.
+      - He's looking for some training/conferences to attend. I told him we'd be happy to send him.
+      - He's taking a more active role in mentoring not just those on the team, but those on other teams, about design.
+    created_by:
+      Mark Campbell
+    created_by_url:
+      mark-campbell.html
+
+
+  - title:
+      12/1/10 - Late checkin before the year ends
+    body:
+      I made sure to squeeze this one in before the holiday rush. Overall he's doing good.
+    bullets:
+      - It's been a productive, but very busy year. He's really looking forward to some time off during the holidays. Last year he worked through the break for a pitch, that we won. No way we're gonna have him do that again.
+      - In our last conversation we talked about training. He's since attended An Event Apart in Austin and really enjoyed it. He gave a talk to the team about it as well.
+      - Everything's good on the home front. He and his girlfriend are doing well.
+    created_by:
+      Mark Campbell
+    created_by_url:
+      mark-campbell.html
+
+
+  - title:
+      7/16/2011 - Travel is getting to be a problem
+    body:
+      Matt's been travelling a lot to clients the early part of this year, so it's been tough to meet. But we finally got together. He's not at a breaking point or anything, but I'm definitely going to keep a closer eye on him and his work load.
+    bullets:
+      - As I mentioned, he's been travelling a lot. It's not driving him crazy, but he's not really enjoying it that much. We need to get him off the road some. Double edged sword based on his desire to play a more lead role.
+      - His current client is a little rough, much more than his last one. I tried to ease him back and relate to what he was going through, and mentioned that some are tougher than others. He gets it, but not making it any easier.
+      - Because of his increased load, he hasn't been able to mentor or keep up with new stuff as much. He seems to be getting a little bogged down.
+    created_by:
+      Mark Campbell
+    created_by_url:
+      mark-campbell.html
+
+
+  - title:
+      1/16/2012 - We've turned the corner
+    body:
+      Overall, we've turned the corner. He's doing much better since his last one-on-one.
+    bullets:
+      - After his last one-on-one, we eased back his travel. We realigned with the client and found a way to cut back significantly. He's much happier about this.
+      - He's super refreshed after a long holiday break. He took basically the entire month of December off, which we fully supported. He's looking sharp now.
+      - We are moving him to a new client next week that will suit him well (a progressive, tech saavy one). This ought to keep him engaged much better.
+    created_by:
+      Mark Campbell
+    created_by_url:
+      mark-campbell.html
+
+
+  - title:
+      10/9/2012 - Doing great!
+    body:
+      He's doing great!
+    bullets:
+      - He's loving his new client. Progressive, willing to experiment, and leaders in their industry. A perfect fit for him.
+      - He's now leading a team, and seems to be enjoying it. We'll want to keep an eye on this. We don't want to turn everyone into managers, but he seems to be doing well.
+      - He's happy with his salary bump.
+      - He just got engaged! Dude's gonna be busy, at home and at work!
+    created_by:
+      Mark Campbell
+    created_by_url:
+      mark-campbell.html
+
+
+
+#######################
+# PROMOTIONS
+#######################
+promotions:
+  - title:
+      4/23/10 - Promoted to Designer
+    body:
+      In his first year, Matt's made a huge impact. The decision to promote him was an easy one. The full details can be found in his review, but a few highlights.
+    bullets:
+      - Worked on high visibility projects and created great designs.
+      - Client services and technology regularly report that they love working with him.
+      - He has a great attention to detail.
+      - Has a great positive attitude.
+      - Can continue to improve his general design sense with guidance from senior team members.
+      - Look for oppotunities to be even more technical to better understand how to design effectively.
+    created_by:
+      Mark Campbell
+    created_by_url:
+      mark-campbell.html
+
+
+  - title:
+      4/6/13 - Promoted to Senior Designer
+    body:
+      No big surprise here. Matt was promoted to Senior Designer. If anything, this was probably overdue!
+    bullets:
+      - He continues to work on our top tier clients.
+      - He's not only a great designer, but he's really taken to HTML/CSS. That's making our designs faster and more effective.
+      - He is regularly mentoring the junior designers.
+      - He works great with the other teams.
+      - Still has a great positive attitude. Though, at times you can see him getting a little frustrated (he has been here 4 years after all).
+      - We are going to try to get him out speaking in the community a little more. He's got a lot he can share with Chicago!
+      - We'd like him to continue working on his speed. He is extremely thorough, but sometimes in a client world working faster is better than working perfectly.
+    created_by:
+      Mark Campbell
+    created_by_url:
+      mark-campbell.html
+
+
+
+#######################
+# REVIEWS
+#######################
+reviews:
+  - title:
+      4/17/10 - 2009 Review
+    recommendation:
+      Matt's had an incredible first year. He really worked hard and was already performing at a high level, but continues to improve, which is great to see. He's great to work with and there are very minimal negatives to his performance. Even though he's only been here for a year, we are recommending him for promotion to Designer.
+    positives:
+      - Continues to work with our top tier clients.
+      - Not only a great designer, but he's really taken to HTML/CSS. That's making our designs faster and more effective.
+      - Regularly mentoring the junior designers.
+      - Works well with the other teams.
+      - Has a great positive attitude.
+    negatives:
+      - Needs to continue working on his presentation skills in front of clients.
+      - Needs to be a little more open minded to new, different approaches.
+    created_by:
+      Mark Campbell
+    created_by_url:
+      mark-campbell.html
+
+
+  - title:
+      4/18/11 - 2010 Review
+    recommendation:
+      It's been another great year for Matt. He continues to be a leader on the team, and is becoming a leader in the company. His desire to be more than just a designer is really paying dividends across teams. He's well liked and respected. He's not quite ready for a bump to senior, but he's close.
+    positives:
+      - He is by far the most technical designer we have, and it's a huge benefit for the team.
+      - Still has a great attitude.
+      - Has taken to mentoring even more.
+      - Looking for more chances to lead a team.
+    negatives:
+      - Would like to see Matt listen a bit more. He has a lot of ideas and is very knowledgeable, but could benefit from listening to other ideas a little more.
+      - Sometimes I feel like he's a bit rushed on his career path. I think he's really gunning for a Senior title, but I am trying to keep him on a steady, reasonable path.
+    created_by:
+      Mark Campbell
+    created_by_url:
+      mark-campbell.html
+
+
+  - title:
+      4/30/12 - 2011 Review
+    recommendation:
+      Albeit unofficially, Matt is the head designer within the group now. Although he doesn't have the Senior title yet, he is for all intents and purposes the lead of that group. In that role, he's blossoming into a very good leader, but still has a few rough edges to work out. He's not quite ready for the Senior title yet, but I fully expect him to be by next year.
+    positives:
+      - Designs and top notch, and the clients are thrilled with the work.
+      - He's shown the ability to lead a team successfully.
+      - Has a great working relationship with just about everyone in the company and is well liked.
+      - Even if he's frustrated, he's careful about who he shares it with (not his team or client).
+      - Has become quite a developer himself, and continues to improve.
+    negatives:
+      - Has had opportunites to lead a team and done well, but it's also causing him to get more frustrated with team members and clients. His desire to lead may not be aligned with what he expected it to be.
+      - I'd like for him to continue to work on his listening skills. They haven't improved much over the last couple years when it comes to being open to ideas.
+    created_by:
+      Mark Campbell
+    created_by_url:
+      mark-campbell.html
+
+
+  - title:
+      4/22/13 - 2012 Review
+    recommendation:
+      Matt is going to be promoted to Senior Designer. He has stepped up big this year, leading our top two clients to success. He's led the team, and refined his ability to lead. He has been eagerly anticipating this bump, and he definitely deserves it.
+    positives:
+      - Delivered fantastic work for our top two clients.
+      - His concept work probably won us 5 pitches alone, if not more.
+      - He has really worked on listening to others and their ideas, and it's showing in his work.
+      - He has worked hard to improve his client presentation skills, and they are much improved.
+    negatives:
+      - He might be pushing too hard. Not sure this is a negative, but his work tends to be better with a balanced workload. Need to make sure he doesn't start slipping.
+      - He is still growing as a leader, and refining his voice. Sometimes too harsh, sometimes too soft. It will come with time I think.
+    created_by:
+      Mark Campbell
+    created_by_url:
+      mark-campbell.html
+
+
+
+#######################
+# SALARY MILESTONES
+#######################
+salary_milestones:
+  - title:
+      4/23/10 - Promotion to Designer salary increase
+    body:
+      In conjunction with his promotion to designer, Matt's salary has been increased from $65,000 to $71,000.
+    created_by:
+      Cheryl Walters
+    created_by_url:
+      cheryl-walters.html
+
+
+  - title:
+      4/18/11 - Annual increase for 2011
+    body:
+      Matt's salary has been increased from $71,000 to $77,000.
+    created_by:
+      Cheryl Walters
+    created_by_url:
+      cheryl-walters.html
+
+  - title:
+      4/30/12 - Annual increase for 2012
+    body:
+      Matt's salary has been increased from $77,000 to $84,000.
+    created_by:
+      Cheryl Walters
+    created_by_url:
+      cheryl-walters.html
+
+  - title:
+      4/22/13 - Promotion to Senior Designer + annual increase for 2013
+    body:
+      Matt's salary has been increased from $84,000 to $100,000
+    created_by:
+      Cheryl Walters
+    created_by_url:
+      cheryl-walters.html
+
+

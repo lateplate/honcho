@@ -44,6 +44,9 @@ page "tashia-hughes.html", :layout => "person"
 page "tim-scott.html", :layout => "person"
 page "victor-cooper.html", :layout => "person"
 page "zach-settles.html", :layout => "person"
+
+
+page "test.html", :layout => "person"
 #
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
