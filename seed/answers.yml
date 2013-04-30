@@ -1465,7 +1465,7 @@ lillie_twelve:
   shared: true
 
 ann_twelve:
-  person:
+  person: ann
   question: twelve
   choice: <%= Answer::CHOICES[:no] %>
   text:
