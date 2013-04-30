@@ -427,7 +427,7 @@ jerry_four:
   shared: false
 
 jennifer_four:
-  person:
+  person: jennifer
   question: four
   choice: <%= Answer::CHOICES[:yes] %>
   text:
@@ -478,7 +478,7 @@ andrew_four:
   shared: true
 
 carrie_four:
-  person:
+  person: carrie
   question: four
   choice: <%= Answer::CHOICES[:no] %>
   text:
@@ -1479,7 +1479,7 @@ jason_twelve:
   shared: true
 
 matt_twelve:
-  person:
+  person: matt
   question: twelve
   choice: <%= Answer::CHOICES[:no] %>
   text:
