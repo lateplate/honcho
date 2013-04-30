@@ -174,7 +174,6 @@ jennifer_two:
   question: two
   choice: <%= Answer::CHOICES[:no] %>
   text:
-    ""
   shared: false
 
 angela_two:
@@ -182,7 +181,6 @@ angela_two:
   question: two
   choice: <%= Answer::CHOICES[:no] %>
   text:
-    ""
   shared: true
 
 matt_two:
@@ -190,7 +188,6 @@ matt_two:
   question: two
   choice: <%= Answer::CHOICES[:no] %>
   text:
-    ""
   shared: true
 
 josh_two:
@@ -198,7 +195,6 @@ josh_two:
   question: two
   choice: <%= Answer::CHOICES[:no] %>
   text:
-    ""
   shared: true
 
 andrew_two:
@@ -287,7 +283,6 @@ jason_three:
   question: three
   choice: <%= Answer::CHOICES[:no] %>
   text:
-    ""
   shared: true
 
 carrie_three:
@@ -295,7 +290,6 @@ carrie_three:
   question: three
   choice: <%= Answer::CHOICES[:no] %>
   text:
-    ""
   shared: true
 
 scott_three:
@@ -303,7 +297,6 @@ scott_three:
   question: three
   choice: <%= Answer::CHOICES[:no] %>
   text:
-    ""
   shared: true
 
 jared_three:
@@ -311,7 +304,6 @@ jared_three:
   question: three
   choice: <%= Answer::CHOICES[:no] %>
   text:
-    ""
   shared: true
 
 charles_three:
@@ -319,7 +311,6 @@ charles_three:
   question: three
   choice: <%= Answer::CHOICES[:no] %>
   text:
-    ""
   shared: true
 
 josh_three:
@@ -327,7 +318,6 @@ josh_three:
   question: three
   choice: <%= Answer::CHOICES[:no] %>
   text:
-    ""
   shared: true
 
 nicole_three:
@@ -335,7 +325,6 @@ nicole_three:
   question: three
   choice: <%= Answer::CHOICES[:no] %>
   text:
-    ""
   shared: true
 
 tashia_three:
@@ -343,7 +332,6 @@ tashia_three:
   question: three
   choice: <%= Answer::CHOICES[:no] %>
   text:
-    ""
   shared: true
 
 
@@ -411,7 +399,6 @@ josh_four:
   question: four
   choice: <%= Answer::CHOICES[:yes] %>
   text:
-    ""
   shared: true
 
 charles_four:
@@ -419,7 +406,6 @@ charles_four:
   question: four
   choice: <%= Answer::CHOICES[:yes] %>
   text:
-    ""
   shared: true
 
 jared_four:
@@ -427,7 +413,6 @@ jared_four:
   question: four
   choice: <%= Answer::CHOICES[:yes] %>
   text:
-    ""
   shared: true
 
 cheryl_four:
@@ -435,7 +420,6 @@ cheryl_four:
   question: four
   choice: <%= Answer::CHOICES[:yes] %>
   text:
-    ""
   shared: true
 
 jerry_four:
@@ -443,7 +427,6 @@ jerry_four:
   question: four
   choice: <%= Answer::CHOICES[:yes] %>
   text:
-    ""
   shared: false
 
 jennifer_four:
@@ -451,7 +434,6 @@ jennifer_four:
   question: four
   choice: <%= Answer::CHOICES[:yes] %>
   text:
-    ""
   shared: false
 
 jason_four:
@@ -459,7 +441,6 @@ jason_four:
   question: four
   choice: <%= Answer::CHOICES[:yes] %>
   text:
-    ""
   shared: true
 
 matt_four:
@@ -467,7 +448,6 @@ matt_four:
   question: four
   choice: <%= Answer::CHOICES[:yes] %>
   text:
-    ""
   shared: true
 
 brian_four:
@@ -475,7 +455,6 @@ brian_four:
   question: four
   choice: <%= Answer::CHOICES[:yes] %>
   text:
-    ""
   shared: true
 
 scott_four:
@@ -508,3 +487,435 @@ carrie_four:
   text:
     "It's a little hit or miss. I think we could do better by having more consistent check-ins."
   shared: false
+
+
+
+############
+# QUESTION 5
+############
+kurt_five:
+  person: kurt
+  question: five
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "Unfortunately, yes, the dev team is pulling some pretty long weeks (60 or more hours). I hope we can correct this soon.
+
+    Is there anything I can do to help alleviate some of this? Interview more? Read resumes?"
+  shared: true
+
+josh_five:
+  person: josh
+  question: five
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "Yeah, but for me it's less about how many hours of work, and more about if I'm enjoying it. I probably work closer to 50 hours a week, but I'm honestly having a blast so it's not a huge deal for me."
+  shared: true
+
+carrie_five:
+  person: carrie
+  question: five
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "It goes in peaks and valleys. But there have been an awful lot of peaks lately, especially with the new biz wins. Seems like we should have more resources available with all this new work coming in?
+
+    Specifically I think the tech team is shorthanded. I don't want to speak for them, but they're doing a great job keeping up but I don't know how much longer they can sustain this workload.
+
+    I'm a little concerned because in the long run it could prevent us from doing some really amazing things. The design team has a bunch of ideas we want to pursue, but we may not be able to pull them off if the tech team is shorthanded. We need their amazing brains to be fresh to do some of this crazy stuff!
+
+    The cascading effect might be that in the long run our work is good, but not great. And I know we all want to do the best work of our careers. But we need all the teams balanced so there's a harmony among the teams.
+
+    Sorry for the long rant! Hope that made sense."
+  shared: true
+
+mark_five:
+  person: mark
+  question: five
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I can do 40 in my sleep."
+  shared: true
+
+nicole_five:
+  person: nicole
+  question: five
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I do, but from what I hear it's pretty normal in agencies and consulting firms.
+
+    By the way, who ever decided 40 hours was the magic number?? When I was in college, there was no cap to our classes and homework time!!"
+  shared: true
+
+jared_five:
+  person: jared
+  question: five
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I probably work closer to 50 hours a week, but honestly, I don't even notice or mind it.
+
+    When you're doing great work in a fun environment (both the people and the technology), it makes the time fly. Love working with you guys!"
+  shared: true
+
+zach_five:
+  person: zach
+  question: five
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "Yes, but not by much.
+
+    45 hours a week feels right to me. That's a 9 hour day, 8 am to 6 pm with an hour lunch. Plus, let's be honest - how many of us work every minute of every day? :P"
+  shared: true
+
+jennifer_five:
+  person: jennifer
+  question: five
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+victor_five:
+  person: victor
+  question: five
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+andrew_five:
+  person: andrew
+  question: five
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+chery_five:
+  person: cheryl
+  question: five
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+matt_five:
+  person: matt
+  question: five
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "I try to stick to a 40 hour week because I think pushing too far past that actually negatively impacts my work. I know opinions vary on this and some people work better powering through.
+
+    I think it's a personal preference and you need to know what works for you. And most importantly, we should all be open and respectful to different work styles."
+  shared: true
+
+julie_five:
+  person: julie
+  question: five
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "Because of my schedule with my kids, I really try to stick to 40 hours. I hope you guys don't hate me for that! I try to make the most of my working hours so that I can get home at a decent hour."
+  shared: true
+
+angela_five:
+  person: angela
+  question: five
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+amy_five:
+  person: amy
+  question: five
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: false
+
+jason_five:
+  person: jason
+  question: five
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: false
+
+lillie_five:
+  person: lillie
+  question: five
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+tashia_five:
+  person: tashia
+  question: five
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+ann_five:
+  person: ann
+  question: five
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+scott_five:
+  person: scott
+  question: five
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    ""
+  shared: false
+
+
+
+############
+# QUESTION 6
+############
+amy_six:
+  person: amy
+  question: six
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I know it's difficult to switch accounts around since ADs need to provide continuity across projects. But it would be really great if Jason and I could maybe transition a couple accounts together.
+
+    I think this is not only good for us, but also for the client. The risk/fear is that we'd drop the ball during a transition as well as the relationship that's been built up over time.
+
+    But I think we could also sell the benefits of switching once in a while.
+
+    * A new AD brings a new energy to the team, and in particular, new ideas. Each person has different experience, and having new thinking is always a good thing.
+    * We take our relationships seriously, and we're such a small company, none of that will be ever be lost. Jason and I sit 5 feet away from each other. We can always help each other over time.
+    * We have different skillsets. Jason is more strategic, but I'm more technical. That could really help extend some of the upcoming work in a new direction."
+  shared: true
+
+angela_six:
+  person: angela
+  question: six
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "Hey guys - I'd love to help out on some copywriting if there are any opportunities. You guys do great work and I'd love to be a part of it!"
+  shared: true
+
+sharon_six:
+  person: sharon
+  question: six
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I personally have been on the same client for about a year. There have been a variety of projects and they've all been great and interesting. But it would be nice to spread my wings a bit. :)
+
+    The irony is, of course, that if you do good work and you have a vocal client, they want to keep you on the team! There's no getting around this, but I think we should try to build a system that addresses this with clients, because it happens often.
+
+    I also think it would be great if managers could proactively, officially manage this. In other words, if Mark saw that I was on the same client for 6 months that he'd be alerted to it so he could at least check in and see if I was still cool with that. Not sure if a tool like that exists, but it'd be great to be reminded!"
+  shared: true
+
+carrie_six:
+  person: carrie
+  question: six
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I could use a little more project variety."
+  shared: false
+
+ann_six:
+  person: ann
+  question: six
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+andrew_six:
+  person: andrew
+  question: six
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+julie_six:
+  person: julie
+  question: six
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "I've got a great internal team and a great client, and am seriously learning so much. So I'd vote the opposite...keep me on this project for a while!"
+  shared: true
+
+tashia_six:
+  person: tashia
+  question: six
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "No way!!! We're about to launch the site and I want to see this through and celebrate with the team!!!
+
+    Plus, being the only dedicated copywriter, I kind of work on all the projects already anyway. You guys are stuck with me whether you like it or not! :P"
+  shared: true
+
+kurt_six:
+  person: kurt
+  question: six
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "Since the dev team is fairly small, I think we get plenty of variety. In fact, we may have the opposite problem - it might be a good thing if we could focus on just 1 or 2 clients!"
+  shared: true
+
+matt_six:
+  person: matt
+  question: six
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "I think being a small company is a huge benefit in this department. Yes there are a few folks who have to stick on a particular project or client as needed, but most of us float around to different projects as needed.
+
+    The longest I've been on a project has been about 6 months, and even that was an exception, not a rule. I think we do a good job of keeping variety up for most of us."
+  shared: true
+
+lillie_six:
+  person: lillie
+  question: six
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+victor_six:
+  person: victor
+  question: six
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+jennifer_six:
+  person: jennifer
+  question: six
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+jerry_six:
+  person: jerry
+  question: six
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+josh_six:
+  person: josh
+  question: six
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+cheryl_six:
+  person: cheryl
+  question: six
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+jason_six:
+  person: jason
+  question: six
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+mark_six:
+  person: mark
+  question: six
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+
+
+############
+# QUESTION 7
+############
+kurt_seven:
+  person: kurt
+  question: seven
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "In general, I feel like our projects give a lot of time to strategy, UX, and design, but short development. So I guess I think we spend too much time on those phases, and not enough in dev.
+
+    Is there a way where we could shorten those other phases, or give it equal balance to dev?"
+  shared: true
+
+brian_seven:
+  person: brian
+  question: seven
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I know I sound like a broken record, but I think we spend too much time designing home pages. I realize it's what clients focus on, but anything we can do to help train clients that there are hundreds of other pages on the site would really help us out in the long run, I think."
+  shared: true
+
+zach_seven:
+  person: zach
+  question: seven
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "Timesheets, my God, the timesheets. Look, I know we have to do them for accounting or something, but I really wonder if it's worth how much time we spend managing them."
+  shared: true
+
+charles_seven:
+  person: charles
+  question: seven
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+mark_seven:
+  person: mark
+  question: seven
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "Seems to be working well."
+  shared: true
+
+jared_seven:
+  person: jared
+  question: seven
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "No company does it perfectly, so overall I think we spend our time well. Dev feels rushed sometimes, but believe me, I've been in way more disfunctional places. Our process works well."
+  shared: true
+
+victor_seven:
+  person: victor
+  question: seven
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: false
+
+jennifer_seven:
+  person: jennifer
+  question: seven
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: false
+
+josh_seven:
+  person: josh
+  question: seven
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+andrew_seven:
+  person: andrew
+  question: seven
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+sharon_seven:
+  person: sharon
+  question: seven
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+lillie_seven:
+  person: lillie
+  question: seven
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+julie_seven:
+  person: julie
+  question: seven
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
