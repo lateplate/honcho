@@ -1,3 +1,6 @@
+############
+# QUESTION 1
+############
 kurt_one:
   person: kurt
   question: one
@@ -83,4 +86,425 @@ jerry_one:
   choice: <%= Answer::CHOICES[:no] %>
   text:
     "The only (relatively minor issue) is that our health benefits generally do cost higher than some other companies, and we've had difficulty negotiating those down. I'm hoping Jennifer and I can really work on that for next year."
+  shared: false
+
+
+
+############
+# QUESTION 2
+############
+julie_two:
+  person: julie
+  question: two
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I've always wondered how we give back to the community, and if we have a matching program for charitable donations. As far as I know we don't have anything official, but I wasn't 100% sure. Some options we could consider.
+    * Officially joining a group/cause we believe in. If we committed to attending events regularly, that might help give it a little structure. For example, I know a few of us work with PAWS Chicago. Maybe some of us could volunteer regularly for their adoption events?
+    * Matching charitable contributions can make a big difference. A while back Apple announced a program where they would match up to $10k. for every employee, and they raised millions. Obviously we don't have to be at that scale, but every bit helps!"
+  shared: true
+
+tashia_two:
+  person: tashia
+  question: two
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "Do we allow dogs in the office?
+
+    I've never seen one, but there are so many animal lovers in the office this could be really cool! I know some people think they could be a distraction, but I've seen them at other offices and they really help bring people together!
+
+    Take a look at this article - studies show lower levels of stress in the office!!!
+
+    http://www.usatoday.com/story/money/business/2013/02/27/pets-reduce-stress-welcome-workplace/1951957/"
+  shared: true
+
+zach_two:
+  person: zach
+  question: two
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "Ummm...I'm asking for someone else. Do we have a drug testing policy?"
+  shared: true
+
+kurt_two:
+  person: kurt
+  question: two
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "Many of our policies are unclear because they tend to be informal. So I think every group runs a little bit differently. That can cause confusion, or even resentment, between teams."
+  shared: true
+
+sharon_two:
+  person: sharon
+  question: two
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "Is there an official work from home/remote policy?
+
+    I know we have some team members that aren't in the Chicago office, and people occassionally work remotely to attend to personal business. But do we have any formal policy that say when you can or can't work remotely?
+
+    I think most us are pretty responsible, so I'd love if we allowed working remotely at any time without having to clear it with our managers first. 37signals is even writing a book about remote work. Could help us figure it out!"
+  shared: true
+
+mark_two:
+  person: mark
+  question: two
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "All good."
+  shared: true
+
+cheryl_two:
+  person: cheryl
+  question: two
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I think we could make some of our policies a little more official. When I'm answering people's questions, sometimes it's hard to give consistent answers when we don't have them written down."
+  shared: false
+
+jared_two:
+  person: jared
+  question: two
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "Quite the opposite. I love the fact that we don't have very many official policies, and that we take responsibility for ourselves. This is a huge, huge reason I wanted to work here. Please don't change it!"
+  shared: true
+
+jennifer_two:
+  person: jennifer
+  question: two
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    ""
+  shared: false
+
+angela_two:
+  person: angela
+  question: two
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    ""
+  shared: true
+
+matt_two:
+  person: matt
+  question: two
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    ""
+  shared: true
+
+josh_two:
+  person: josh
+  question: two
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    ""
+  shared: true
+
+andrew_two:
+  person: andrew
+  question: two
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "Even if there are a few things that I'm not sure about, I know I can ask pretty much anyone for the answer. And Cheryl is especially helpful!"
+  shared: true
+
+
+
+############
+# QUESTION 3
+############
+brian_three:
+  person: brian
+  question: three
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "There's a ton happening in front end development, especially for building mobile apps with HTML5. A lot people think that native apps are the only way, but I think we could show our clients that mobile web is a great option too.
+
+    There are some companies doing killer things (like Google) on the web -- check out this incredible example.
+
+    http://www.creativesandbox.com/guidebook
+
+    You don't see a lot of agencies being thought leaders in the area. We could seriously be recognized as a leader if we started down this path."
+  shared: true
+
+sharon_three:
+  person: sharon
+  question: three
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "The University of Chicago is buiding some really interesting experiments to get more data on human interaction design. I'd love if we could build something that could help contribute to this.
+
+    If we could carve out a bit of time between the design and tech teams, I bet we could figure out the kinds of data we want to track on sites and turn those into meaningful reports."
+  shared: true
+
+mark_three:
+  person: mark
+  question: three
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "There's a lot of cool things out there using full-screen video. I'd like to explore how we can make that happen technically."
+  shared: true
+
+zach_three:
+  person: zach
+  question: three
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "The Google Chromebook Pixel just came out, and it has both a regular trackpad and a touchscreen. It'd be interesting to see if we could build something in the Google universe (Maps mashup?) that explores the touch screen interface."
+  shared: true
+
+jerry_three:
+  person: jerry
+  question: three
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "Our success is built around being able to prioritize, so no, I think we're doing a great job of picking our battles.
+
+    Obviously I'm an operations nerd, so my feeling is that we can't be everything to everyone. We have a lot of own our great ideas and I don't think we need to chase the pack to be recognized. Let's keep it up!"
+  shared: true
+
+matt_three:
+  person: matt
+  question: three
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "I'm a fan of a lot of work that's out there, our's included. I think it can be dangerous to get sucked into what's cool and hot, and wishing we had been a part of it.
+
+    I know for a fact many people look at the work we and say the same about our stuff. So let's look inward and be proud of what we've done and not worry too much about what else is out there!"
+  shared: true
+
+tim_three:
+  person: tim
+  question: three
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "Generally no, but sometimes I feel like we do get a little comfortable and stick with what we know. It might be good to challenge ourselves in areas we are less comfortable from time to time. But overall, I think we're solid!"
+  shared: false
+
+jason_three:
+  person: jason
+  question: three
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    ""
+  shared: true
+
+carrie_three:
+  person: carrie
+  question: three
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    ""
+  shared: true
+
+scott_three:
+  person: scott
+  question: three
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    ""
+  shared: true
+
+jared_three:
+  person: jared
+  question: three
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    ""
+  shared: true
+
+charles_three:
+  person: charles
+  question: three
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    ""
+  shared: true
+
+josh_three:
+  person: josh
+  question: three
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    ""
+  shared: true
+
+nicole_three:
+  person: nicole
+  question: three
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    ""
+  shared: true
+
+tashia_three:
+  person: tashia
+  question: three
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    ""
+  shared: true
+
+
+
+############
+# QUESTION 4
+############
+tim_four:
+  person: tim
+  question: four
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "It's pretty easy to tell if we're not doing great, because the clients let us know. :) And if we do mess up, the internal team is helpful in figuring out how to make it better."
+  shared: true
+
+ann_four:
+  person: ann
+  question: four
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I know when our clients are happy and we're doing a good job. And if my projects are successful, I know I'm helping to lead that and doing a good job. And Jason and the rest of the team are great about cheering on our successes!"
+  shared: true
+
+nicole_four:
+  person: nicole
+  question: four
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "Everyone has been super helpful with making my designs better. Thanks guys!!"
+  shared: true
+
+lillie_four:
+  person: lillie
+  question: four
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "Definitely. I've seen my work improve dramatically thanks to the feedback from the team, especially from Josh. My skills and career are better off for being here.
+
+    That said, it's all pretty informal. We do have our one-on-ones and we all regularly talk, but it might be good to do a few formal things.
+
+    * Setting a couple small, intermediate goals. Ones that can be achieved in a month or two.
+    * Tracking those consistently. Is there a tool we can use to make sure we hit our mini-goals? Maybe Basecamp todos?"
+  shared: true
+
+tashia_four:
+  person: tashia
+  question: four
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "One amazing thing I've noticed is that everyone in the company is a pretty great writer. So I don't feel like I have to pick the brains of just a few people. I can go to just about anyone to get feedback on my work and how my writing is progressing! Thanks team!!"
+  shared: true
+
+kurt_four:
+  person: kurt
+  question: four
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "We're sort of left to do our own thing. I think that's actually a good thing most of the time, but sometimes a little structure would help.
+
+    I also think on the tech side we tend to hear mostly negatives from the client. It's usually about something that's broken, which is understandable. But if there is any technical praise, it would be nice to hear!"
+  shared: true
+
+josh_four:
+  person: josh
+  question: four
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    ""
+  shared: true
+
+charles_four:
+  person: charles
+  question: four
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    ""
+  shared: true
+
+jared_four:
+  person: jared
+  question: four
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    ""
+  shared: true
+
+cheryl_four:
+  person: cheryl
+  question: four
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    ""
+  shared: true
+
+jerry_four:
+  person: jerry
+  question: four
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    ""
+  shared: false
+
+jennifer_four:
+  person:
+  question: four
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    ""
+  shared: false
+
+jason_four:
+  person: jason
+  question: four
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    ""
+  shared: true
+
+matt_four:
+  person: matt
+  question: four
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    ""
+  shared: true
+
+brian_four:
+  person: brian
+  question: four
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    ""
+  shared: true
+
+scott_four:
+  person: scott
+  question: four
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "I try really hard to let my team know how they're doing. We do our best to keep our one-on-one meetings consistent.
+
+    But I think managers are handled differently. I'd love to have a little more guidance from the executive team on how to improve. I think we could do this by.
+
+    * Getting ahead of our busy schedules by setting times in advance and not letting client meetings trump our one-on-ones. Let's think of these internal meetings as more important than client meetings. I know that's easier said than done.
+    * Having a regular manager-level meeting where, as a group, we can share ideas."
+  shared: true
+
+andrew_four:
+  person: andrew
+  question: four
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "I know we're all very busy, but our one-on-ones tend to get canceled a lot. That's a bummer.
+
+    I'm not looking for an opportunity to complain, but having a chance to have an in-depth chat is really helpful for me. Anything we can do to try and keep those discussions would be great."
+  shared: true
+
+carrie_four:
+  person:
+  question: four
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "It's a little hit or miss. I think we could do better by having more consistent check-ins."
   shared: false
