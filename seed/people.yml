@@ -1,0 +1,249 @@
+victor:
+  organization: 1917
+  identity: victor
+  first_name: Victor
+  last_name: Coooper
+  email_address: victor@1917design.co
+  avatar: victor-cooper.jpg
+  job_title: President and CEO
+  manager: true
+
+jennifer:
+  organization: 1917
+  identity: jennifer
+  first_name: Jennifer
+  last_name: Young
+  email_address: jennifer@1917design.co
+  avatar: jennifer-cooper.jpg
+  job_title: VP, Operations
+  manager: true
+
+jerry:
+  organization: 1917
+  identity: jerry
+  first_name: Jerry
+  last_name: Gibson
+  email_address: jerry@1917design.co
+  avatar: jerry-gibson.jpg
+  job_title: Director of Operations
+  manager: true
+
+cheryl:
+  organization: 1917
+  identity: cheryl
+  first_name: Cheryl
+  last_name: Walters
+  email_address: cheryl@1917design.co
+  avatar: cheryl-walters.jpg
+  job_title: HR Administrator
+  manager: false
+
+angela:
+  organization: 1917
+  identity: angela
+  first_name: Angela
+  last_name: Williams
+  email_address: angela@1917design.co
+  avatar: angela-williams.jpg
+  job_title: Admin
+  manager: false
+
+amy:
+  organization: 1917
+  identity: amy
+  first_name: Amy
+  last_name: Rivera
+  email_address: amy@1917design.co
+  avatar: amy-rivera.jpg
+  job_title: Account Director
+  manager: false
+
+jason:
+  organization: 1917
+  identity: jason
+  first_name: Jason
+  last_name: Edmonds
+  email_address: jason@1917design.co
+  avatar: jason-edmonds.jpg
+  job_title: Account Director
+  manager: false
+
+ann:
+  organization: 1917
+  identity: ann
+  first_name: Ann
+  last_name: Bryan
+  email_address: ann@1917design.co
+  avatar: ann-bryan.jpg
+  job_title: Senior Project Manager
+  manager: false
+
+julie:
+  organization: 1917
+  identity: julie
+  first_name: Julie
+  last_name: Kim
+  email_address: julie@1917design.co
+  avatar: julie-kim.jpg
+  job_title: Project Manager
+  manager: false
+
+tim:
+  organization: 1917
+  identity: tim
+  first_name: Tim
+  last_name: Scott
+  email_address: tim@1917design.co
+  avatar: tim-scott.jpg
+  job_title: Project Manager
+  manager: false
+
+mark:
+  organization: 1917
+  identity: mark
+  first_name: Mark
+  last_name: Campbell
+  email_address: mark@1917design.co
+  avatar: mark-campbell.jpg
+  job_title: Creative Director
+  manager: true
+
+carrie:
+  organization: 1917
+  identity: carrie
+  first_name: Carrie
+  last_name: Ross
+  email_address: carrie@1917design.co
+  avatar: carrie-ross.jpg
+  job_title: Senior Designer
+  manager: false
+
+matt:
+  organization: 1917
+  identity: matt
+  first_name: Matt
+  last_name: Donahue
+  email_address: matt@1917design.co
+  avatar: matt-donahue.jpg
+  job_title: Senior Designer
+  manager: false
+
+nicole:
+  organization: 1917
+  identity: nicole
+  first_name: Nicole
+  last_name: Katz
+  email_address: nicole@1917design.co
+  avatar: nicole-katz.jpg
+  job_title: Junior Designer
+  manager: false
+
+tashia:
+  organization: 1917
+  identity: tashia
+  first_name: Tashia
+  last_name: Hughes
+  email_address: tashia@1917design.co
+  avatar: tashia-hughes.jpg
+  job_title: Copywriter
+  manager: false
+
+sharon:
+  organization: 1917
+  identity: sharon
+  first_name: Sharon
+  last_name: Bradford
+  email_address: sharon@1917design.co
+  avatar: sharon-bradford.jpg
+  job_title: Senior UX Designer
+  manager: false
+
+zach:
+  organization: 1917
+  identity: zach
+  first_name: Zach
+  last_name: Settles
+  email_address: zach@1917design.co
+  avatar: zach-settles.jpg
+  job_title: UX Designer
+  manager: false
+
+josh:
+  organization: 1917
+  identity: josh
+  first_name: Josh
+  last_name: Fiske
+  email_address: josh@1917design.co
+  avatar: josh-fiske.jpg
+  job_title: Director of Strategy
+  manager: true
+
+andrew:
+  organization: 1917
+  identity: andrew
+  first_name: Andrew
+  last_name: Wong
+  email_address: andrew@1917design.co
+  avatar: andrew-wong.jpg
+  job_title: Senior Strategist
+  manager: false
+
+lillie:
+  organization: 1917
+  identity: lillie
+  first_name: Lillie
+  last_name: McKenzie
+  email_address: lillie@1917design.co
+  avatar: lillie-mckenzie.jpg
+  job_title: Strategist
+  manager: false
+
+scott:
+  organization: 1917
+  identity: scott
+  first_name: Scott
+  last_name: Marsh
+  email_address: scott@1917design.co
+  avatar: scott-marsh.jpg
+  job_title: Director of Technology
+  manager: true
+
+brian:
+  organization: 1917
+  identity: brian
+  first_name: Brian
+  last_name: Jenks
+  email_address: brian@1917design.co
+  avatar: brian-jenks.jpg
+  job_title: Front End Developer
+  manager: false
+
+charles:
+  organization: 1917
+  identity: charles
+  first_name: Charles
+  last_name: Koga
+  email_address: charles@1917design.co
+  avatar: charles-koga.jpg
+  job_title: Front End Developer
+  manager: false
+
+kurt:
+  organization: 1917
+  identity: kurt
+  first_name: Kurt
+  last_name: Nightingale
+  email_address: kurt@1917design.co
+  avatar: kurt-nightingale.jpg
+  job_title: Back End Developer
+  manager: false
+
+jared:
+  organization: 1917
+  identity: jared
+  first_name: Jared
+  last_name: Davis
+  email_address: jared@1917design.co
+  avatar: jared-davis.jpg
+  job_title: Back End Developer
+  manager: false

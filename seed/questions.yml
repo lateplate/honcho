@@ -1,0 +1,100 @@
+one:
+  organization: 1917
+  name: "Are there any benefits we don't offer that you'd like to see us offer?"
+  sent_at: <%= 17.weeks.ago.to_s(:db) %>
+  summary_sent_at: <%= 16.weeks.ago.to_s(:db) %>
+
+two:
+  organization: 1917
+  name: "Are there any policies at the company that aren't clear?"
+  sent_at: <%= 16.weeks.ago.to_s(:db) %>
+  summary_sent_at: <%= 15.weeks.ago.to_s(:db) %>
+
+three:
+  organization: 1917
+  name: "Have you seen something recently and thought to yourself 'I wish we'd done that'?"
+  sent_at: <%= 15.weeks.ago.to_s(:db) %>
+  summary_sent_at: <%= 14.weeks.ago.to_s(:db) %>
+
+four:
+  organization: 1917
+  name: "Do you think we give you enough feedback on your performance?"
+  sent_at: <%= 14.weeks.ago.to_s(:db) %>
+  summary_sent_at: <%= 13.weeks.ago.to_s(:db) %>
+
+five:
+  organization: 1917
+  name: "Do you think you work more than 40 hours a week?"
+  sent_at: <%= 13.weeks.ago.to_s(:db) %>
+  summary_sent_at: <%= 12.weeks.ago.to_s(:db) %>
+
+six:
+  organization: 1917
+  name: "Do you wish you could be working on a different project right now?"
+  sent_at: <%= 12.weeks.ago.to_s(:db) %>
+  summary_sent_at: <%= 11.weeks.ago.to_s(:db) %>
+
+seven:
+  organization: 1917
+  name: "Do you think we spend too much time on something that just isn't worth it?"
+  sent_at: <%= 11.weeks.ago.to_s(:db) %>
+  summary_sent_at: <%= 10.weeks.ago.to_s(:db) %>
+
+eight:
+  organization: 1917
+  name: "Do you feel like three questions a week is too many?"
+  sent_at: <%= 10.weeks.ago.to_s(:db) %>
+  summary_sent_at: <%= 9.weeks.ago.to_s(:db) %>
+
+nine:
+  organization: 1917
+  name: "Have we been all talk and no action on something?"
+  sent_at: <%= 9.weeks.ago.to_s(:db) %>
+  summary_sent_at: <%= 8.weeks.ago.to_s(:db) %>
+
+ten:
+  organization: 1917
+  name: "Do you know what most of your coworkers are working on?"
+  sent_at: <%= 8.weeks.ago.to_s(:db) %>
+  summary_sent_at: <%= 7.weeks.ago.to_s(:db) %>
+
+eleven:
+  organization: 1917
+  name: "Have you seen something great go unnoticed?"
+  sent_at: <%= 7.weeks.ago.to_s(:db) %>
+  summary_sent_at: <%= 6.weeks.ago.to_s(:db) %>
+
+twelve:
+  organization: 1917
+  name: "As a company, do you think we're behind the curve on anything in particular?"
+  sent_at: <%= 6.weeks.ago.to_s(:db) %>
+  summary_sent_at: <%= 5.weeks.ago.to_s(:db) %>
+
+thirteen:
+  organization: 1917
+  name: "Do you feel rushed?"
+  sent_at: <%= 5.weeks.ago.to_s(:db) %>
+  summary_sent_at: <%= 4.weeks.ago.to_s(:db) %>
+
+fourteen:
+  organization: 1917
+  name: "Do you think the company is the right size?"
+  sent_at: <%= 4.weeks.ago.to_s(:db) %>
+  summary_sent_at: <%= 3.weeks.ago.to_s(:db) %>
+
+fifteen:
+  organization: 1917
+  name: "Have you been afraid to suggest an idea at work because you thought someone might shoot it down?"
+  sent_at: <%= 3.weeks.ago.to_s(:db) %>
+  summary_sent_at: <%= 2.weeks.ago.to_s(:db) %>
+
+sixteen:
+  organization: 1917
+  name: "If someone asked you to describe the vision of the company, would a clear answer immediately come to mind?"
+  sent_at: <%= 2.weeks.ago.to_s(:db) %>
+  summary_sent_at: <%= 1.weeks.ago.to_s(:db) %>
+
+pending_one:
+  organization: 1917
+  name: "Are there things you don't know about the company that you feel you should know?"
+  position: 0
