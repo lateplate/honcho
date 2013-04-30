@@ -38,7 +38,7 @@ sharon_one:
   question: one
   choice: <%= Answer::CHOICES[:yes] %>
   text:
-    "I would love if the company could help to cover commuting costs, whether it be public transportation or even covering the cost of gas. I once did a calculation of "what it costs for me to get to work daily", and it's pretty eye opening.
+    "I would love if the company could help to cover commuting costs, whether it be public transportation or even covering the cost of gas. I once did a calculation of 'what it costs for me to get to work daily', and it's pretty eye opening.
 
     To park, take the train, and hop a bus, it costs me $18.50 per day to get to and from work. That's $370 a month...not cheap! I realize this is probably built into our salaries, but it could be a nice additional benefit to consider. Thanks!"
   shared: true
