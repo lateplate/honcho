@@ -1699,5 +1699,607 @@ nicole_thirteen:
   shared: true
 
 
+#############
+# QUESTION 14
+#############
+jared_fourteen:
+  person: jared
+  question: fourteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I know we're all working a lot, but I think it's important that we think about how great it is to work for a small company. If we doubled in size next week (which I bet we could do), we'd lose a lot of our spirit I think."
+  shared: true
 
+sharon_fourteen:
+  person: sharon
+  question: fourteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "Being small lets us be nimble and make decisions quicker. Even though being bigger might mean a little less work, I think we'd be spending more time getting consensus than doing great work.
+
+    The counter argument is that with more people, it might free up some of us to do more thinking and less doing. That could really pay off in thought leadership, and really catapult our work to be more innovative.
+
+    Now I'm not sure about my answer!"
+  shared: true
+
+josh_fourteen:
+  person: josh
+  question: fourteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "Right now I think we're just about the right size. I know we're all pretty busy, but overall it feels balanced.
+
+    If anything, I think we might be at a tipping point where if we add 5-10 people, we might be getting a bit big. There's a certain overhead that comes with more people. Sometimes that means more managers.
+
+    It also means we need to sustain a sales pace. We're on a bit of a hot streak right now, but nobody can predict how long we can keep it up. The work definitely tends to be seasonal.
+
+    It's more expensive in the short run, but we may be better off sticking with more freelancers until we see how the year's financials play out."
+  shared: false
+
+nicole_fourteen:
+  person: nicole
+  question: fourteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I really like that I know everyone so well. Please don't add 100 people!"
+  shared: true
+
+mark_fourteen:
+  person: mark
+  question: fourteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+jerry_fourteen:
+  person: jerry
+  question: fourteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+julie_fourteen:
+  person: julie
+  question: fourteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+tim_fourteen:
+  person: tim
+  question: fourteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+zach_fourteen:
+  person: zach
+  question: fourteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+brian_fourteen:
+  person: brian
+  question: fourteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+scott_fourteen:
+  person: scott
+  question: fourteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+jennifer_fourteen:
+  person: jennifer
+  question: fourteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+carrie_fourteen:
+  person: carrie
+  question: fourteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "We've won a lot of projects lately, but our team size hasn't grown. So it seems like we're expected to do more work with the same people. And I haven't heard anything about hiring more people?"
+  shared: true
+
+kurt_fourteen:
+  person: kurt
+  question: fourteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "We've lost a couple team members and haven't had a chance to replace them. If I'm being honest, we could really use some help!"
+  shared: true
+
+jason_fourteen:
+  person: jason
+  question: fourteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "I don't want to use this as a platform for hiring, but client services is really buried of late. Without people to run the projects, I'm afraid we might hurt ourselves by doing shaky work."
+  shared: false
+
+amy_fourteen:
+  person: amy
+  question: fourteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "As crazy as this sounds, I actually think we might be a little too big. I of course don't want anyone to lose their job, but I think we were a little more efficient when we were about 18-20 people."
+  shared: false
+
+andrew_fourteen:
+  person: andrew
+  question: fourteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+lillie_fourteen:
+  person: lillie
+  question: fourteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+angela_fourteen:
+  person: josh
+  question: fourteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+cheryl_fourteen:
+  person: cheryl
+  question: fourteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+
+#############
+# QUESTION 15
+#############
+brian_fifteen:
+  person: brian
+  question: fifteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I think we all feel free to contribute. But sometimes I feel like the dev team doesn't have equal footing with some other teams, so I may bite my tongue from time to time.
+
+    I genuinely appreciate the ideas that everyone has, but sometimes I wish dev ideas carried a little more weight."
+  shared: true
+
+nicole_fifteen:
+  person: nicole
+  question: fifteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I know I'm junior and still learning, but sometimes I do feel awkward about sharing my ideas around more senior team members."
+  shared: false
+
+julie_fifteen:
+  person: julie
+  question: fifteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "It could be that I'm just a little shy and new to the company that I'm not quite comfortable sharing my ideas."
+  shared: false
+
+lillie_fifteen:
+  person: lillie
+  question: fifteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+tashia_fifteen:
+  person: tashia
+  question: fifteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "I'd be surprised if anyone was. Every meeting I've ever been in has been super collaborative, and we all have our own ideas. Your's might not win out, but nobody should be afraid to give out their ideas. Heck, one time I got my dog's picture into some client work!!"
+  shared: true
+
+victor_fifteen:
+  person: victor
+  question: fifteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "Collaboration is absolutely essential to what we do. I hope that everyone...and I really mean that...everyone feels comfortable sharing your ideas.
+
+    If this isn't the case, please email me directly. I want to hear more about it."
+  shared: true
+
+kurt_fifteen:
+  person: kurt
+  question: fifteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+jason_fifteen:
+  person: jason
+  question: fifteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+amy_fifteen:
+  person: amy
+  question: fifteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+ann_fifteen:
+  person: ann
+  question: fifteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+tim_fifteen:
+  person: tim
+  question: fifteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+zach_fifteen:
+  person: zach
+  question: fifteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+josh_fifteen:
+  person: josh
+  question: fifteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+matt_fifteen:
+  person: matt
+  question: fifteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+mark_fifteen:
+  person: mark
+  question: fifteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+jennifer_fifteen:
+  person: jennifer
+  question: fifteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+
+#############
+# QUESTION 16
+#############
+andrew_sixteen:
+  person: andrew
+  question: sixteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "Isn't it just 'build awesome stuff and have fun'?"
+  shared: true
+
+tashia_sixteen:
+  person: tashia
+  question: sixteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I know it, but probably because I helped write it!! :P
+
+    If you were wondering, this is it.
+
+    We want to make people happy. We do this by being honest and building the best products we can. If our clients, people, and families are happy, then we've succeeded."
+  shared: true
+
+jennifer_sixteen:
+  person: jennifer
+  question: sixteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+victor_sixteen:
+  person: victor
+  question: sixteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+jerry_sixteen:
+  person: jerry
+  question: sixteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+matt_sixteen:
+  person: matt
+  question: sixteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "No, but does it matter? When I think about company vision, it feels very corporate. I may not know our exact line, but I know it's about doing great work and doing it honestly. That's what matters!"
+  shared: true
+
+mark_sixteen:
+  person: mark
+  question: sixteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "I should probably know this, right?"
+  shared: true
+
+ann_sixteen:
+  person: ann
+  question: sixteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "No, but it really doesn't affect how we work or what we do. I think we all inherently get it, though we may never have to say it out loud."
+  shared: true
+
+cheryl_sixteen:
+  person: cheryl
+  question: sixteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+angela_sixteen:
+  person: angela
+  question: sixteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+amy_sixteen:
+  person: amy
+  question: sixteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+jason_sixteen:
+  person: jason
+  question: sixteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+julie_sixteen:
+  person: julie
+  question: sixteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+tim_sixteen:
+  person: tim
+  question: sixteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+carrie_sixteen:
+  person: carrie
+  question: sixteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+nicole_sixteen:
+  person: nicole
+  question: sixteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+sharon_sixteen:
+  person: sharon
+  question: sixteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+zach_sixteen:
+  person: zach
+  question: sixteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+josh_sixteen:
+  person: josh
+  question: sixteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: false
+
+lillie_sixteen:
+  person: lillie
+  question: sixteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+scott_sixteen:
+  person: scott
+  question: sixteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+brian_sixteen:
+  person: brian
+  question: sixteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+charles_sixteen:
+  person: charles
+  question: sixteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+kurt_sixteen:
+  person: kurt
+  question: sixteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+jared_sixteen:
+  person: jared
+  question: sixteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+
+#############
+# QUESTION 17
+#############
+carrie_seventeen:
+  person: carrie
+  question: seventeen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I'd love to have more insight about when we decide to hire. Maybe that means more transparency into our financials so we have the whole picture?"
+  shared: true
+
+tim_seventeen:
+  person: tim
+  question: seventeen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "Financials. Not every last detail of how much money everyone is taking home, but are we making a good profit? How does that translate to our salaries and bonuses? We're a small company, I'd like to have a better sense of this."
+  shared: true
+
+lillie_seventeen:
+  person: lillie
+  question: seventeen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I'd like more insight into how we do our planning. I think transparency here would help us all pull in the same direction.
+
+    * What are the company's priorities for the next 6 months?
+    * What are our measures for success? Is it just revenue, or do we have other objective and subjective measures?
+    * Who does all the planning? Can non-management folks be involved, given our size?
+    *Do we ever publish our priorities, as a company, so we can all help to track to them?"
+  shared: true
+
+kurt_seventeen:
+  person: kurt
+  question: seventeen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+scott_seventeen:
+  person: scott
+  question: seventeen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+andrew_seventeen:
+  person: andrew
+  question: seventeen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "As a senior member of a 3 person team, I feel like I should have a better picture of what's going on in the company in general. Not a big deal, but I'd love to be more involved."
+  shared: false
+
+matt_seventeen:
+  person: matt
+  question: seventeen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "I think the leadership team has been quite transparent, within reason. Maybe I'm being a little corporate, but I think we need to believe in and trust the leadership to make the right decisions so we can focus on delivery."
+  shared: true
+
+zach_seventeen:
+  person: zach
+  question: seventeen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "I just like to do good work and focus on that. I appreciate the big picture, but try not to concern myself with it too much unless it's going to affect me or my friends here.
+
+    Honestly, I think a weekly email or update on what's going on above my pay grade would probably do the trick and keep us all on the same page."
+  shared: true
+
+josh_seventeen:
+  person: josh
+  question: seventeen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "I think we do a pretty good job of keeping everyone posted on what's going on. Sure it's not every last detail, but we will always be honest with everyone. This company is built on honesty."
+  shared: true
+
+lillie_seventeen:
+  person: lillie
+  question: seventeen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+julie_seventeen:
+  person: julie
+  question: seventeen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+ann_seventeen:
+  person: ann
+  question: seventeen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+cheryl_seventeen:
+  person: cheryl
+  question: seventeen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+victor_seventeen:
+  person: victor
+  question: seventeen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+jerry_seventeen:
+  person: jerry
+  question: seventeen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+jennifer_seventeen:
+  person: jennifer
+  question: seventeen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
 
