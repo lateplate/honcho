@@ -89,7 +89,6 @@ jerry_one:
   shared: false
 
 
-
 ############
 # QUESTION 2
 ############
@@ -204,7 +203,6 @@ andrew_two:
   text:
     "Even if there are a few things that I'm not sure about, I know I can ask pretty much anyone for the answer. And Cheryl is especially helpful!"
   shared: true
-
 
 
 ############
@@ -333,7 +331,6 @@ tashia_three:
   choice: <%= Answer::CHOICES[:no] %>
   text:
   shared: true
-
 
 
 ############
@@ -487,7 +484,6 @@ carrie_four:
   text:
     "It's a little hit or miss. I think we could do better by having more consistent check-ins."
   shared: false
-
 
 
 ############
@@ -662,7 +658,6 @@ scott_five:
   shared: false
 
 
-
 ############
 # QUESTION 6
 ############
@@ -817,7 +812,6 @@ mark_six:
   shared: true
 
 
-
 ############
 # QUESTION 7
 ############
@@ -918,4 +912,499 @@ julie_seven:
   choice: <%= Answer::CHOICES[:no] %>
   text:
   shared: true
+
+
+############
+# QUESTION 8
+############
+andrew_eight:
+  person: andrew
+  question: eight
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "Three's a bit much. I think one, maybe two would be good. It's not that it's hard or takes that much time, but I think if we reduced the questions to just one, you may get more (and richer) comments.
+
+    I think with three questions, you may get more just yes/no answers and less people eloborating on their thoughts.
+
+    Plus, you don't know what the question later in the week is going to be. I'd be asking myself, 'which one do I want to invest time in?' Maybe if I knew all the questions at the beginning of the week?
+
+    Plus, I wonder if this is too much information for a manager to take action on. Having just one thing to analyze and address a week is a big task. Three sounds monumental.
+
+    Not complaining -- I actually like answering these. But just trying to think about what most of us need to do that's overhead (questions, timesheets, expense reports, etc.) and keeping it as low friction as possible for everyone."
+  shared: true
+
+kurt_eight:
+  person: kurt
+  question: eight
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+scott_eight:
+  person: scott
+  question: eight
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: false
+
+jason_eight:
+  person: jason
+  question: eight
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "I think as long as we keep them yes/no questions with optional comments, it's not a big deal at all."
+  shared: true
+
+tashia_eight:
+  person: tashia
+  question: eight
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "No way! It takes like 5 seconds to respond, and you're not required to leave a comment.
+
+    I think it's fascinating to see this stuff on the record. A lot of us talk about this stuff when we're out of the office, so it's great to see things being so transparently discussed!"
+  shared: true
+
+jerry_eight:
+  person: jerry
+  question: eight
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "Generally no, but I think we should consider limiting to maybe 1-2 a week. Less might be more in this case."
+  shared: false
+
+victor_eight:
+  person: victor
+  question: eight
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+jennifer_eight:
+  person: jennifer
+  question: eight
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+josh_eight:
+  person: josh
+  question: eight
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+sharon_eight:
+  person: sharon
+  question: eight
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+julie_eight:
+  person: julie
+  question: eight
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+cheryl_eight:
+  person: cheryl
+  question: eight
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+nicole_eight:
+  person: nicole
+  question: eight
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+angela_eight:
+  person: angela
+  question: eight
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+amy_eight:
+  person: amy
+  question: eight
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+
+############
+# QUESTION 9
+############
+kurt_nine:
+  person: kurt
+  question: nine
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I think we could better serve our clients if we picked a couple technology platforms to really focus in on and build a team around those.
+
+    In many of our pitches, we say we're experts in a lot of platforms and languages. That's partially true because many concepts are the same, but it's also very, very hard to execute consistently.
+
+    Overall if we had a little more focus on our technology choices, I think we could really be more honest and effective with our clients."
+  shared: true
+
+carrie_nine:
+  person: carrie
+  question: nine
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I think that selling work when we we're already over capacity, and assuming we'll figure out how to staff it later is really dangerous.
+
+    In the past we didn't really do that. But with the recent win for us in Austin, they're expecting a local team. We knew we didn't have anyone down there yet but we signed the contract anyway.
+
+    Is this a wise thing to do? I think one of our strongest values is honesty, and I want to make sure we do whatever we can to protect that!"
+  shared: true
+
+tim_nine:
+  person: tim
+  question: nine
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "We heard from one of our clients that our response time in addressing bugs was a little slow.
+
+    So we installed a support contract with them to be able to turn things around faster and provide some structure to the process.
+
+    Unfortunately, our ability to make fixes hasn't gotten any faster. I don't think we've actually staffed up for it, so now I feel like our client is paying more for the same level of service.
+
+    I'd love to find a way to help staff up so we can be fair with the commitments we've made and keep our clients happy."
+  shared: true
+
+zach_nine:
+  person: zach
+  question: nine
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "We publicly announced that we were going to start an internship program here at the company to help the Chicago community's talent pool.
+
+    As far as I know that hasn't happened. I'm just tired of getting my own coffee and taking notes. :P
+
+    But in all seriousness, I think sometimes we get so excited about an idea that we can't help but bring it up. But maybe it would be good if we slow down and take more of an Apple approach -- don't announce ahead of time!"
+  shared: true
+
+sharon_nine:
+  person: sharon
+  question: nine
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "We talk a lot about strategy and user experience with our clients (quite confidently, I might add) and do a lot of work up front to support this. It's the foundation for our design and development.
+
+    But after we launch, we don't really validate our strategy and measure if what we did worked. We build a really great, visually stunning site, but I don't think any of us are quite sure if it's actually making our clients and their customers happier.
+
+    I think there are a few things we could do to improve in this area.
+
+    * Make sure we are thinking about analytics and data collection up front, and make sure we insist (even at our own cost) that they be implemented so we can measure.
+    * Make sure our strategic choices are backed in data, if possible. We should ask for as much data about their current sites so that we can baseline our future measurements.
+    * Scope for time/money post-launch to make sure we do the proper analysis and wrap up to validate (or maybe even invalidate) our strategic thinking. This will be valuable for not only our clients, but for our own post-mortems."
+  shared: true
+
+charles_nine:
+  person: charles
+  question: nine
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "We talk to our clients a lot about how much we value the quality of our work. But we currently don't have a dedicated QA team. This seems a bit counterintuitive?"
+  shared: true
+
+josh_nine:
+  person: josh
+  question: nine
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "In general I feel like the important stuff is taken care of. I hear everything you guys are saying, I really do.
+
+    In my experience, this is a very tricky business. It's very hard to make everyone happy, and we have to make hard decisions to take care of the company, sell work, balance the books, etc.
+
+    In the end, we as a leadership team try to make the choices that best balance hundreds of factors. Hopefully we're doing right by you guys, your families, and our clients. We are definitely trying our best."
+  shared: true
+
+lillie_nine:
+  person: lillie
+  question: nine
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I'd love to see us be more honest with our clients. I know we have to protect ourselves, but in the long run I think greater honesty will benefit all of us."
+  shared: false
+
+ann_nine:
+  person: ann
+  question: nine
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+brian_nine:
+  person: brian
+  question: nine
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+nicole_nine:
+  person: nicole
+  question: nine
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "It's pretty amazing, but almost always people here do what they say and don't let you down. You guys are awesome!!!"
+  shared: true
+
+victor_nine:
+  person: victor
+  question: nine
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "Thanks everyone. I'm literally in a room right now with the leadership team working on these. Thank you for your honesty and your commitment to our clients and our company!"
+  shared: true
+
+julie_nine:
+  person: julie
+  question: nine
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+jerry_nine:
+  person: jerry
+  question: nine
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+matt_nine:
+  person: matt
+  question: nine
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+
+#############
+# QUESTION 10
+#############
+jerry_ten:
+  person: jerry
+  question: ten
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "Yes, but I'm probably in a unique position in operations. If anybody ever wants more visibility into this, we can probably send out a weekly report for everyone. Let me know!"
+  shared: true
+
+ann_ten:
+  person: ann
+  question: ten
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "Not officially, but we're a small enough crew that working together I think we all have a sense of what everyone is doing. That lets us find ways to help each other out."
+  shared: true
+
+scott_ten:
+  person: scott
+  question: ten
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+julie_ten:
+  person: julie
+  question: ten
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+tim_ten:
+  person: tim
+  question: ten
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+sharon_ten:
+  person: sharon
+  question: ten
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "It'd be great if we had a dashboard somewhere that we could all see this. We have so many projects going on at once, it's hard to keep it all in your head, especially for our remote team members.
+
+    I've heard of other companies running a web based dashboard with a visual of what everyone is working on. Not a spreadsheet or report, but a visual where you can quickly tell what's going on.
+
+    I would love to work on something like this. We might even be able to make this a product and sell it to our clients.
+
+    Now I'm all excited about this. If anybody wants to work on this idea, email me!"
+  shared: true
+
+tashia_ten:
+  person: tashia
+  question: ten
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "Not really, but I'm not sure it really matters?? We all pretty much hang out socially so we tend to hear what's going on, but I don't think we need any official channels for this!"
+  shared: true
+
+kurt_ten:
+  person: kurt
+  question: ten
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "Not really. We're heads down coding most of the day, and it's hard to keep up with what everyone's doing."
+  shared: true
+
+lillie_ten:
+  person: lillie
+  question: ten
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "I think it'd be great to know what everyone is working on. I know we're all busy, but it could be helpful to see if two people are working on similar things. We might be able to collaborate across projects and make the work better together.
+
+    It might be as easy as purchasing some service that does project tracking dashboards? You'd think something like this exists already, right?"
+  shared: true
+
+victor_ten:
+  person: victor
+  question: ten
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "We need better tracking overall."
+  shared: false
+
+jennifer_ten:
+  person: jennifer
+  question: ten
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+josh_ten:
+  person: josh
+  question: ten
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+andrew_ten:
+  person: andrew
+  question: ten
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+charles_ten:
+  person: charles
+  question: ten
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+brian_ten:
+  person: brian
+  question: ten
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+matt_ten:
+  person: matt
+  question: ten
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+
+#############
+# QUESTION 11
+#############
+scott_eleven:
+  person: scott
+  question: eleven
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "We're doing some really great things technically that many people may not realize.
+
+    * We've had 99.99% uptime on our client websites. In the tech world, that's pretty amazing.
+    * We launched our first iOS app for a client, and it's getting rave reviews on the App Store. That's obviously getting noticed, but I think we could promote this stronger in our new biz pitches.
+    * We've built and open-sourced some web frameworks that the dev community has been receptive to. We've also actively contributed to the Rails core. It's a little nerdy, but the developer commmunity really appreciates this stuff."
+  shared: true
+
+andrew_eleven:
+  person: andrew
+  question: eleven
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I think we do a pretty good job of noticing our work and giving regonition internally. But I think we could celebrate our accomplishments more to the public and to our clients, which could really help drive more business."
+  shared: true
+
+josh_eleven:
+  person: josh
+  question: eleven
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I think it depends on your definition of going unnoticed -- by whom?
+
+    Internally, I think we do a commendable job of recognizing our work in pretty much every group. We have a talent pool second to none and it shows in our work. We have parties for launches, reward those that have gone above and beyond, and generally celebrate our work.
+
+    Externally, I think we could probably do better and be more active. Some ideas.
+
+    * We have some killer work and a decent amount of Twitter followers, but I'm not sure we leverage that channel enough. We could promote harder there.
+    * I bet if we really pushed hard we could be in the top 10 headlines on Adweek. Don't we have some friends on their editorial staff?
+    * Let's contact Apple about our recent iOS app launch and see what we can do to promote it even more.
+    * Let's cross promote with our partners. We know our partners are important to our work and business. Can we promote their wins and vice versa?"
+  shared: true
+
+brian_eleven:
+  person: brian
+  question: eleven
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+matt_eleven:
+  person: matt
+  question: eleven
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "I think we're doing a great job communicating launches via email. We are also doing a good job of recognizing people individually, and the teams during quarterly meetings. Can't really ask for more than that!"
+  shared: true
+
+carrie_eleven:
+  person: carrie
+  question: eleven
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+amy_eleven:
+  person: amy
+  question: eleven
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+cheryl_eleven:
+  person: cheryl
+  question: eleven
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+jason_eleven:
+  person: jason
+  question: eleven
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+jerry_eleven:
+  person: jerry
+  question: eleven
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "I haven't seen anything slip through, but we should stay vigilant. It would be a shame for any of our teams efforts to go unnoticed."
+  shared: false
 
