@@ -1408,3 +1408,296 @@ jerry_eleven:
     "I haven't seen anything slip through, but we should stay vigilant. It would be a shame for any of our teams efforts to go unnoticed."
   shared: false
 
+
+#############
+# QUESTION 12
+#############
+brian_twelve:
+  person: brian
+  question: twelve
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "While we work on a lot of desktop-friendly sites, I think we could really take advantage of the explosion in mobile apps. Some ideas.
+
+    * Every phone has geolocation abilities now. There's all sorts of interesting things we could do for our clients if we know where their customers are.
+    * Responsive web design is really taking off. We could build a site once and have it work on any device!
+    * HTML5 lets us store data within the browser. A lot of times we don't even need a back end to keep some data and really improve the user experience. This simplifies and speeds up development and could be really cool to try."
+  shared: true
+
+sharon_twelve:
+  person: sharon
+  question: twelve
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "We tend to rely on our intuition a lot, which generally works OK. But I think we have some opportunities to use data to our advantage. That will give us proof on whether our campaigns are working, and give us great statistics for case studies too.
+
+    Imagine if we could pinpoint when our campaigns launched, and saw a measurable impact to site traffic. Even better -- what if we could tie sales and revenue back to our campaigns. Right now we kind of guess at this. But advancement in analytics platforms makes all of this very possible.
+
+    There's a long term effect here too. If we can tie back data to those events and show success, it makes our new biz pitches that much easier. We can literally say, 'Look, our campaign directly resulted in a 25% increase in sales.'' That's powerful."
+  shared: true
+
+julie_twelve:
+  person: julie
+  question: twelve
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I think we can do more for our community. I think we all love working here and have stable, happy jobs so I don't want to rock the boat. But I think if we could be more active in the community and with charitable organizations, that would be awesome. Philanthropy is great PR too."
+  shared: true
+
+andrew_twelve:
+  person: andrew
+  question: twelve
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I think we might be a little behind when it comes to working remotely. Obviously those of us in New York are sort of remote relative to Chicago, but we still tend to come into the office a lot.
+
+    It depends on the individual, but I work great in my PJs, with music blaring, and sitting next to my dog. There are studies that show that people who work from home are more productive.
+
+    All that time we spend commuting back and forth to the office is rough. We could really use that time to get caught up on work!"
+  shared: true
+
+lillie_twelve:
+  person: lillie
+  question: twelve
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "In fact, I think we're quite progressive, especially in gender equality. Last time I counted, we have 14 men and 11 women in the company. Nobody expects a perfect balance, but I think we're doing a commendable job of keeping equality a priority within the company at all levels and teams."
+  shared: true
+
+ann_twelve:
+  person:
+  question: twelve
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+jason_twelve:
+  person: jason
+  question: twelve
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+matt_twelve:
+  person:
+  question: twelve
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "I don't think we're behind, but I'd love to see us lead in areas we believe in. Especially in social arenas that affect our team members, like animal welfare, same sex marriage, people with disabilities, etc."
+  shared: false
+
+jennifer_twelve:
+  person: jennifer
+  question: twelve
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: false
+
+josh_twelve:
+  person: josh
+  question: twelve
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+mark_twelve:
+  person: mark
+  question: twelve
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+carrie_twelve:
+  person: carrie
+  question: twelve
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+tim_twelve:
+  person: tim
+  question: twelve
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+charles_twelve:
+  person: charles
+  question: twelve
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+
+#############
+# QUESTION 13
+#############
+brian_thirteen:
+  person: brian
+  question: thirteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "Yeah, and it's tough. I feel like there aren't enough hours in the day. I think there are a couple reasons for this.
+
+    * We tend to have a lot of meetings. I know they're needed. But for developers these breaks in the day are really disruptive. We tend to work better when we have bigger stretches of uninterrupted time. Kind of hard to explain.
+    * Clients make a lot of changes. Not sure there's much we can do about this. But even if we plan out our day, much of it can get shuffled around. I don't have any problem making adjustments, but it does add to the rush some."
+  shared: true
+
+kurt_thirteen:
+  person: kurt
+  question: thirteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I think the dev timelines are a little short. If there's any way we can make the dev timelines a little longer when we're making our project schedules (even a week), that would be a huge help.
+
+    Also, if there's a way to stagger launches from a client services perspective, that would be HUGE. When we have multiple launches in one week (or even one day!), our hair starts to fall out."
+  shared: true
+
+ann_thirteen:
+  person: ann
+  question: thirteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "Right or wrong, our clients are pretty demanding. We are constantly being asked to shave time off our schedules, even though that does them a disservice. I wish we could show them somehow that we build our schedules with their best intentions in mind!
+
+    We're also doing our best to not have too many projects run on the same timelines. Staggering deliverables is something we need to keep an eye on.
+
+    Not sure if it's possible, but if the leadership team could help us manage this with clients, that'd be a huge help. We don't have to tell them our internal reasons, but if we can convince them to push a week here, a week there, it could make a big difference to the quality of our work!"
+  shared: true
+
+jason_thirteen:
+  person: jason
+  question: thirteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I do feel rushed, but it's hard not to in a client focused business. In fact, a lot of times the clients are the ones making you feel rushed. 'Can you get this to us by end of day?'
+
+    That said, it's up to us to manage those expectations. I don't know if there's ever really an occasion where a 4 hour turnaround is reasonable. If we start to set that expectation early on with our clients, I think it helps in the long run."
+  shared: true
+
+amy_thirteen:
+  person: amy
+  question: thirteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "Yes, but it's a client business. All agencies have less time than they want to run a project. The constraints are sometimes a good thing."
+  shared: true
+
+tim_thirteen:
+  person: tim
+  question: thirteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "Yes, but I think is largely on our team (client services) to manage this as best as we can. Even though our job is to take care of clients, sometimes the best way to take care of them is to not rush work.
+
+    I think we can also do better at managing their expectations around changes. What seems like a small change can affect a lot of things they don't see, which can add to the general sense of being rushed."
+  shared: true
+
+charles_thirteen:
+  person: charles
+  question: thirteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I think if we had less meetings, I wouldn't feel so rushed."
+  shared: true
+
+angela_thirteen:
+  person: angela
+  question: thirteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "Not always, but sometimes I don't know if a client is coming into the office until the last minute. So it can be tough to get the rooms setup with the right stuff (snacks, drinks, whiteboards, etc.) Anything we can do to plan that out better would be really helpful!"
+  shared: true
+
+julie_thirteen:
+  person: julie
+  question: thirteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I feel rushed, but not always. I have a schedule that's a little more fixed than some folks, so I do my best to really get every last bit out of my time at the office."
+  shared: true
+
+jared_thirteen:
+  person: jared
+  question: thirteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+zach_thirteen:
+  person: zach
+  question: thirteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+sharon_thirteen:
+  person: sharon
+  question: thirteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+carrie_thirteen:
+  person: carrie
+  question: thirteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+matt_thirteen:
+  person: matt
+  question: thirteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+  shared: true
+
+andrew_thirteen:
+  person: andrew
+  question: thirteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    "I'm running around here with my hair on fire!"
+  shared: false
+
+scott_thirteen:
+  person: scott
+  question: thirteen
+  choice: <%= Answer::CHOICES[:yes] %>
+  text:
+    ""
+  shared: false
+
+mark_thirteen:
+  person: mark
+  question: thirteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "Better than most agencies."
+  shared: true
+
+victor_thirteen:
+  person: victor
+  question: thirteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+    "Thanks guys for your responses. We're going to tackle this as a high priority. You can't do your best work if so many of you feel rushed."
+  shared: true
+
+jerry_thirteen:
+  person: jerry
+  question: thirteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+nicole_thirteen:
+  person: nicole
+  question: thirteen
+  choice: <%= Answer::CHOICES[:no] %>
+  text:
+  shared: true
+
+
+
+
