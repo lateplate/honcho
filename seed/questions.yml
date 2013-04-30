@@ -94,7 +94,33 @@ sixteen:
   sent_at: <%= 2.weeks.ago.to_s(:db) %>
   summary_sent_at: <%= 1.weeks.ago.to_s(:db) %>
 
-pending_one:
+seventeen:
   organization: 1917
   name: "Are there things you don't know about the company that you feel you should know?"
+  sent_at: <%= 1.weeks.ago.to_s(:db) %>
+  summary_sent_at: <%= 1.weeks.ago.to_s(:db) %>
+
+pending_one:
+  organization: 1917
+  name: "Do you have all the tools you need to do your job well?"
   position: 0
+
+pending_two:
+  organization: 1917
+  name: "Have you interacted with a customer in the past week?"
+  position: 1
+
+pending_three:
+  organization: 1917
+  name: "Do you feel like customers directly benefited from the work you did this week?"
+  position: 2
+
+pending_four:
+  organization: 1917
+  name: "Do you like the physical environment where you work"
+  position: 3
+
+pending_five:
+  organization: 1917
+  name: "Do you feel comfortable speaking up if you see something at work that doesn't feel right?"
+  position: 4
