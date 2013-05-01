@@ -1,0 +1,299 @@
+###########################################
+# Amy Rivera
+###########################################
+
+one:
+  organization: 1917
+  creator: jerry
+  person: amy
+  subject: "$8,000 performance bonus"
+  content:
+    "Amy's had a long string of successful launches, and has also continued to help us build a strong relationship with key accounts."
+  happened_at:  <%= 36.months.ago.to_s(:db) %>
+
+two:
+  organization: 1917
+  creator: jennifer
+  person: amy
+  subject: "Had a chat with Amy"
+  content:
+    "Was walking around the office and ran into Amy. I asked how her first month was going, and she said really well. I've heard great things about her performance thus far, and she seems very happy!"
+  happened_at:  <%= 36.months.ago.to_s(:db) %>
+
+three:
+  organization: 1917
+  creator: jerry
+  person: amy
+  subject: "Had a chat with Amy"
+  content:
+    "Amy mentioned in passing that she's been traveling more than she expected. She understands that it comes with being in her role, but she did express that it was more than she expected. Something to watch."
+  happened_at:  <%= 30.months.ago.to_s(:db) %>
+
+four:
+  organization: 1917
+  creator: victor
+  person: amy
+  subject: "Hawaii!"
+  content:
+    "Amy just got back from a 2 week vacation to Hawaii. She's in great spirits and ready to get back to cracking skulls!"
+  happened_at:  <%= 22.months.ago.to_s(:db) %>
+
+five:
+  organization: 1917
+  creator: jerry
+  person: amy
+  subject: "Had a chat with Amy"
+  content:
+    "Like just about everyone else, Amy's looking forward to getting a solid 2-3 weeks off to really unplug. Let's make sure we can do this for her."
+  happened_at:  <%= 15.months.ago.to_s(:db) %>
+
+six:
+  organization: 1917
+  creator: jerry
+  person: amy
+  subject: "Had a chat with Amy"
+  content:
+    "I think it's pretty clear that Amy's anticipating a promotion in the coming review cycle in April. Which is fine since that's going to be the recommendation anyway. But she's definitely gunning for it."
+  happened_at:  <%= 12.months.ago.to_s(:db) %>
+
+seven:
+  organization: 1917
+  creator: jerry
+  person: amy
+  subject: "Teams getting frustrated?"
+  content:
+    "Hearing some rumblings that other team members are getting frustrated with Amy. She still gets results, but I think we need to keep an eye on finding out at what costs. Is she driving the teams too hard? Some have said her title bump has empowered her to be even more pushy."
+  happened_at:  <%= 7.months.ago.to_s(:db) %>
+
+eight:
+  organization: 1917
+  creator: jerry
+  person: amy
+  subject: "One:one meeting with Amy"
+  content:
+    "Our first one-on-one. I expect we'll probably meet about once a quarter. I know we want to do more, but just being realistic.
+
+    Amy's been here for about 3 months. So far she's loving it. She's really engaged and likes everyone she's working with.
+
+    She wishes she was working on some bigger accounts, but I let her know this is actually a huge opportunity. The accounts she's been given all have huge potential to be grown. She's definitely excited by that.
+
+    Overall, things are going well!"
+  happened_at:  <%= 35.months.ago.to_s(:db)) %>
+
+nine:
+  organization: 1917
+  creator: jerry
+  person: amy
+  subject: "One:one meeting with Amy"
+  content:
+    "About 6 months in, and Amy's doing great.
+
+    She's already starting to grow the accounts into some new areas we hadn't anticipated. The clients seem to really like her.
+
+    She's happy, and doesn't have any really significant concerns. Granted, she's only 6 months in so that's not too surprising.
+
+    She did ask about what the review cycles were like, and I let her know she'd be up for review in April of 2011. She definitely wants to be an AD, but we'll see if she's ready then."
+  happened_at:  <%= 31.months.ago.to_s(:db)) %>
+
+ten:
+  organization: 1917
+  creator: jerry
+  person: amy
+  subject: "One:one meeting with Amy"
+  content:
+    "We're winding down the year so I wanted to check in with Amy quickly.
+
+    She's definitely feeling the heat of the year end rush before we close. Trying to jam in 4 weeks of work into 4 like many of us. So I get to see a new angle of her, and how she deals with really strong time pressures. She's doing fairly well, but you can tell she's frazzled.
+
+    Even this one-on-one felt a little rushed because she wanted to get back to her deliverables. Can't say I blame her, and it's normal.
+
+    Overall though she's happy and doing well. Clients are happy. Her teams performing well."
+  happened_at:  <%= 28.months.ago.to_s(:db)) %>
+
+eleven:
+  organization: 1917
+  creator: jerry
+  person: amy
+  subject: "One:one meeting with Amy"
+  content:
+    "Amy got a very positive review in April, but was clearly disappointed that she wasn't promoted. We'll need to keep an eye on morale and keep her engaged.
+
+    It's been a while since we did a formal check in, so that probably didn't help either. We had informal check ins and the annual review, so we've definitely been talking.
+
+    Overall she's still in good spirits, but you can tell she's lost a little of her edge/motivation after not getting promoted. We need to keep her going."
+  happened_at:  <%= 21.months.ago.to_s(:db)) %>
+
+twelve:
+  organization: 1917
+  creator: jerry
+  person: amy
+  subject: "One:one meeting with Amy"
+  content:
+    "Amy's still got that 'I didn't get promoted' gloom about her, but some of it has eased off. She was straight with me in saying that definitely impacted her performance, and I reiterated the points from her review. She's almost there, but not quite.
+
+    So while she's still not thrilled (it's been 6 months!), she's still performing admirably and it's not affecting her work outwardly to the client. She's still driving the team internally and the clients are happy.
+
+    She's fine with the less than regular one-on-one's we've been having. She knows that she can talk to me whenever."
+  happened_at:  <%= 17.months.ago.to_s(:db)) %>
+
+thirteen:
+  organization: 1917
+  creator: jerry
+  person: amy
+  subject: "One:one meeting with Amy"
+  content:
+    "It's nearly review time, and to say Amy is excited would be an understatement.
+
+    She used this one-on-one time as an opportunity to discuss her successes from the past year. She obviously wants me to be fully aware that she deserves a promotion. :) I think that's fair.
+
+    To be honest, when she laid out her case, while it was a bit forceful, she did make a lot of good points. She's increased revenue by at least 25% on each of her accounts. Clients are happy. Teams are executing.
+
+    I did talk to her a bit about how teams are feeling she's being a little pushy. She agreed and said she will work on how she communicates to them better. "
+  happened_at:  <%= 13.months.ago.to_s(:db)) %>
+
+fourteen:
+  organization: 1917
+  creator: jerry
+  person: amy
+  subject: "One:one meeting with Amy"
+  content:
+    "By all accounts, Amy's happy. She got the promotion she wanted and we're heading into the holidays.
+
+    Her outlook and morale are definitely higher and she's feeling good. Her work has never really suffered, but anecdotally she is  happier. Her teams reported that she's been less pushy and demanding, and a little softer. Our last conversation hopefully helped.
+
+    We're going into the close of the year, so she knows it's going to get busy. We talked about ways to best get ahead of the year end rush. Best to start spreading it out now and managing client expectations."
+  happened_at:  <%= 6.months.ago.to_s(:db)) %>
+
+fifteen:
+  organization: 1917
+  creator: jerry
+  person: amy
+  subject: "One:one meeting with Amy"
+  content:
+    "Amy's already heading into her third year. Crazy.
+
+    She's becoming a real leader in not just the group, but the company. People still think she's a little pushy (which she knows), but also generally respect her.
+
+    She's happy with where she's at. She admitted her career path from here is not as clear (what's after an AD spot), but I let her know it's something we always keep an eye on and will find something to keep her engaged."
+  happened_at:  <%= 3.months.ago.to_s(:db)) %>
+
+sixteen:
+  organization: 1917
+  creator: jerry
+  person: amy
+  subject: "Promoted to Account Director"
+  content:
+    "Amy's been with us for two years, and in that time has really solidified some account relationship for us. We handed her accounts that were small to medium accounts, and she turned them into large ones, with little guidance from us. She's incredibly deserving of this promotion.
+
+    * Transformed 4 small to medium accounts ($250,000 annually) to large ones (at least $750,000).
+    * Has driven her team to be more and more client focused, which has helped to grow the business.
+    * Is mentoring other team members within Client Services.
+    * Is incredibly driven and hard nosed. Gets results, period."
+  happened_at:  <%= 12.months.ago.to_s(:db)) %>
+
+seventeen:
+  organization: 1917
+  creator: jerry
+  person: amy
+  subject: "Performance review with Amy"
+  content:
+    "Amy's done a great job in her first year. She's definitely proven herself to be very capable and perfect in this role. We expect many great things from her to come. She's still needs to work on a few things (notably teamwork) before being promoted.
+
+    Doing well...
+    * Growing the accounts she has by at least 20% each, driving new projects and business.
+    * Clients are happy with her results and personality.
+    * Continues to improve her strategic sense to work within her already great tactical skills.
+
+    Needs improvement...
+    * Works too much? She rarely switches off, which is great for response times but potentially an indicator for burnout.
+    * Needs to be more respectful of the internal team. In her quest for client satisfaction, she sometimes pushes the team too hard."
+  happened_at:  <%= 24.months.ago.to_s(:db)) %>
+
+eighteen:
+  organization: 1917
+  creator: jerry
+  person: amy
+  subject: "Performance review with Amy"
+  content:
+    "AAmy is going to be promoted to Account Director. She's earned it. Her accounts have grown by at least 25% each. She's maintained her relationships with clients, and has improved her ability to work within a team internally.
+
+    Doing well...
+    * Just keeps growing business, like a machine. Now up to 25% growth since she took over her accounts.
+    * Clients still love her. She wants to try new accounts, and it'll be hard to break her away from the ones that love her.
+    * Her strategic sense has vastly improved.
+    * Her teamwork is much improved.
+
+    Needs improvement...
+    * Still works like a maniac. Hasn't burned out yet, but it's concerning.
+    * While her teamwork is much improved, it's still something to keep an eye on as it's in her nature to drive hard."
+  happened_at:  <%= 13.months.ago.to_s(:db)) %>
+
+nineteen:
+  organization: 1917
+  creator: jerry
+  person: amy
+  subject: "Performance review with Amy"
+  content:
+    "Overall another great year for Amy. Her numbers are down (relatively speaking), but nobody could keep growing an account forever.
+
+    She's tried some new established accounts and done OK with those, but not as well as the ones that started small. Still happy with her work and direction, but some of the changes in her environment may not be ideal for her.
+
+    Doing well...
+    * Delivers like a machine. Her projects are just about always on time, on budget, with happy clients.
+    * Starting to lead by example and mentor more.
+    * Taking more time away from work. This is good, she was a little too connected before.
+
+    Needs improvement...
+    * Teamwork, again. We've heard feedback that she's using her new title and promotion to really whip people into shape. That's not good news for morale.
+    * Adjusting to bigger, already established clients is a little tougher from her (as opposed to growing them herself where she had full control)."
+  happened_at:  <%= 1.months.ago.to_s(:db)) %>
+
+twenty:
+  organization: 1917
+  creator: jerry
+  person: amy
+  subject: "Performance review with Amy"
+  content:
+    "Overall another great year for Amy. Her numbers are down (relatively speaking), but nobody could keep growing an account forever.
+
+    She's tried some new established accounts and done OK with those, but not as well as the ones that started small. Still happy with her work and direction, but some of the changes in her environment may not be ideal for her.
+
+    Doing well...
+    * Delivers like a machine. Her projects are just about always on time, on budget, with happy clients.
+    * Starting to lead by example and mentor more.
+    * Taking more time away from work. This is good, she was a little too connected before.
+
+    Needs improvement...
+    * Teamwork, again. We've heard feedback that she's using her new title and promotion to really whip people into shape. That's not good news for morale.
+    * Adjusting to bigger, already established clients is a little tougher from her (as opposed to growing them herself where she had full control)."
+  happened_at:  <%= 1.months.ago.to_s(:db)) %>
+
+twentyone:
+  organization: 1917
+  creator: cheryl
+  person: amy
+  subject: "2011 annual salary increase"
+  content:
+    "Amy's salary has been increased from $115,000 to $122,000."
+  happened_at:  <%= 24.months.ago.to_s(:db)) %>
+
+twentytwo:
+  organization: 1917
+  creator: cheryl
+  person: amy
+  subject: "2012 annual salary increase and promotion"
+  content:
+    "Amy's salary has been increased from $122,000 to $140,000."
+  happened_at:  <%= 13.months.ago.to_s(:db)) %>
+
+twentythree:
+  organization: 1917
+  creator: cheryl
+  person: amy
+  subject: "2013 annual salary increase"
+  content:
+    "Amy's salary has been increased from $140,000 to $150,000."
+  happened_at:  <%= 1.months.ago.to_s(:db)) %>
+
+
+
