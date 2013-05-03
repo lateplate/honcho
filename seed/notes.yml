@@ -268,7 +268,7 @@ twenty:
     * Adjusting to bigger, already established clients is a little tougher from her (as opposed to growing them herself where she had full control)."
   happened_at:  <%= 1.months.ago.to_s(:db)) %>
 
-twentyone:
+twenty_one:
   organization: 1917
   creator: cheryl
   person: amy
@@ -277,7 +277,7 @@ twentyone:
     "Amy's salary has been increased from $115,000 to $122,000."
   happened_at:  <%= 24.months.ago.to_s(:db)) %>
 
-twentytwo:
+twenty_two:
   organization: 1917
   creator: cheryl
   person: amy
@@ -286,7 +286,7 @@ twentytwo:
     "Amy's salary has been increased from $122,000 to $140,000."
   happened_at:  <%= 13.months.ago.to_s(:db)) %>
 
-twentythree:
+twenty_three:
   organization: 1917
   creator: cheryl
   person: amy
@@ -294,6 +294,3 @@ twentythree:
   content:
     "Amy's salary has been increased from $140,000 to $150,000."
   happened_at:  <%= 1.months.ago.to_s(:db)) %>
-
-
-
